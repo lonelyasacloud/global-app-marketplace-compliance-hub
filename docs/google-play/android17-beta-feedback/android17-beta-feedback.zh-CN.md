@@ -29,7 +29,7 @@ effective_date: "Android 17 platform preview and feedback path; not a Play permi
 
 ## 来源链与 Android 实现要点
 
-链路为：2026-04-15 Play 公告（快照：`google-play-announcement-resources.md#公告-22026-04-15-policy-announcement`，未导入本仓库） → [Android 17 位置隐私博客](https://android-developers.googleblog.com/2026/03/location-privacy.html) → 博客唯一实质正文链接 [Official Tracker](https://developer.android.com/about/versions/17/feedback) → Android 17 反馈与问题页。博客于 2026-03-26 发布，称 Location Button 可在 Android 17 Beta 3 测试。
+链路为：2026-04-15 Play 公告（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md#announcement-2)） → [Android 17 位置隐私博客](https://android-developers.googleblog.com/2026/03/location-privacy.html) → 博客唯一实质正文链接 [Official Tracker](https://developer.android.com/about/versions/17/feedback) → Android 17 反馈与问题页。博客于 2026-03-26 发布，称 Location Button 可在 Android 17 Beta 3 测试。
 
 博客概述了五项平台改进：一次用户操作触发的会话级精确位置按钮；Jetpack 在 Android 16 及以下回退到既有位置权限提示；持续的位置访问指示器和“Recent app use”管理入口；按人口密度调整的粗略位置范围；区分更清楚的“精确/大致”运行时对话框。按钮外观可有限定制，但位置图标不可移除，字体大小由系统控制。它们解释实现和用户体验方向，不代表 Play 对持续定位或广泛权限的豁免。
 

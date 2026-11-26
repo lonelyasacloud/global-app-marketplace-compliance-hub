@@ -48,9 +48,9 @@ effective_date: "operational guide; 2024-08-28 announcement is historical contex
 | [设置内部、封闭或公开测试](https://support.google.com/googleplay/android-developer/answer/9845334?hl=en) | Console 操作指南 | 用不同测试轨道逐步分发、收集反馈并修复问题；新个人账号的 12 人/14 天规则另见上方专门资格页。测试链接和更新可能需要数小时才对测试者可用。 | [测试、审核与发布流程](../publishing/play-release-workflow.zh-CN.md) |
 | [Enforcement Process](https://support.google.com/googleplay/android-developer/answer/9899234?hl=en) | 执行流程 | Google 会结合商店资料、应用内体验、账号历史、第三方代码和举报等信息评估；通知未必列出全部问题，开发者仍须检查账号内其他应用和 SDK。 | [执行与申诉专题](../enforcement-and-appeals/enforcement-and-appeals.zh-CN.md) |
 | [我的应用已从 Google Play 下架](https://support.google.com/googleplay/android-developer/answer/2477981?hl=en) | 处置后操作帮助 | 区分拒审、下架、暂停和警告的可见性与账号影响。未修复违规时不要重新提交；下架更新合规后可恢复应用，暂停可能影响账号信誉以及用户、统计和评分。 | [执行与申诉专题](../enforcement-and-appeals/enforcement-and-appeals.zh-CN.md) |
-| [Google Play Developer Policy Center](https://play.google/developer-content-policy/) | 正式政策目录 | 用于找到适用的专项政策；该目录按主题分类，不能代替具体政策全文或应用事实分析。 | 政策中心双语导航（快照：`google-play-developer-policy-center.md`，未导入本仓库） |
-| [Google Play Academy 政策课程集合](https://playacademy.exceedlms.com/student/collection/263275-google-play-policy?sid_i=6) | 培训资源 | 公开页是课程目录，登录后学习；课程材料不能增加、豁免或取代正式政策。 | Academy 政策课程索引（快照：`play-academy-policy-courses.md`，未导入本仓库） |
-| [Google Play Developer Help Community](https://support.google.com/googleplay/android-developer/community) | 互助支持 | 可搜索或询问其他开发者与 Product Experts；动态社区答复是排查线索，不是对政策的正式承诺或账号处置决定。 | 开发者帮助社区资源（快照：`google-play-announcement-resources.md`，未导入本仓库） |
+| [Google Play Developer Policy Center](https://play.google/developer-content-policy/) | 正式政策目录 | 用于找到适用的专项政策；该目录按主题分类，不能代替具体政策全文或应用事实分析。 | 政策中心双语导航（[开发者政策中心](../google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md)） |
+| [Google Play Academy 政策课程集合](https://playacademy.exceedlms.com/student/collection/263275-google-play-policy?sid_i=6) | 培训资源 | 公开页是课程目录，登录后学习；课程材料不能增加、豁免或取代正式政策。 | Academy 政策课程索引（[Play Academy 政策课程](../play-academy-policy-courses/play-academy-policy-courses.zh-CN.md)） |
+| [Google Play Developer Help Community](https://support.google.com/googleplay/android-developer/community) | 互助支持 | 可搜索或询问其他开发者与 Product Experts；动态社区答复是排查线索，不是对政策的正式承诺或账号处置决定。 | 开发者帮助社区资源（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)） |
 
 ## 子页面的进一步关系
 

@@ -45,7 +45,7 @@ Play 要求新提交的应用、在 Play 上架但尚无分级的现有应用，
 
 计算出的 Summary 分级可能不同于 Google Play 最终向用户展示的分级；机构可以在复核后覆盖结果。当地法律也可能要求为特定市场生成相应评级。分级图标属于各评级机构的商标，使用时须遵守其图标规范。
 
-2025 年政策公告进一步澄清：分级问卷只评估应用本身的内容，不评估广告、附加用户协议或隐私做法；广告是否符合应用分级仍是独立的广告政策检查。见[2025-07-10 公告](https://support.google.com/googleplay/android-developer/answer/16296680?hl=zh-CN)及公告知识库摘要（快照：`../google-play-announcement-resources.md`，未导入本仓库）。
+2025 年政策公告进一步澄清：分级问卷只评估应用本身的内容，不评估广告、附加用户协议或隐私做法；广告是否符合应用分级仍是独立的广告政策检查。见[2025-07-10 公告](https://support.google.com/googleplay/android-developer/answer/16296680?hl=zh-CN)及公告知识库摘要（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）。
 
 ## 广告及广告优惠也必须匹配应用分级
 

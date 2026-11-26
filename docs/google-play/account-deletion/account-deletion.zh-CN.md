@@ -70,14 +70,14 @@ Android Developers Blog 的五项建议与现行帮助页要求对照如下。�
 
 | 正文目标 | 访问与关系 |
 | --- | --- |
-| [“new account deletion policy”](https://android-developers.googleblog.com/2023/04/giving-people-more-control-over-their-data.html) | 2026-10-24 再次确认该链接指向 2023 年政策发布公告；其 13 个正文目标此前均已尝试并在公告子链接审计（快照：`../google-play-announcement-resources.md`，未导入本仓库）记录。公告中的迁移日期仅属历史时间线。 |
+| [“new account deletion policy”](https://android-developers.googleblog.com/2023/04/giving-people-more-control-over-their-data.html) | 2026-10-24 再次确认该链接指向 2023 年政策发布公告；其 13 个正文目标此前均已尝试并在公告子链接审计（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）记录。公告中的迁移日期仅属历史时间线。 |
 | [页首案例图](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhljLTe4e3m2lCTVHZukvwtt3N5A34tfp3uQ9kITH8m5EM-9FI-7752LR4HofGCVBUzc9aaTXmUEC_xrKJnNW1R4pzx9YCZMFxWDxF64PWv8Zg6Yai3XKNlDvRv_PjR8QE8gikqfChslevvcNF8SzPET1WNH-_thMq-svIuGSTQ5t_KrFoE-SUWok28Xhc/s1600/social-Account-Deletion-Case-Study-Blog.png) | 图片目标返回 Cache miss；只记录为视觉示例，不从不可读图片推断要求。 |
 | [Canva 流程示例图](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSmgP5HlDbudibibZxpVwLrzDcBnt2rg_ITmTLc2t_OFMIDPyLBzQJxeBfmyyp_nk1OL0Yd-pkQKiPFUqH0WyUbcDloblVhUOv6HcW-I0iNeTOghSLQjcQnVyqEFBEpXjqT5zDcIJUFnrcAEyh_-8Y2HxwW3sRCsP4glQPy03pBG40xhwC6G9qOClzmugk/s1600/Account-Deletion-Google-Play-inline%20%281%29.png) | 图片目标已尝试，返回二进制资源而无可提取正文；父页 alt 文本将其标为 Canva 应用内删除流程示例，不是政策条款。 |
 | [SYBO Games 网页流程示例图](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi59KSA_oGI24P30Um9abe7fLhiYoTWKn5q8oJ2lDsKScf30Jq6GyC_ZAWCfCAYfwiGRD4jdN4n5KCCXFH7L-zdCY7efdN96HhsuTmOFvQNUw5l75QoLBa43i_LPo5ph1-W64y3fTSKRXFMLIy8TeFWa-pY-qjpX-0j9Tg0mroJcxc56ZFAmRjH06kvKCE/s1600/Account-Deletion-Google-Play-inline-2.png) | 图片目标已尝试，返回二进制资源而无可提取正文；父页 alt 文本将其标为 SYBO Games 网页删除流程示例，不是政策条款。 |
 
 页首/页尾 Android Developers 导航、博客分类、前后篇、隐私/许可/品牌链接属于网站外壳或通用法律/导航资源，不是这篇博文正文提出的 Play 删除义务；本次闭合的是正文政策链接及三项正文图片目标，不声称递归审查整站导航。
 
-这篇 2023 发布博文的 13 个正文直链已逐项尝试打开：Data safety、账号删除帮助和 2023-04-05 Play 政策公告已分别并入双语专题/公告逐链接表；PolicyBytes 无可读完整字幕，全球 webinar 需登录，多个地区 webinar 短链无法读取，社区为动态互助内容。逐项访问状态及它们与政策的关系见公告子链接审计（快照：`../google-play-announcement-resources.md`，未导入本仓库）。这表示直接链接层有审计记录，不表示外部页面的无限后代全部闭合。
+这篇 2023 发布博文的 13 个正文直链已逐项尝试打开：Data safety、账号删除帮助和 2023-04-05 Play 政策公告已分别并入双语专题/公告逐链接表；PolicyBytes 无可读完整字幕，全球 webinar 需登录，多个地区 webinar 短链无法读取，社区为动态互助内容。逐项访问状态及它们与政策的关系见公告子链接审计（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）。这表示直接链接层有审计记录，不表示外部页面的无限后代全部闭合。
 
 ### 现行 Account Deletion Help 正文直链与共享侧栏（2026-10-24）
 

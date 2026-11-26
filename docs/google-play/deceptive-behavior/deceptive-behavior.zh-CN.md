@@ -52,7 +52,7 @@ effective_date: "current-policy"
 
 ### 历史链接与 2025-04-10 公告
 
-旧 [Manipulated Media 页面](https://support.google.com/googleplay/android-developer/answer/9888077?hl=en)现重定向到本页对应的现行 Deceptive Behavior 政策；从 2024-04-03 公告点击的旧目标 [answer/14584985](https://support.google.com/googleplay/android-developer/answer/14584985) 也已核实跳转至本页。2024-04-03 公告说明政策将音频列为受涵盖媒体类型的新增示例；现行第 4.1 节明列图像、音频、视频和文字。Google 在[2025-04-10 政策公告](https://support.google.com/googleplay/android-developer/answer/15899442?hl=en)称，此次是对可用例外和违规示例的澄清；公告明确表示该类澄清不属于新规则或政策更新，执行标准/做法保持不变。历史变更与当前条款均可在下文的 Manipulated media 分支及公告子链接台账（快照：`../google-play-announcement-resources.md`，未导入本仓库）中追溯。
+旧 [Manipulated Media 页面](https://support.google.com/googleplay/android-developer/answer/9888077?hl=en)现重定向到本页对应的现行 Deceptive Behavior 政策；从 2024-04-03 公告点击的旧目标 [answer/14584985](https://support.google.com/googleplay/android-developer/answer/14584985) 也已核实跳转至本页。2024-04-03 公告说明政策将音频列为受涵盖媒体类型的新增示例；现行第 4.1 节明列图像、音频、视频和文字。Google 在[2025-04-10 政策公告](https://support.google.com/googleplay/android-developer/answer/15899442?hl=en)称，此次是对可用例外和违规示例的澄清；公告明确表示该类澄清不属于新规则或政策更新，执行标准/做法保持不变。历史变更与当前条款均可在下文的 Manipulated media 分支及公告子链接台账（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）中追溯。
 
 ## Restricted Content 目录的十个政策后代
 

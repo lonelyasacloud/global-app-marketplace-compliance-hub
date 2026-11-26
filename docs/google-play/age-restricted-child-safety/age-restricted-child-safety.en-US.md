@@ -550,6 +550,6 @@ The Commission published DSA Article 28 guidelines on minors in 2025 and continu
 - [Manage target audience and app content settings](https://support.google.com/googleplay/android-developer/answer/9867159?hl=en)
 - [July 15, 2026 policy announcement](https://support.google.com/googleplay/android-developer/answer/17134731?hl=en)
 - [Policy Deadlines](https://support.google.com/googleplay/android-developer/table/12921780?hl=en)
-- Related KB pages: [User Data](../user-data/user-data.en-US.md), [Data safety](../data-safety/data-safety.en-US.md), and the policy announcement digest (snapshot: `../google-play-policy-announcements-en.md`, not imported in this repository).
+- Related KB pages: [User Data](../user-data/user-data.en-US.md), [Data safety](../data-safety/data-safety.en-US.md), and the policy announcement digest ([policy announcement digest](../google-play-policy-announcements/google-play-policy-announcements.en-US.md)).
 
 This is a structured paraphrase. It does not replace current Console features, review notices, or legal obligations in each target market. August 26, 2026 is the policy-update effective date; it does not show that a particular app has passed age/child-safety review.

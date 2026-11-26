@@ -29,7 +29,7 @@ effective_date: "Android 17 platform preview and feedback path; not a Play permi
 
 ## Source path and Android implementation
 
-The path is April 15, 2026 Play announcement (snapshot: `google-play-announcement-resources-en.md#announcement-2-2026-04-15-policy-announcement`, not imported in this repository) → [Android 17 location privacy blog](https://android-developers.googleblog.com/2026/03/location-privacy.html) → the blog's only substantive body link, [Official Tracker](https://developer.android.com/about/versions/17/feedback) → Android 17 Feedback and issues.
+The path is April 15, 2026 Play announcement ([announcement resources](../google-play-announcement-resources/google-play-announcement-resources.en-US.md#announcement-2)) → [Android 17 location privacy blog](https://android-developers.googleblog.com/2026/03/location-privacy.html) → the blog's only substantive body link, [Official Tracker](https://developer.android.com/about/versions/17/feedback) → Android 17 Feedback and issues.
 
 Published March 26, 2026, the blog describes five platform changes: a session-scoped precise-location button triggered by a user action; Jetpack fallback to the existing location permission prompt on Android 16 and lower; a persistent location-use indicator and “Recent app use” controls; coarse-location areas adjusted for population density; and a clearer Precise/Approximate runtime dialog. The button allows limited visual customization, but its location icon is mandatory and the system controls font size. These details explain implementation and user experience; they do not waive Play requirements for persistent location or broad permissions.
 

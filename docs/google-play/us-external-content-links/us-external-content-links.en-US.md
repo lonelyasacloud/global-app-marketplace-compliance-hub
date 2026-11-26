@@ -168,6 +168,6 @@ Method pages opened individually: [createexternaltransaction](https://developers
 
 - [Payments, billing, and subscriptions](../payments/payments-and-subscriptions.en-US.md) · [中文](../payments/payments-and-subscriptions.zh-CN.md)
 - Recursive policy-link graph (snapshot: `../google-play-policy-link-graph-en.md`, not imported in this repository)
-- Policy deadlines register (snapshot: `../google-play-policy-operations-en.md`, not imported in this repository)
+- Policy deadlines register ([policy operations register](../google-play-policy-operations/google-play-policy-operations.en-US.md))
 
 Official sources: [US ECL program terms](https://support.google.com/googleplay/android-developer/answer/16470497?hl=en) · [in-app integration](https://developer.android.com/google/play/billing/externalcontentlinks/integration) · [backend reporting](https://developer.android.com/google/play/billing/outside-gpb-backend). This is a structured summary, not a verbatim copy of the official material. Recheck the live official pages before launch or fee calculations; fees, account eligibility, court status, and Console enrollment can change.

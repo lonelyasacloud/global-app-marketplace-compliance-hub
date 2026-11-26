@@ -47,7 +47,7 @@ effective_date: "operational preparation; 2026-10-27 Contacts/Location tool date
 
 | 正文目标 | 页面内容及其与审核的关系 | 本库状态 |
 | --- | --- | --- |
-| [Developer Program Policy / Google Play policies](https://play.google/developer-content-policy/) | 政策目录入口；指向与《开发者分发协议》共同构成的政策框架。目录中各专项政策需按功能逐项核对。 | 已有政策中心（快照：`google-play-developer-policy-center.md`，未导入本仓库）和[合并版政策](../developer-program-policy/developer-program-policy.zh-CN.md)。 |
+| [Developer Program Policy / Google Play policies](https://play.google/developer-content-policy/) | 政策目录入口；指向与《开发者分发协议》共同构成的政策框架。目录中各专项政策需按功能逐项核对。 | 已有政策中心（[开发者政策中心](../google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md)）和[合并版政策](../developer-program-policy/developer-program-policy.zh-CN.md)。 |
 | [High-risk or sensitive permissions](https://support.google.com/googleplay/android-developer/answer/16324062) | 原 Help 链路重定向后无法读取；当前权限要求应回到合并版政策和现行敏感权限专题，不从旧跳转页推断规则。 | 旧链接重定向不可读；现行规则见[敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md)。 |
 | [SMS / Call Log permissions](https://support.google.com/googleplay/android-developer/answer/9876150) | 公共抓取被 Google 验证页拦截；同一政策已有现行专题，覆盖允许用途、默认处理器、例外、替代方案和声明。 | 已有[短信和通话记录权限专题](../sms-call-log/sms-call-log.zh-CN.md)；以正文中的现行 URL 为准。 |
 | [News and Magazines policy](https://support.google.com/googleplay/android-developer/answer/9935326) | 规定哪些应用须申报，以及文章来源、定期更新、联系信息、第三方来源和付费预览要求。 | 正文已打开；见[新闻和杂志专题](../news-and-magazines/news-and-magazines.zh-CN.md)。 |
@@ -61,7 +61,7 @@ effective_date: "operational preparation; 2026-10-27 Contacts/Location tool date
 | [Control when changes are reviewed and published](https://support.google.com/googleplay/android-developer/answer/9859654) | 区分何时送审与何时发布；Managed publishing 控制已批准变更的发布时间，不能代替完成审核。 | 正文已打开并摘要，见[发布流程](../publishing/play-release-workflow.zh-CN.md)。 |
 | [Families policy](https://support.google.com/googleplay/android-developer/answer/9893335) | 目标受众含儿童时适用；覆盖适龄内容、SDK/API 数据处理、儿童广告和社交功能等要求。 | 已有[儿童安全与 Families 专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。 |
 | [Target audience and content settings](https://support.google.com/googleplay/android-developer/answer/9867159) | 说明 App content 中目标受众问卷的设置和年龄受众申报。 | 正文已打开；关联[内容分级与目标受众](../content-ratings/content-ratings.zh-CN.md)。 |
-| [Academy for App Success](https://playacademy.exceedlms.com/student/catalog/list?category_ids=2558) | Families 学习目录公开列出课程标题和学习目标；课程主体须登录。 | 仅保存公开课程元数据，见政策课程目录（快照：`play-academy-policy-courses.md`，未导入本仓库）。 |
+| [Academy for App Success](https://playacademy.exceedlms.com/student/catalog/list?category_ids=2558) | Families 学习目录公开列出课程标题和学习目标；课程主体须登录。 | 仅保存公开课程元数据，见政策课程目录（[Play Academy 政策课程](../play-academy-policy-courses/play-academy-policy-courses.zh-CN.md)）。 |
 | [Android App Bundle](https://developer.android.com/guide/app-bundle) | 应用包发布格式和 Play 分发机制的技术资料；上传应用包会触发适用的权限审查流程。 | 技术材料，不是权限获批证明。 |
 | [Permissions Declaration Form](https://support.google.com/googleplay/android-developer/answer/9214102) | 说明声明表单、审核和相关发布操作；敏感权限是否合格仍取决于政策用途和应用事实。 | 正文已打开；见[权限声明专题](../permissions-declaration/permissions-declaration.zh-CN.md)。 |
 | [Content rating requirements](https://support.google.com/googleplay/android-developer/answer/9859655) | 同一目标由多个锚点指向，覆盖分级问卷、地区评级机构与应用内广告评级关系。 | 正文已打开；见[内容分级专题](../content-ratings/content-ratings.zh-CN.md)。 |
@@ -101,8 +101,8 @@ effective_date: "operational preparation; 2026-10-27 Contacts/Location tool date
 | [Halting a fully rolled-out release](https://support.google.com/googleplay/android-developer/answer/16285429) | 发生严重问题时停止 100% 发布版本的继续安装/更新；排除内部测试轨道。旧版本只有在可作为回退版本时才重新提供。见下方[版本停止说明](../publishing/play-release-workflow.zh-CN.md#停止已全量发布的版本)。 |
 | [Detect app issues early with pre-review checks](https://support.google.com/googleplay/android-developer/answer/14807773) | Console 自动运行必填声明与质量检查；严重问题须先解决，可延期项目会记录理由，预检不等同正式审核。Google 另称联系人/位置专属预检计划于 2026-10-27 提供；该日期是工具上线计划，不是政策期限，且通用帮助页不能确认专属检查已上线。见[联系人/位置专题](../contacts-location-permissions/contacts-location-permissions.zh-CN.md)时间线；正文子链接和限制见[发布流程专题](../publishing/play-release-workflow.zh-CN.md)。 |
 | [Publish your app](https://support.google.com/googleplay/android-developer/answer/9859751) | 解释 App、update、item 状态、拒绝状态和标准/Managed 发布；状态矩阵及其政策、发布、权限子链接见[发布流程](../publishing/play-release-workflow.zh-CN.md#appupdateitem-状态定位发布卡点)。 |
-| [Helpful tips to get your app published](https://support.google.com/googleplay/android-developer/answer/15191715) | 提交前的发布实践，已在公告资源表（快照：`google-play-announcement-resources.md`，未导入本仓库）逐项分析正文直链。 |
-| [Best Practices for White Label Developers](https://support.google.com/googleplay/android-developer/answer/15884185) | 白标应用账号隔离、原创价值、审核账号和发布实践；见公告资源表（快照：`google-play-announcement-resources.md`，未导入本仓库）。 |
+| [Helpful tips to get your app published](https://support.google.com/googleplay/android-developer/answer/15191715) | 提交前的发布实践，已在公告资源表（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）逐项分析正文直链。 |
+| [Best Practices for White Label Developers](https://support.google.com/googleplay/android-developer/answer/15884185) | 白标应用账号隔离、原创价值、审核账号和发布实践；见公告资源表（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）。 |
 | [Update or unpublish your app](https://support.google.com/googleplay/android-developer/answer/9859350) | 应用更新、取消公开和可见性行为；须区分“取消发布”与仅因 target API 过旧而对新系统用户隐藏。 |
 | [Control when app changes are reviewed and published](https://support.google.com/googleplay/android-developer/answer/9859654) | 控制送审和已获批变更的上线时间；见[发布流程](../publishing/play-release-workflow.zh-CN.md)。 |
 | [Release app updates with staged rollouts](https://support.google.com/googleplay/android-developer/answer/6346149) | 分阶段向部分用户发布更新并监控；出问题时结合 halt rollout 处理。 |

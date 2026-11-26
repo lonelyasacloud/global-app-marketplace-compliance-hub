@@ -62,7 +62,7 @@ Play 提供 Open、Closed、Internal 测试轨道和 Production 正式轨道。I
 
 这项功能的阶段记录要按日期理解：2025-06-11 博客介绍 Canary Beta；2025-12-11 官方博客随后称已向 Android Studio 开发者推出。当前 Studio 指南是安装/支持窗口和使用方法的优先来源。Play Console Help 的静态说明仍写着 Narwhal Release 3 和“initial launch”权限清单，与之后推广及现行 Studio 文档时间不同，故只作为初始覆盖的历史说明，不据此判定现时政策覆盖全集。2026-04-15 博客还预告联系人/位置相关提示，具体计划是 10 月 27 日启动 Console 预审检查；这与联系人声明提示（现行帮助页称 9 月开始）及精确位置申报表单（现行帮助页称预计 11 月开放）是不同节点，详见联系人与前台位置专题。
 
-这些提示是预审辅助，不覆盖所有政策、不做最终应用审核，也通常没有自动修复；有些问题要通过产品设计、实现调整或 Play Console 声明解决。须打开对应政策全文核对，不能把 lint 无告警当成获批。项目也可使用已安装的 [Play Policy Insights Android Skills](https://github.com/android/skills/tree/main/play/play-policy-insights) 做源码审阅；它与 Android Studio lint、Console 声明互补，任何结论都要回到当前官方政策验证。
+这些提示是预审辅助，不覆盖所有政策、不做最终应用审核，也通常没有自动修复；有些问题要通过产品设计、实现调整或 Play Console 声明解决。须打开对应政策全文核对，不能把 lint 无告警当成获批。项目也可使用已安装的 [Play Policy Insights Android Skills](https://github.com/android/skills/tree/main/play/play-policy-insights)（[本仓库专题](../play-policy-insights-skill/play-policy-insights-skill.zh-CN.md)）做源码审阅；它与 Android Studio lint、Console 声明互补，任何结论都要回到当前官方政策验证。
 
 2026-04-15 的[官方政策更新博客](https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html)称，联系人/位置权限的 Play Console 预审检查计划于 **2026-10-27** 开始提供。通用[预审检查帮助页](https://support.google.com/googleplay/android-developer/answer/14807773?hl=en)解释检查流程，但未确认这组专属检查已上线。截至 2026-10-22 核对日，该计划日期尚未来到；届时需在实际 Console 核实开放状态和应用提示。申报提示、位置申报表单及正式生效日期见联系人与前台位置专题。
 

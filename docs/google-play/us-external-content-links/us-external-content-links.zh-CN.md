@@ -168,6 +168,6 @@ Google Play Developer API 的 [`externaltransactions` REST 资源](https://devel
 
 - [付款、计费与订阅政策](../payments/payments-and-subscriptions.zh-CN.md) · [English](../payments/payments-and-subscriptions.en-US.md)
 - 递归政策链接图（快照：`../google-play-policy-link-graph.md`，未导入本仓库）
-- 政策执行期限总表（快照：`../google-play-policy-operations.md`，未导入本仓库）
+- 政策执行期限总表（[政策执行控制总表](../google-play-policy-operations/google-play-policy-operations.zh-CN.md)）
 
 官方来源：[美国 ECL 计划条款](https://support.google.com/googleplay/android-developer/answer/16470497?hl=en) · [应用内集成](https://developer.android.com/google/play/billing/externalcontentlinks/integration) · [后端报告](https://developer.android.com/google/play/billing/outside-gpb-backend)。这是官方材料的结构化摘要，不是完整逐字副本；费率、账号资格、法院状态及 Console 入组结果应在发布/计费前回到实时官方页面核实。

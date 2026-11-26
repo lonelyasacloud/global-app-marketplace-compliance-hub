@@ -45,7 +45,7 @@ Basic workflow:
 
 The calculated Summary rating may differ from the rating shown to Play users. Authorities may override a result after review. Local law may require a market-specific rating. Rating icons are trademarks of their respective authorities and must follow the authority's usage guidelines.
 
-A July 2025 policy announcement clarified that the rating questionnaire evaluates the app's content, not ads, additional user agreements, or privacy practices. Ad suitability remains a separate Ads-policy check. See the [July 10, 2025 announcement](https://support.google.com/googleplay/android-developer/answer/16296680?hl=en) and the announcement KB summary (snapshot: `../google-play-announcement-resources-en.md`, not imported in this repository).
+A July 2025 policy announcement clarified that the rating questionnaire evaluates the app's content, not ads, additional user agreements, or privacy practices. Ad suitability remains a separate Ads-policy check. See the [July 10, 2025 announcement](https://support.google.com/googleplay/android-developer/answer/16296680?hl=en) and the announcement KB summary ([announcement resources](../google-play-announcement-resources/google-play-announcement-resources.en-US.md)).
 
 ## Ads and associated offers must match the app rating
 

@@ -72,4 +72,4 @@ effective_date: "pilot; 2026-06-01 deadline for apps already on Play has passed;
 
 - [真钱赌博、游戏与竞赛](../real-money-gambling/real-money-gambling.zh-CN.md) · [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)
 - [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)
-- Play Console 要求[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md) · 2026-04-15 公告与全部直链摘要（快照：`../google-play-announcement-resources.md`，未导入本仓库）
+- Play Console 要求[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md) · 2026-04-15 公告与全部直链摘要（[公告子链接目录](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)）

@@ -551,6 +551,6 @@ FTC 六步指南的五个可见 HTTP 正文目标均已点击或由已审计规�
 - [Manage target audience and app content settings](https://support.google.com/googleplay/android-developer/answer/9867159?hl=en)
 - [2026-07-15 policy announcement](https://support.google.com/googleplay/android-developer/answer/17134731?hl=en)
 - [Policy Deadlines](https://support.google.com/googleplay/android-developer/table/12921780?hl=en)
-- 项目内关联：[用户数据](../user-data/user-data.zh-CN.md)、[Data safety](../data-safety/data-safety.zh-CN.md)、政策公告汇编（快照：`../google-play-policy-announcements.md`，未导入本仓库）。
+- 项目内关联：[用户数据](../user-data/user-data.zh-CN.md)、[Data safety](../data-safety/data-safety.zh-CN.md)、政策公告汇编（[政策公告汇编](../google-play-policy-announcements/google-play-policy-announcements.zh-CN.md)）。
 
 本页为结构化改写。它不能替代 Console 当前功能、审核提示或各目标市场的法定义务；2026-08-26 是政策更新生效日，不代表某个应用已经通过年龄/儿童安全审核。
