@@ -38,4 +38,8 @@ The Data Safety declaration does not replace the User Data policy, sensitive-per
 - [Data safety section](https://support.google.com/googleplay/android-developer/answer/10787469)
 - [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
 
+## Detailed topic in this directory
+
+[Data safety form](data-safety.en-US.md) is the 2026-10-24 snapshot topic, checked on 2026-10-24. It covers form categories, FAQs, and the source audit. This baseline does not replace that page, and the two pages use different check dates.
+
 This is an operational summary. Verify the current Play Console form and official pages before release.

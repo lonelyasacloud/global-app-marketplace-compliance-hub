@@ -20,11 +20,13 @@
 ## 3. Google Play
 
 - [Google Play platform map](google-play/README.md)
-- Developer Program Policies
-- Data Safety
+- [Developer Distribution Agreement](google-play/developer-distribution-agreement/developer-distribution-agreement.zh-CN.md)
+- [Consolidated Developer Program Policy](google-play/developer-program-policy/developer-program-policy.zh-CN.md) (effective 2026-09-30)
+- [User Data](google-play/user-data/user-data.zh-CN.md)
+- [Data Safety baseline](google-play/data-safety/data-safety-baseline.zh-CN.md) and [Data safety form](google-play/data-safety/data-safety.zh-CN.md)
+- [Payments, billing, and subscriptions](google-play/payments/payments-and-subscriptions.zh-CN.md)
+- [Testing, review, and release](google-play/publishing/play-release-workflow.zh-CN.md)
 - Sensitive permissions and declarations
-- Play Console publishing
-- Play Billing and subscriptions
 - Target API and Android release requirements
 
 ## 4. Operations / 运营流程
