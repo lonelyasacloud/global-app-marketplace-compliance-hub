@@ -116,7 +116,7 @@ NFT 玩法须与 [Real-Money Gambling, Games, and Contests](https://support.goog
 | Real-Money Gambling policy | [Gambling application form](https://support.google.com/googleplay/android-developer/contact/gambling) | 表单链接已打开；需由开发者提交申请和许可材料。公开浏览不能确认具体账号/应用获批。 |
 | Real-Money Gambling policy | [Real-money gaming pilots](https://support.google.com/googleplay/android-developer/answer/12918670?hl=en) | 已打开；页面生效日为 2026-06-04，核对时写明当前无活跃试点。印度 DFS/Rummy 宽限期于 2026-01-22 结束；墨西哥 DFS 试点于 2026-06-04 结束。 |
 | 试点页 | [Online Crane Games](https://support.google.com/googleplay/android-developer/answer/12002615?hl=en) | 已打开；日本试点已于 2023-07-11 结束。现行页面要求提交声明表单；新应用需等声明获接受后才可能上架，旧应用应核对设置，Google 说明约五个工作日内通知结果。该路径不是 NFT 例外。 |
-| Financial Services / Developer account | Play Console Requirements（快照：`../play-console-requirements.md`，未导入本仓库） | 本地双语摘要说明金融产品/服务类业务与组织账号要求；账号资格需按法律主体和实际业务核验。 |
+| Financial Services / Developer account | [Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md) | 本地双语摘要说明金融产品/服务类业务与组织账号要求；账号资格需按法律主体和实际业务核验。 |
 
 ## 发布前核对清单
 

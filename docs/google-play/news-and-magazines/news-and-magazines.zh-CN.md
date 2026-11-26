@@ -81,6 +81,6 @@ effective_date: "declaration required since 2025-08-27; that start date has pass
 
 ## 相关专题
 
-- 商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）
+- 商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)
 - [广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)
-- Play Console 要求（快照：`../play-console-requirements.md`，未导入本仓库）
+- Play Console 要求[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md)

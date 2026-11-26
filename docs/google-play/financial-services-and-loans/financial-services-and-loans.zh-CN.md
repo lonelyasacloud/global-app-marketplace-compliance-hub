@@ -94,7 +94,7 @@ EWA 直接提供者、导流方和第三方连接服务同样须设 Finance 类�
 
 金融声明还覆盖数字钱包、转账、BNPL、加密钱包/交易所、NFT、股票交易、众筹、保险等。金融服务政策禁止二元期权交易。加密交易与软件钱包另受 Blockchain-based Content/加密交易所规则约束；设备端挖矿不允许，远程管理挖矿可按相应规则评估；代币化数字资产销售/奖励需申报。它们不是贷款政策的附属豁免。国家牌照表、NFT 游戏规则及相关子孙页面已在[加密资产与 NFT 专题](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)独立整理。真钱预测市场另有 Google Play 限时试点，须与普通金融声明、真钱赌博路线区分；试点资格、美国牌照范围、组织账号、18+、AO/IARC、责任使用和已过期的 2026-06-01 既有应用期限见[预测市场试点专题](../prediction-market-pilot/prediction-market-pilot.zh-CN.md)。
 
-Play Console 要求将金融服务列为应使用 Organization 类型开发者账号的业务之一；另须核对账号法律主体、公开开发者资料和监管牌照主体之间的一致性，参见Play Console 要求（快照：`../play-console-requirements.md`，未导入本仓库）。
+Play Console 要求将金融服务列为应使用 Organization 类型开发者账号的业务之一；另须核对账号法律主体、公开开发者资料和监管牌照主体之间的一致性，参见Play Console 要求[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md)。
 
 ## 子链接与政策关系
 

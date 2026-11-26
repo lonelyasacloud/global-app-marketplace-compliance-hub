@@ -91,7 +91,7 @@ effective_date: "current-policy"
 2. 检查是否有假登录页、仿冒系统警告、未授权政府/品牌声明、动态功能开关或审核环境差异；确保审查员看到的行为与普通用户一致。
 3. 逐项审查应用外设备设置、后台下载、远端脚本/代码及自动化改动：是否核心必需、用户是否明确同意、能否轻松撤回、下载大小是否事前披露。
 4. 对生成/编辑/传播图像、音频、视频和文本的功能，检查敏感事件语境、清晰水印/免责声明、讽刺语境及受限内容政策。
-5. 将本专题与虚假陈述（快照：`misrepresentation.md`，未导入本仓库）、移动垃圾软件/设备滥用（快照：`mobile-unwanted-software.md`，未导入本仓库）、[用户数据](../user-data/user-data.zh-CN.md)及商店素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）一起复核。
+5. 将本专题与虚假陈述（快照：`misrepresentation.md`，未导入本仓库）、移动垃圾软件/设备滥用（快照：`mobile-unwanted-software.md`，未导入本仓库）、[用户数据](../user-data/user-data.zh-CN.md)及商店素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)一起复核。
 
 ## 核验边界
 

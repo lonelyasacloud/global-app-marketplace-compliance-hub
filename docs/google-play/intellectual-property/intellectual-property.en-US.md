@@ -97,5 +97,5 @@ The copyright explainer links to Google's general report/removal workflow, the U
 
 - [Impersonation](../impersonation/impersonation.en-US.md): whether branding or an organizational relationship misleads users.
 - [Misrepresentation](../misrepresentation/misrepresentation.en-US.md): coordinated deception, country of origin, and identity disclosure around public-interest topics.
-- Store listing and asset best practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository): keep listing materials, product capabilities, and authorization evidence aligned.
+- [Store listing and asset best practices](../store-listing-best-practices/store-listing-best-practices.en-US.md): keep listing materials, product capabilities, and authorization evidence aligned.
 

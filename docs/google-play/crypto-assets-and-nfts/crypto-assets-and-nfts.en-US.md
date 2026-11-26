@@ -116,7 +116,7 @@ This table records body links from the policy pages above and key descendants op
 | Real-Money Gambling policy | [Gambling application form](https://support.google.com/googleplay/android-developer/contact/gambling) | The form link was opened. Developers must submit the application and license materials; public browsing cannot confirm approval for a particular account or app. |
 | Real-Money Gambling policy | [Real-money gaming pilots](https://support.google.com/googleplay/android-developer/answer/12918670?hl=en) | Opened. Effective June 4, 2026; at review it said there were no active pilots. The India DFS/Rummy grace period ended January 22, 2026; the Mexico DFS pilot ended June 4, 2026. |
 | Pilot page | [Online Crane Games](https://support.google.com/googleplay/android-developer/answer/12002615?hl=en) | Opened. The Japan pilot ended July 11, 2023. The current page requires submitting a declaration; a new app may be listed after acceptance, existing apps should check settings, and Google says it will notify developers within five business days. This pathway is not an NFT exemption. |
-| Financial Services / developer identity | Play Console Requirements (snapshot: `../play-console-requirements-en.md`, not imported in this repository) | Existing bilingual notes cover the Organization account requirement for financial products/services businesses; verify the legal entity and actual business. |
+| Financial Services / developer identity | [Play Console Requirements](../play-console-requirements/play-console-requirements.en-US.md) | Existing bilingual notes cover the Organization account requirement for financial products/services businesses; verify the legal entity and actual business. |
 
 ## Pre-release checklist
 

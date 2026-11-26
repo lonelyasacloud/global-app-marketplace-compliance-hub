@@ -97,5 +97,5 @@ Google Play 的[政府信息应用帮助页](https://support.google.com/googlepl
 
 - [冒充身份政策](../impersonation/impersonation.zh-CN.md)：处理品牌/机构关系展示是否误导。
 - [虚假陈述政策](../misrepresentation/misrepresentation.zh-CN.md)：处理协同误导、来源国家及公共关注事项中的身份披露。
-- 商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）：将商店素材、产品能力和授权证据保持一致。
+- 商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)：将商店素材、产品能力和授权证据保持一致。
 

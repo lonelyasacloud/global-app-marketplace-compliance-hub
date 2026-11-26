@@ -56,7 +56,7 @@ Play 要求新提交的应用、在 Play 上架但尚无分级的现有应用，
 - Families 应用有更严格上限：主要面向儿童的应用广告上限由系统设为 G；混合受众的上限最高为 PG。界面设置可能被覆盖，广告仍须由相应自我认证 SDK 提供。
 - 若使用实时竞价，广告素材应在交付前经审查/评级，或只接入合格的自我认证来源。
 
-关联政策见广告与推广专题（快照：`ads-and-advertising.md`，未导入本仓库）、[年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)及评分/评价/安装量专题（快照：`user-ratings-reviews-installs.md`，未导入本仓库）。
+关联政策见广告与推广专题（快照：`ads-and-advertising.md`，未导入本仓库）、[年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)及[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md)。
 
 ## 各地区评级体系：同一应用可能有不同结果
 
@@ -177,6 +177,6 @@ IARC Contact 的 USK 入口先到 USK 首页；首页的企业入口进一步区
 
 AdMob 最大分级文章正文还链接至[通过 AdMob 遵守 Families](https://support.google.com/admob/answer/6223431)和[广告请求的年龄处理标签](https://support.google.com/admob/answer/6219315)。两页均已打开：前者包含儿童受众与混合受众的请求示例，但其中较旧的 TFCD 代码应对照现行 TFAT 指南核实；后者说明 TFCD/TFUA 已弃用，并介绍 CHILD、TEEN、UNSPECIFIED 处理方式。这些属于实现指导。AdMob 页的“More about apps”侧栏有 6 项（含当前页），相关条目包括上述两篇和 Content mapping；其他 AdMob 帮助后代尚未全部登记。
 
-本地关联条目：商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库） · 用户评分/评价/安装量政策（快照：`user-ratings-reviews-installs.md`，未导入本仓库） · 广告与推广（快照：`ads-and-advertising.md`，未导入本仓库） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。
+本地关联条目：商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md) · 用户评分/评价/安装量政策[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md) · 广告与推广（快照：`ads-and-advertising.md`，未导入本仓库） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。
 
 本专题是基于官方页面的双语改写，不逐字复制全部地区评级描述。地区分级映射、图标商标、目标受众和广告合规均需在目标市场发布前对照官方现行页面及 Play Console 核实。

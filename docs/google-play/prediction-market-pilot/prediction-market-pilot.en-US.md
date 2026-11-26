@@ -72,4 +72,4 @@ On October 22, 2026, all **11 body-link occurrences across 9 unique targets** on
 
 - [Real-Money Gambling, Games, and Contests](../real-money-gambling/real-money-gambling.en-US.md) · [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md)
 - [Crypto assets and NFTs](../crypto-assets-and-nfts/crypto-assets-and-nfts.en-US.md) · [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md)
-- Play Console requirements (snapshot: `../play-console-requirements-en.md`, not imported in this repository) · April 15, 2026 announcement and direct links (snapshot: `../google-play-announcement-resources-en.md`, not imported in this repository)
+- [Play Console requirements](../play-console-requirements/play-console-requirements.en-US.md) · April 15, 2026 announcement and direct links (snapshot: `../google-play-announcement-resources-en.md`, not imported in this repository)

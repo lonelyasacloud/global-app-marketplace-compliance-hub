@@ -103,7 +103,7 @@ effective_date: "2026-08-26"
 | Google 账号年龄保护 → 青少年隐私说明 | [Teen Privacy Guide](https://policies.google.com/privacy/teens)（父页短链 [g.co/teenprivacy](https://g.co/teenprivacy)，经 [www.google.com/policies/privacy/teens/](https://www.google.com/policies/privacy/teens/) 跳转） | 面向青少年的 Google 隐私解释，涉及位置、分享、数据个性化和控制选项；它不是 Developer Program Policy、User Data 或数据安全表单的替代。其通用隐私政策后代未在本年龄分支穷尽。 |
 | 目标受众指南 → 年龄门槛与用户数据 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250) · [User Data 专题](../user-data/user-data.zh-CN.md) | 年龄限制政策已完整打开；指南中的旧 User Data 链接跳转到 Privacy, Deception and Device Abuse 主题入口，现行用户数据正文及其他链接见双语 User Data 专题。 |
 | 目标受众指南 → 年龄门槛外部法律参考 | [FTC COPPA FAQ](https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions) | 已打开。FTC 对一般受众服务的年龄询问、对 13 岁以下儿童的实际知情及家长同意作美国 COPPA 解释；这是美国法律参考，不是 Play 规则，也不能用来降低 Play 年龄限制政策要求。FAQ 的州执法、举报和 Safe Harbor 后代未全部展开。 |
-| 目标受众指南 → 商店素材与儿童吸引力 | [Add preview assets](https://support.google.com/googleplay/android-developer/answer/9866151) · 商店详情最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库） | 预览素材帮助页已完整打开；商店素材里的年轻角色、动画或文案可能影响 Google 对受众申报的判断，具体与 Play 审核政策的关系见商店详情专题。 |
+| 目标受众指南 → 商店素材与儿童吸引力 | [Add preview assets](https://support.google.com/googleplay/android-developer/answer/9866151) · 商店详情最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md) | 预览素材帮助页已完整打开；商店素材里的年轻角色、动画或文案可能影响 Google 对受众申报的判断，具体与 Play 审核政策的关系见商店详情专题。 |
 | 目标受众指南 → 可选 Teacher Approved 计划 | [Teacher Approved 介绍](https://google.play/business/programs/teacherapproved/) | 旧 Console 链现已重定向到公开介绍页。它是可选的儿童应用质量评议/展示计划，不是强制合规或获批保证；评价包含适龄设计、内容、广告、应用内购和交叉推广。页面链接的课程只公开课程简介，正式课件须登录。 |
 
 ### Google Developers 儿童产品最佳实践及子孙链接

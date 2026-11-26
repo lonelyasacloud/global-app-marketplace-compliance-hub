@@ -91,7 +91,7 @@ The Help article's related-policy index was opened on October 22, 2026. It is na
 2. Check for fake login pages, OS-warning impersonation, unauthorized government/brand claims, remote feature toggles, and review-only behavior. Reviewers should see the same functionality as users.
 3. Audit device-setting changes, background downloads, remote scripts/code, and automated modification: are they core to the app, explicitly consented, reversible, and preceded by a download-size disclosure where needed?
 4. For generated/edited/shared images, audio, video, and text, review sensitive-event context, visible watermarks/disclaimers, satire context, and Restricted Content rules.
-5. Review alongside Misrepresentation (snapshot: `misrepresentation-en.md`, not imported in this repository), Mobile Unwanted Software/device abuse (snapshot: `mobile-unwanted-software-en.md`, not imported in this repository), [User Data](../user-data/user-data.en-US.md), and Store Listing Best Practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository).
+5. Review alongside Misrepresentation (snapshot: `misrepresentation-en.md`, not imported in this repository), Mobile Unwanted Software/device abuse (snapshot: `mobile-unwanted-software-en.md`, not imported in this repository), [User Data](../user-data/user-data.en-US.md), and Store Listing Best Practices [store listing and asset best practices](../store-listing-best-practices/store-listing-best-practices.en-US.md).
 
 ## Coverage limits
 

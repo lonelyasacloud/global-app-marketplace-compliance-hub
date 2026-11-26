@@ -56,7 +56,7 @@ Ads and related offers shown in an app are treated as part of that app. They mus
 - Families apps have stricter ceilings: the system sets G for primarily child-directed apps and at most PG for mixed-audience apps. Interface settings may be overridden, and ads to children still need to come from an applicable self-certified SDK.
 - For real-time bidding, review/rate ad creatives before delivery or use only approved self-certified sources.
 
-Related topics: Ads and Promotion (snapshot: `ads-and-advertising-en.md`, not imported in this repository), [Age Restrictions and Child Safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md), and Ratings, Reviews, and Installs (snapshot: `user-ratings-reviews-installs-en.md`, not imported in this repository).
+Related topics: Ads and Promotion (snapshot: `ads-and-advertising-en.md`, not imported in this repository), [Age Restrictions and Child Safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md), and [Ratings, Reviews, and Installs](../user-ratings-reviews-installs/user-ratings-reviews-installs.en-US.md).
 
 ## Regional rating systems: one app can receive different results
 
@@ -177,6 +177,6 @@ The content-rating page sidebar has seven topic entries including the current pa
 
 The AdMob maximum-rating article also links from its body to [Comply with Families using AdMob](https://support.google.com/admob/answer/6223431) and [Tag an ad request for age treatment](https://support.google.com/admob/answer/6219315). Both were opened: the first contains child-directed and mixed-audience request examples, but its older TFCD code should be checked against the current TFAT guide; the second says TFCD/TFUA are deprecated and describes CHILD, TEEN, and UNSPECIFIED treatments. These are implementation resources. AdMob's “More about apps” sidebar has six items including the current page; related entries include these two guides and Content mapping. Other AdMob Help descendants are not fully inventoried.
 
-Related local topics: Store Listing and Asset Best Practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository) · Ratings, Reviews, and Installs (snapshot: `user-ratings-reviews-installs-en.md`, not imported in this repository) · Ads and Promotion (snapshot: `ads-and-advertising-en.md`, not imported in this repository) · [Age Restrictions and Child Safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md).
+Related local topics: [Store Listing and Asset Best Practices](../store-listing-best-practices/store-listing-best-practices.en-US.md) · [Ratings, Reviews, and Installs](../user-ratings-reviews-installs/user-ratings-reviews-installs.en-US.md) · Ads and Promotion (snapshot: `ads-and-advertising-en.md`, not imported in this repository) · [Age Restrictions and Child Safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md).
 
 This is a bilingual paraphrase of the official pages, not a verbatim copy of every regional rating description. Before release, confirm the current territory mapping, rating-icon rules, target-audience answers, and ad compliance in the official pages and Play Console.

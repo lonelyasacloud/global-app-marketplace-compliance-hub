@@ -81,7 +81,7 @@ effective_date: "current policy; ended pilots are historical; no 2027-01-27 on t
 | [赌博应用国家/地区许可表](https://support.google.com/googleplay/android-developer/answer/12256011) | 核对每个市场和产品类别是否可申请，以及地区性例外。 | 英文正文已打开；含 45 个市场和 53 个正文目标的访问记录，动态资源表见上方快照。 |
 | [Gambling Application Form](https://support.google.com/googleplay/android-developer/contact/gambling) | 提交应用、市场、牌照与资格资料的申请入口。 | 动态表单已打开、字段及市场范围已读；未填写或提交。 |
 | [IARC 内容评级](https://www.globalratings.com/) | “IARC equivalent”评级体系入口；符合条件的赌博应用仍须达到 AO 或等效分级。 | 外部入口已登记；Play [Content Ratings 帮助页](https://support.google.com/googleplay/android-developer/answer/9898843)另有专题摘要，IARC 网站内部流程未递归展开。 |
-| [User ratings, reviews and installs](https://support.google.com/googleplay/android-developer/answer/9898684) | 支持安装奖励、商店表现/排名和项目关系标示相关的审核判断。 | 正文已打开并有独立双语专题（快照：`user-ratings-reviews-installs.md`，未导入本仓库）；这是本文提到的相关政策链接。 |
+| [User ratings, reviews and installs](https://support.google.com/googleplay/android-developer/answer/9898684) | 支持安装奖励、商店表现/排名和项目关系标示相关的审核判断。 | 正文已打开并有[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md)；这是本文提到的相关政策链接。 |
 | [Understanding Google Play’s Payments policy](https://support.google.com/googleplay/android-developer/answer/10281818) | 支持付费应用与 Play Billing 禁止条件的解释。 | 正文已打开并有[付款政策专题](../payments/payments-and-subscriptions.zh-CN.md)；赌博支付限制仍以上述专门赌博条款为准。 |
 
 此清单的“helpful links”旁栏又指回[Manage policy violations 目录](https://support.google.com/googleplay/android-developer/topic/3453554?hl=en)，并有帮助社区/联系入口；目录里的 11 个目标见[执行处置专题](../enforcement-and-appeals/enforcement-and-appeals.zh-CN.md)。不把旁栏、社区和账号专属联系流程误记为该审核清单的政策正文。

@@ -27,7 +27,7 @@ effective_date: "operational-help; no future Play policy date"
 
 ## 先区分两种受众来源
 
-自定义商店详情页可按国家/地区、预注册状态、搜索关键词、广告流量或特定用户群体显示不同文案和素材；页面最多可创建 50 个自定义详情页。自定义详情仍须准确反映应用及其功能，并遵守 Metadata 等政策。它们不会自动翻译；开发者需为目标语言提供翻译。联系信息、隐私政策和应用类别在不同详情页之间共用。更多详情见商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）。
+自定义商店详情页可按国家/地区、预注册状态、搜索关键词、广告流量或特定用户群体显示不同文案和素材；页面最多可创建 50 个自定义详情页。自定义详情仍须准确反映应用及其功能，并遵守 Metadata 等政策。它们不会自动翻译；开发者需为目标语言提供翻译。联系信息、隐私政策和应用类别在不同详情页之间共用。更多详情见商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)。
 
 Play Console 的自定义受众有两类来源：
 
@@ -44,7 +44,7 @@ Play Console 的自定义受众有两类来源：
 
 ## 与 Promotional Content 和资格门槛的关系
 
-Promotional Content 可在商店详情页及其他 Play 界面展示优惠、限时活动、新内容和重大更新；自定义受众可用于面向符合条件的人群定向活动。详细的活动类型、定向、提交流程和素材最佳实践（快照：`promotional-content-and-best-practices.md`，未导入本仓库）见独立专题。此项与用户群体无关的常规商店详情素材不是同一功能。
+Promotional Content 可在商店详情页及其他 Play 界面展示优惠、限时活动、新内容和重大更新；自定义受众可用于面向符合条件的人群定向活动。详细的活动类型、定向、提交流程和素材最佳实践见[推广内容](../promotional-content-and-best-practices/promotional-content-and-best-practices.zh-CN.md)。此项与用户群体无关的常规商店详情素材不是同一功能。
 
 [Premium growth tools 资格页](https://google.play/business/guides/premium-growth-tools/)另列开发者账号良好状态、应用类别、活跃安装、MAU 和消费指标等门槛，并说明某些新游戏有阶段性资格。指标与受支持类别可能变动；不得把“有自定义受众帮助页”理解为自己的 Console 账号已开放功能。开发者账号权限页和 Console 内受众状态需要账号授权才能核验。
 
@@ -66,7 +66,7 @@ Promotional Content 可在商店详情页及其他 Play 界面展示优惠、限
 | --- | --- | --- |
 | [预注册帮助页](https://support.google.com/googleplay/android-developer/answer/9859047?hl=en) | 介绍上架前预注册活动；正文写明单个活动最长 90 天、最多同时运行两个预注册应用/游戏，并链接审核准备、素材翻译、广告声明和付款/奖励配置。 | 正文已打开；摘要和发布流程见[测试与发布专题](../publishing/play-release-workflow.zh-CN.md)，其大量 Console 操作和技术后代仍未全部展开。 |
 | [Google Ads：创建广告系列](https://support.google.com/google-ads/answer/6324971) | 说明广告目标和不同广告系列设置；自定义商店页可与广告活动素材保持一致。它是 Google Ads 的实施帮助，不是 Play 政策。 | 正文已打开；广告系统后代不纳入 Play 政策条款。 |
-| [翻译与本地化](https://support.google.com/googleplay/android-developer/answer/9844778?hl=en) | 说明商店资料、应用内商品和字符串翻译；与自定义页不自动翻译的限制互补。 | 正文已打开，已有应用设置与发布专题（快照：`../play-console-app-setup.md`，未导入本仓库）摘要。 |
+| [翻译与本地化](https://support.google.com/googleplay/android-developer/answer/9844778?hl=en) | 说明商店资料、应用内商品和字符串翻译；与自定义页不自动翻译的限制互补。 | 正文已打开，已有[应用设置与发布专题](../play-console-app-setup/play-console-app-setup.zh-CN.md)摘要。 |
 | Google Ads App Campaign 链接 | 自定义详情页可按广告组关联；点击后返回 Internal Error，未暴露可核实的目标地址。 | 目标链接无法读取；未推断其内容或精确 URL。 |
 | [AdMob](https://admob.google.com/home/resources/what-is-admob/) | 广告平台说明；父页指出广告目标的自定义商店详情可能因流量来源而显示。 | 页面已打开；产品概览不是 Play 适用性规则。 |
 | [自定义受众帮助页](https://support.google.com/googleplay/android-developer/answer/15854918?hl=en)；[图形素材帮助页](https://support.google.com/googleplay/android-developer/answer/9866151?hl=en) | 分别扩展用户群体定向和素材规格；自定义商店页自身还链接到同页“创建详情页/详情组”步骤。 | 两个目标均已打开；素材要点见本地商店详情专题；同页锚点已归并。 |

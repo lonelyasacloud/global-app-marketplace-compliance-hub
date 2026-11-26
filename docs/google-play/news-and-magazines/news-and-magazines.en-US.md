@@ -81,6 +81,6 @@ The news policy branch links to the JTI home page, whose standards page links on
 
 ## Related topics
 
-- Store listing and asset best practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository)
+- [Store listing and asset best practices](../store-listing-best-practices/store-listing-best-practices.en-US.md)
 - [Ads and promotion](../ads-and-advertising/ads-and-advertising.en-US.md)
-- Play Console Requirements (snapshot: `../play-console-requirements-en.md`, not imported in this repository)
+- [Play Console Requirements](../play-console-requirements/play-console-requirements.en-US.md)

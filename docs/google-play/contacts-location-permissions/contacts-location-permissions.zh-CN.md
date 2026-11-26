@@ -213,7 +213,7 @@ Google 官方搜索索引本轮显示了该社区提醒的完整正文，但网�
 | 延期页子链接 | 目标页与状态 |
 | --- | --- |
 | [Play Console App content](https://play.google.com/console/developers/app/app-content/overview) | 点击后跳转至 Google 帐号登录；声明与提交状态按开发者帐号显示，无法匿名核验。 |
-| [Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455) | 已打开并纳入应用审核准备专题。该页解释 App content 用于提交隐私政策、广告、登录说明、权限声明、目标受众、内容分级等资料，并区分 `Needs attention` 与 `Actioned` 两个声明标签。 |
+| [Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455) | 已打开并纳入[应用审核准备](../app-review-preparation/app-review-preparation.zh-CN.md)。该页解释 App content 用于提交隐私政策、广告、登录说明、权限声明、目标受众、内容分级等资料，并区分 `Needs attention` 与 `Actioned` 两个声明标签。 |
 | [Google Play Developer Help Community](https://support.google.com/googleplay/android-developer/community?help_center_link=CLzsugcSMlJlcXVlc3QgbW9yZSB0aW1lIHRvIGNvbXBsZXRlIGEgcG9saWN5IGRlY2xhcmF0aW9u&hl=en) | 点击返回 Cache miss；没有读取到讨论正文。社区入口不是正式权限规则来源。 |
 | [Contact us](https://support.google.com/googleplay/android-developer/gethelp) | 点击后跳转/重定向到帐户登录门槛；无公开帮助正文。没有提交支持请求。 |
 | [延期步骤截图一](https://lh3.googleusercontent.com/l8AyzHZdpBYBUMJXKkPcAMaFuw0nJAih2wFU6qF8PrVA2nSap1U4wN-mMNrxLaWZTMk%3Dw895) · [截图二](https://lh3.googleusercontent.com/MrAtdGaOOfr9oKysrQfaGjArfbiXL6n6Mbz7h4EWEBCt553Rw1Vv4GNIl0FE4CrUSTei%3Dw895) | 两个图片目标已点开到 Googleusercontent 地址，但工具未返回可读像素；按页面上下文是 Play Console 操作示意图，不把图像内容推断为政策条款。 |
