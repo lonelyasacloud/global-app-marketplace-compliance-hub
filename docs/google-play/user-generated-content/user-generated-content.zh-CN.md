@@ -113,12 +113,12 @@ effective_date: "current-policy"
 | --- | --- | --- |
 | Child Endangerment | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878809?hl=en) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 涉及儿童性剥削、危害儿童与相关保护要求。 |
 | Inappropriate Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) · 解释禁止内容与 UGC 中“附随性色情内容”的边界。 |
-| Financial Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库） · 受监管金融功能、申报、贷款与地区要求。 |
-| Real-Money Gambling, Games, and Contests | [政策页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 真钱赌博（快照：`real-money-gambling.md`，未导入本仓库） · 适用资格、许可、地域/年龄限制与责任博彩要求。 |
+| Financial Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md) · 受监管金融功能、申报、贷款与地区要求。 |
+| Real-Money Gambling, Games, and Contests | [政策页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · 适用资格、许可、地域/年龄限制与责任博彩要求。 |
 | Illegal Activities | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | 非法活动（快照：`illegal-activities.md`，未导入本仓库） · 禁止促进非法行为，并须结合目标市场法律核验。 |
 | User Generated Content | [当前政策页面](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | 本页 · UGC 范围、审核、举报/屏蔽和附随性内容条件。 |
 | Health Content and Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） · 健康功能、医疗声明、健康数据与监管要求。 |
-| Blockchain-based Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | 加密资产与 NFT（快照：`crypto-assets-and-nfts.md`，未导入本仓库） · 钱包、交易所、代币化资产与 NFT 游戏要求。 |
+| Blockchain-based Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) · 钱包、交易所、代币化资产与 NFT 游戏要求。 |
 | AI-Generated Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | AI 生成内容（快照：`ai-generated-content.md`，未导入本仓库） · 受限输出预防和应用内举报入口。 |
 | Age-Restricted Content and Functionality | [政策页面](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 需要阻止未成年人访问的核心功能类别。 |
 

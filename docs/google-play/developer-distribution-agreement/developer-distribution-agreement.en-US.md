@@ -138,4 +138,4 @@ Sections 1–16 cover definitions, commercial terms, licenses, promotion, remova
 
 ## Related program terms
 
-The [External Content Links Developer Terms of Service](https://support.google.com/googleplay/android-developer/answer/16471405), effective December 9, 2025, supplements the DDA for US ECL participation. If they conflict about ECL participation, the ECL-specific terms prevail. See the bilingual US ECL topic for the reporting, payment, tax, support, and audit summary.
+The [External Content Links Developer Terms of Service](https://support.google.com/googleplay/android-developer/answer/16471405), effective December 9, 2025, supplements the DDA for US ECL participation. If they conflict about ECL participation, the ECL-specific terms prevail. See the bilingual [US ECL topic](../us-external-content-links/us-external-content-links.en-US.md) for the reporting, payment, tax, support, and audit summary.

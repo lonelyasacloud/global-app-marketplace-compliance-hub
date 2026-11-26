@@ -42,7 +42,7 @@ effective_date: "2026-08-26"
 | 正文链接目标 | 与年龄限制规则的关系 | 核验状态 |
 | --- | --- | --- |
 | [Play Console 的目标受众与应用内容设置](https://support.google.com/googleplay/android-developer/answer/9867159?hl=en) | 操作页说明如何申报目标年龄组，并在适用时选择仅 18+、另外启用 Restrict Minor Access；只选 18+ 不会自动启用屏蔽。 | 英文与简体中文政策页的链接均指向此操作目标；目标正文已打开并摘要，另见下文的目标受众专题。 |
-| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 赌博是年龄屏蔽适用类别之一；该独立政策还要求获准应用满足许可、地理限制、免费安装、不使用 Play Billing、AO/IARC 等条件。年龄屏蔽不能代替赌博认证或其他准入要求。 | 两种语言页面的链接均已解析到现行赌博政策；完整政策和申请/地区后代见真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）。 |
+| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 赌博是年龄屏蔽适用类别之一；该独立政策还要求获准应用满足许可、地理限制、免费安装、不使用 Play Billing、AO/IARC 等条件。年龄屏蔽不能代替赌博认证或其他准入要求。 | 两种语言页面的链接均已解析到现行赌博政策；[完整政策和申请/地区后代见真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)。 |
 | [Apps with incidental dating or matchmaking features](https://support.google.com/googleplay/android-developer/answer/16838200?hl=en) | 区分核心约会应用的整款应用屏蔽与约会只是附属功能时的功能级年龄门槛；不强制某种技术，但机制应有效且不易绕过。 | 两种语言页面的链接点击均返回内部错误；按精确目标地址重新打开后，正文及其两个政策/操作子链接已核验，见下文。 |
 
 帮助页另有 10 项“受限内容”侧栏导航（含当前页自身）；这是共享政策目录，不计入正文直接链接。社区、联系支持和反馈控件也单独记账，不作为年龄屏蔽政策义务。
@@ -230,7 +230,7 @@ Tech Coalition 的[评估介绍页](https://technologycoalition.org/resources/as
 
 **来源与递归边界：** 2024-09-15、2024-10-14 两篇指南、2023 风险评估介绍页和 PDF 及上表中可读的一层引用已纳入台账。对引用材料的脚注、工具供应商 API、动态目录中每个国家热线、第三方站点的通用导航/全部后代没有作无限递归声明；受限和失败目标逐 URL 记在 source-page-audit.csv（快照：`../source-page-audit.csv`，未导入本仓库）。外部自愿建议、澳洲/英国材料和研究资料都与 Google Play 强制条款分层呈现。
 
-Google 帮助页另有 32 条 “Policy education and app requirements” 推荐。它们是页面侧栏推荐，不是政策正文强制条款；32 个条目含当前页自身这一重复目标。以下逐项登记实际链接，括号中标出本地专题或访问状态。首次批量核验时 31/32 次返回目标页正文；金融功能申报页 `13849271` 随后重试已成功打开并补入金融与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）专题。成功打开仅表示目标可访问，不代表每一行都有独立全文摘要；尚需单独专题的条目仍留在工作队列。
+Google 帮助页另有 32 条 “Policy education and app requirements” 推荐。它们是页面侧栏推荐，不是政策正文强制条款；32 个条目含当前页自身这一重复目标。以下逐项登记实际链接，括号中标出本地专题或访问状态。首次批量核验时 31/32 次返回目标页正文；金融功能申报页 `13849271` 随后重试已成功打开并补入[金融与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)专题。成功打开仅表示目标可访问，不代表每一行都有独立全文摘要；尚需单独专题的条目仍留在工作队列。
 
 | # | 侧栏目标 | 本地专题与状态 |
 | --- | --- | --- |
@@ -242,27 +242,27 @@ Google 帮助页另有 32 条 “Policy education and app requirements” 推荐
 | 6 | [App account deletion requirements](https://support.google.com/googleplay/android-developer/answer/13327111) | [账号删除](../account-deletion/account-deletion.zh-CN.md)；正文和主要操作要求已整理。 |
 | 7 | [Foreground service and full-screen intent requirements](https://support.google.com/googleplay/android-developer/answer/13392821) | 前台服务与地理围栏（快照：`foreground-services-and-geofencing.md`，未导入本仓库）；正文已整理。 |
 | 8 | [Understanding Google Play’s Spyware policy](https://support.google.com/googleplay/android-developer/answer/14745000) | 间谍软件专题（快照：`spyware-and-data-exfiltration.md`，未导入本仓库）；已独立摘要数据外传/SDK 例子、监控应用边界、isMonitoringTool 和直接子资源。 |
-| 9 | [Requirements for news and magazine apps](https://support.google.com/googleplay/android-developer/answer/10523915) | 新闻与杂志（快照：`news-and-magazines.md`，未导入本仓库）；正文和申报要求已整理。 |
+| 9 | [Requirements for news and magazine apps](https://support.google.com/googleplay/android-developer/answer/10523915) | [新闻与杂志](../news-and-magazines/news-and-magazines.zh-CN.md)；正文和申报要求已整理。 |
 | 10 | [Update on COVID-19 guidelines](https://support.google.com/googleplay/android-developer/answer/9889712) | 健康应用（快照：`health-apps-and-health-connect.md`，未导入本仓库）；页面说明健康功能转由现行 Health Apps policy 管辖，已交叉登记。 |
-| 11 | [Requirements for distributing apps in specific countries/regions](https://support.google.com/googleplay/android-developer/answer/6223646) | 国家/地区分发要求（快照：`country-specific-distribution.md`，未导入本仓库）；已逐市场摘要巴西、欧盟、日本、韩国、以色列、印度、越南，并登记主要法律/API/机构子链和访问限制。 |
+| 11 | [Requirements for distributing apps in specific countries/regions](https://support.google.com/googleplay/android-developer/answer/6223646) | [国家/地区分发要求](../country-specific-distribution/country-specific-distribution.zh-CN.md)；已逐市场摘要巴西、欧盟、日本、韩国、以色列、印度、越南，并登记主要法律/API/机构子链和访问限制。 |
 | 12 | [Requirements for apps that communicate government information](https://support.google.com/googleplay/android-developer/answer/9514050) | 本轮已打开；政府关联应用可能需提交授权证明，未关联应用须标明信息来源且不得暗示官方身份；须完成政府应用声明。 |
 | 13 | [Android Health Permissions: Guidance and FAQs](https://support.google.com/googleplay/android-developer/answer/12991134) | 健康应用（快照：`health-apps-and-health-connect.md`，未导入本仓库）；权限用途和健康声明已交叉整理。 |
-| 14 | [Financial features declaration](https://support.google.com/googleplay/android-developer/answer/13849271) | 金融与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）、加密资产（快照：`crypto-assets-and-nfts.md`，未导入本仓库）；本轮重试已完整打开，确认所有已发布应用均需申报、无金融功能也要申报，贷款功能还需提供合作方关系和适用牌照。表单及账号状态需登录。 |
-| 15 | [Country/region allowances for gambling apps](https://support.google.com/googleplay/android-developer/answer/12256011) | 正文与 45 市场快照见真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）；在线申请表与当地许可仍须发布前复核。 |
+| 14 | [Financial features declaration](https://support.google.com/googleplay/android-developer/answer/13849271) | [金融与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)、[加密资产](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)；本轮重试已完整打开，确认所有已发布应用均需申报、无金融功能也要申报，贷款功能还需提供合作方关系和适用牌照。表单及账号状态需登录。 |
+| 15 | [Country/region allowances for gambling apps](https://support.google.com/googleplay/android-developer/answer/12256011) | 正文与 45 市场快照见[真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)；在线申请表与当地许可仍须发布前复核。 |
 | 16 | [Advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) | AAID 专题（快照：`advertising-id.md`，未导入本仓库）；已逐项登记 11 个正文目标。儿童专用应用不得传输儿童标识符；目标 API 33+ 时不得请求 AD_ID。混合受众不得传输儿童或年龄未知用户的标识符。旧页日期为历史上线说明。 |
 | 17 | [System services](https://support.google.com/googleplay/android-developer/answer/12085265) | 系统服务与预装软件豁免专题（快照：`system-services-and-preinstalled-software.md`，未导入本仓库）；公开定义仅确认“支持核心系统功能的预装软件”，资格和豁免范围需在 Partner Center 核实。 |
 | 18 | [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895) | 第三方 SDK（快照：`sdk-requirements.md`，未导入本仓库）；开发者对 SDK 数据/权限与合规负责，已整理。 |
 | 19 | [On-device Android container apps and REQUIRE_SECURE_ENV](https://support.google.com/googleplay/android-developer/answer/13609005) | 设备与网络滥用专题（快照：`device-and-network-abuse.md`，未导入本仓库）已总结容器定义、`REQUIRE_SECURE_ENV`、企业工作资料例外，以及容器应用检查并尊重该标志的要求。 |
 | 20 | [Health app categories and additional information](https://support.google.com/googleplay/android-developer/answer/13996367) | 健康应用（快照：`health-apps-and-health-connect.md`，未导入本仓库）；类别与申报要求已交叉整理。 |
 | 21 | [Understanding Google Play's AI-Generated Content policy](https://support.google.com/googleplay/android-developer/answer/14094294) | [UGC 与审核](../user-generated-content/user-generated-content.zh-CN.md)；AI 生成内容规则已整理。 |
-| 22 | [General conditions of access for Google Play in the EEA](https://support.google.com/googleplay/android-developer/answer/14659200) | EEA 通用访问条件（快照：`eea-general-conditions.md`，未导入本仓库）；正文 38 个链接/锚点均已尝试，付款、项目、DDA、申诉、产品导航和受限目标分别归类；与 DDA/项目条款的关系及费率差异已整理。 |
+| 22 | [General conditions of access for Google Play in the EEA](https://support.google.com/googleplay/android-developer/answer/14659200) | EEA [通用访问条件](../eea-general-conditions/eea-general-conditions.zh-CN.md)；正文 38 个链接/锚点均已尝试，付款、项目、DDA、申诉、产品导航和受限目标分别归类；与 DDA/项目条款的关系及费率差异已整理。 |
 | 23 | [Learning more about Child Safety Standards](https://support.google.com/googleplay/android-developer/answer/14747720) | 本页；自身推荐项，避免重复计作新节点。 |
 | 24 | [Requirements for providing sign-in details for review](https://support.google.com/googleplay/android-developer/answer/15748846) | Play Console/审核流程专题已交叉引用；正文此前已打开。 |
-| 25 | [How to declare a news and magazine app](https://support.google.com/googleplay/android-developer/answer/16189314) | 新闻与杂志（快照：`news-and-magazines.md`，未导入本仓库）；已纳入申报字段、实体类型、聚合应用和联系方式要求。 |
-| 26 | [Cryptocurrency exchanges and software wallets policy](https://support.google.com/googleplay/android-developer/answer/16329703) | 加密资产（快照：`crypto-assets-and-nfts.md`，未导入本仓库）；正文已纳入专题。 |
+| 25 | [How to declare a news and magazine app](https://support.google.com/googleplay/android-developer/answer/16189314) | [新闻与杂志](../news-and-magazines/news-and-magazines.zh-CN.md)；已纳入申报字段、实体类型、聚合应用和联系方式要求。 |
+| 26 | [Cryptocurrency exchanges and software wallets policy](https://support.google.com/googleplay/android-developer/answer/16329703) | [加密资产](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)；正文已纳入专题。 |
 | 27 | [Flexibility for EEA app distribution](https://support.google.com/googleplay/android-developer/answer/16232690) | [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)；已区分 DMA 合同豁免与计费/站外分发计划。 |
 | 28 | [Best Practices to Safeguard AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/16353813) | [UGC 与审核](../user-generated-content/user-generated-content.zh-CN.md)；最佳实践正文及 10 个直接安全资源已整理。 |
-| 29 | [Changes to the external offers program for users in the EEA](https://support.google.com/googleplay/android-developer/answer/16505463) | [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)及EEA 通用访问条件（快照：`eea-general-conditions.md`，未导入本仓库）；公告是当前 External Offers 条款的短入口，费率/资格/操作以现行项目帮助页为准。 |
+| 29 | [Changes to the external offers program for users in the EEA](https://support.google.com/googleplay/android-developer/answer/16505463) | [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)及 [EEA 通用访问条件](../eea-general-conditions/eea-general-conditions.zh-CN.md)；公告是当前 External Offers 条款的短入口，费率/资格/操作以现行项目帮助页为准。 |
 | 30 | [Changes to Google Play for upcoming app store bills in U.S. states](https://support.google.com/googleplay/android-developer/answer/16569691) | 本页下方新增美国州法/年龄信号快照；与 Google Play 通用年龄限制政策分开。 |
 | 31 | [Apps with incidental dating or matchmaking features](https://support.google.com/googleplay/android-developer/answer/16838200) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)；本轮已打开，未规定特定技术，但年龄门槛须有效、合理且不易绕过。 |
 | 32 | [Preview: foreground service and full-screen intent requirements](https://support.google.com/googleplay/android-developer/answer/16965181) | 前台服务与地理围栏（快照：`foreground-services-and-geofencing.md`，未导入本仓库）；预览正文已交叉整理。 |
@@ -281,7 +281,7 @@ Google 的[州级应用商店法说明](https://support.google.com/googleplay/an
 | [Texas SB 2420 最终法案](https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02420F.htm) | Texas 法条原文；对商店年龄验证/家长关联和开发者分级、变更通知、年龄信号处理规定责任。 | Texas Legislature 正式法案全文已打开；州法义务与 Play 政策分开记录。 |
 | [Texas SB 2420 立法历史](https://capitol.texas.gov/billlookup/History.aspx?Bill=SB2420&LegSess=89R) | 官方立法历史用于核对 2026-01-01 生效日期。 | 官方记录已检索；时间状态按本次核验日保存。 |
 | [第五巡回法院 stay 命令](https://www.ca5.uscourts.gov/opinions/pub/26/26-50001-CV0.pdf) | 暂停普遍性初步禁令，等待上诉；不是实体判决。 | 2026-06-04 法院 PDF 已打开。 |
-| [Age Signals API 概览](https://developer.android.com/google/play/age-signals/overview) | 说明应用如何请求 Play 提供的年龄/监督等信号；实现指南不是对州法适用性的法律判断。 | 官方 Android Developers 页面已打开；与国家/地区分发专题（快照：`country-specific-distribution.md`，未导入本仓库）技术说明互链。 |
+| [Age Signals API 概览](https://developer.android.com/google/play/age-signals/overview) | 说明应用如何请求 Play 提供的年龄/监督等信号；实现指南不是对州法适用性的法律判断。 | 官方 Android Developers 页面已打开；[与国家/地区分发专题](../country-specific-distribution/country-specific-distribution.zh-CN.md)技术说明互链。 |
 | [年龄信号敏感数据要求](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 年龄保障相关 API 数据的访问、用途与声明限制。 | 当前 Help 页面已打开；旧链接重定向至此。 |
 | [Family Link 监督说明](https://support.google.com/families/answer/9055704) | Google 账号监督和家长控制背景；不等同于 Texas 法定同意流程。 | Google Families 页面已打开。 |
 | [创建应用内商品](https://support.google.com/googleplay/android-developer/answer/1153481) | Play Console 商品配置入口；Texas 可能要求对每个应用内商品单独分级，区别于应用整体内容分级。 | 正文已打开；具体商品字段应登录 Console 核查。 |

@@ -46,18 +46,18 @@ source_url: "https://support.google.com/googleplay/android-developer/answer/9878
 | 导航目标 | 关联 / 状态 |
 | --- | --- |
 | [儿童安全 / Child Endangerment](https://support.google.com/googleplay/android-developer/answer/9878809?hl=en) | 与[年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)交叉阅读；帮助中心同级政策入口。 |
-| [金融服务 / Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 与金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）交叉阅读。 |
-| [真钱赌博、游戏和竞赛](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 与真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）交叉阅读。 |
+| [金融服务 / Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | [与金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)交叉阅读。 |
+| [真钱赌博、游戏和竞赛](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [与真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)交叉阅读。 |
 | [非法活动 / Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | 见本库非法活动政策（快照：`illegal-activities.md`，未导入本仓库）；与不当内容中的毒品、烟酒和危险品规则有交叉。 |
 | [用户生成内容 / User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | 与[UGC 与内容审核](../user-generated-content/user-generated-content.zh-CN.md)交叉阅读。 |
 | [健康内容与服务](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 与健康应用专题（快照：`health-apps-and-health-connect.md`，未导入本仓库）交叉阅读。 |
-| [基于区块链的内容](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | 与加密资产与 NFT（快照：`crypto-assets-and-nfts.md`，未导入本仓库）交叉阅读。 |
+| [基于区块链的内容](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [与加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)交叉阅读。 |
 | [AI 生成的内容](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | 与[UGC 与内容审核](../user-generated-content/user-generated-content.zh-CN.md)中的 AI 生成内容要求交叉阅读。 |
 | [有年龄限制的内容和功能](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | 与[年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)交叉阅读。 |
 
 ## 关联专题
 
 - [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · [用户生成内容与审核](../user-generated-content/user-generated-content.zh-CN.md) · [内容分级](../content-ratings/content-ratings.zh-CN.md)
-- 非法活动（快照：`illegal-activities.md`，未导入本仓库） · 国家/地区分发（快照：`country-specific-distribution.md`，未导入本仓库） · 金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）
+- 非法活动（快照：`illegal-activities.md`，未导入本仓库） · [国家/地区分发](../country-specific-distribution/country-specific-distribution.zh-CN.md) · [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)
 
 **覆盖边界：** 英文政策正文和简体中文正文于 2026-10-23 复核；中文 URL 被 Google 重定向到 `hl=zh-Hans`，页面提示其可能由 AI 翻译。复核补入正文的地域限定可用性句：适用内容可能仅在被认为适当的地区开放。九个类别已逐项概括。英文受限内容目录返回 429；从简体中文正文打开的目录可读，含简介和十个政策导航条目（本页加九个同级主题），不是十篇政策正文。目录未显示更新时间，检索结果标注四个月前抓取，需后续复核是否变化。各同级专题后代仍未全部递归；帮助中心推荐/侧栏不是每个类别的正文子链接。此页只记录 Google Play 政策摘要，不提供当地法律意见。

@@ -71,6 +71,6 @@ Generic Brand Guidelines footers, social accounts, support community, survey, an
 ## Local related topics
 
 - Store listing and asset best practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository): titles, icons, screenshots, and other store surfaces.
-- Country and region distribution (snapshot: `country-specific-distribution-en.md`, not imported in this repository): localized store content and market requirements.
+- [Country and region distribution](../country-specific-distribution/country-specific-distribution.en-US.md): localized store content and market requirements.
 
 **Coverage boundary:** The English Impersonation body, FAQ, Android Brand Guidelines body, and readable reporting/brand targets above were opened or assigned an access limitation. Legal forms, account-gated Partner Marketing Hub assets, dynamic device lists, image files, and every technical/navigation descendant are not closed. The consumer reporting article is operational help, not a new developer policy requirement.

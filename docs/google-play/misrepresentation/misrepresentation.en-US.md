@@ -41,7 +41,7 @@ The standalone article's policy body has no outbound hyperlinks to policy resour
 ## Related topics
 
 - [Impersonation](../impersonation/impersonation.en-US.md): false affiliation in app/brand presentation, Android brand guidance, and reporting/legal routes.
-- Country and region distribution (snapshot: `country-specific-distribution-en.md`, not imported in this repository): market targeting and regional rules; local law and account eligibility still need market-specific review.
+- [Country and region distribution](../country-specific-distribution/country-specific-distribution.en-US.md): market targeting and regional rules; local law and account eligibility still need market-specific review.
 - Store listing and asset best practices (snapshot: `store-listing-best-practices-en.md`, not imported in this repository): accurate names, icons, screenshots, and descriptions.
 
 **Coverage boundary:** The full English standalone Help article was opened and cross-checked against the relevant section of the current consolidated policy. The Simplified Chinese URL [`answer/9888689?hl=zh-CN`](https://support.google.com/googleplay/android-developer/answer/9888689?hl=zh-CN) was inaccessible in this pass. The body contains no policy-resource child links; sibling-policy descendants are covered in their own topics, while generic support/community links and image assets were not recursively followed.

@@ -71,6 +71,6 @@ Brand Guidelines 的通用页脚、社交账号、帮助社区、调查问卷和
 ## 本地关联专题
 
 - 商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）：标题、图标、截图和其他商店展示面。
-- 国家/地区分发（快照：`country-specific-distribution.md`，未导入本仓库）：地区化商店内容与市场规则。
+- [国家/地区分发](../country-specific-distribution/country-specific-distribution.zh-CN.md)：地区化商店内容与市场规则。
 
 **覆盖边界：** 冒充政策英文正文、FAQ 正文、Android Brand Guidelines 主体及上表中可读的品牌/举报目标已打开或注明访问限制。法律表单、Partner Marketing Hub 账号资产、动态图表/设备清单、图片文件及页面全部技术导航后代仍未闭合。Play 用户举报说明页是面向消费者的操作材料，不是开发者的新政策条款。

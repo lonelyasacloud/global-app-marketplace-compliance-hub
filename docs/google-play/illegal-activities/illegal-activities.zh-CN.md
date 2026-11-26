@@ -41,16 +41,16 @@ effective_date: "current-policy"
 | 同级导航目标 | 与本规则的关系 |
 | --- | --- |
 | [不当内容](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | 英文和中文正文均已打开；本地[双语专题](../inappropriate-content/inappropriate-content.zh-CN.md)逐项整理毒品、烟酒、危险品等要求。 |
-| [金融服务](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 非法行为与受监管金融产品/借贷可能重叠；见金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）。 |
-| [真钱赌博、游戏和竞赛](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 赌博许可、市场限制和真钱游戏须按专项页面及市场法律单独核查；见真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）。 |
+| [金融服务](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 非法行为与受监管金融产品/借贷可能重叠；见[金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)。 |
+| [真钱赌博、游戏和竞赛](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 赌博许可、市场限制和真钱游戏须按专项页面及市场法律单独核查；见[真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)。 |
 | [用户生成内容](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | 用户可能上传违法交易或教程内容；见[UGC 审核专题](../user-generated-content/user-generated-content.zh-CN.md)。 |
 | [健康内容和服务](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 药物、戒断和治疗宣传还可能涉及健康政策；见健康专题（快照：`health-apps-and-health-connect.md`，未导入本仓库）。 |
-| [基于区块链的内容](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | 代币化/交易功能见加密资产与 NFT（快照：`crypto-assets-and-nfts.md`，未导入本仓库）。 |
+| [基于区块链的内容](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [代币化/交易功能见加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)。 |
 | [有年龄限制的内容和功能](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | 涉及未成年人饮酒/烟草等内容时，与年龄限制规则并行。 |
 
 ## 关联专题
 
-- [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) · 真钱赌博（快照：`real-money-gambling.md`，未导入本仓库） · 金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库）
-- 国家/地区分发（快照：`country-specific-distribution.md`，未导入本仓库） · [UGC 审核](../user-generated-content/user-generated-content.zh-CN.md)
+- [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) · [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)
+- [国家/地区分发](../country-specific-distribution/country-specific-distribution.zh-CN.md) · [UGC 审核](../user-generated-content/user-generated-content.zh-CN.md)
 
 **覆盖边界：** 英文正文已完整打开；中文 URL 本轮缓存未命中，故中文摘要根据英文官方正文改写，并保留中文来源链接以便后续复核。当前政策页没有正文子链接；已记录页面底部受限内容侧栏。侧栏目标页本身及其后代并未因此视为完整递归。

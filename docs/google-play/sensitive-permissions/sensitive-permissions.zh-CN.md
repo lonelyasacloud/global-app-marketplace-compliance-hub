@@ -304,7 +304,7 @@ Android 11 起，面向 API 30+ 的应用默认只能查询部分应用；少数
 | [Declare permissions for your app](https://support.google.com/googleplay/android-developer/answer/9214102?hl=en) | 活跃测试或发布轨道的 AAB 若含未申报的受限权限，可能阻止应用和商店资料变更；申报材料包括核心功能、审核说明、演示视频及受限内容的测试凭证。审核可能需数周；未经 Play Console UI 首次获批时，Publishing API 发布会报错；增加权限后还要用 UI 更新申报。 | 正文已打开，详见[权限声明专题](../permissions-declaration/permissions-declaration.zh-CN.md)。 |
 | [Permissions Declaration Form](https://play.google.com/console/developers/app/app-content/permission-declarations) | 账号内表单和应用专属资格/状态。 | 跳转到 Google 登录；字段及账号状态不可由公开页面验证。 |
 | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) | 明确把已安装应用清单列为敏感数据，适用数据最小化、安全、披露/同意和禁止出售等要求。 | 正文已打开，详见[用户数据专题](../user-data/user-data.zh-CN.md)。 |
-| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 除广义金融安全例外外，个人贷款、信用额度/贷款导流、辅助贷款工具和 EWA 应用不得使用 `QUERY_ALL_PACKAGES`；另列出照片、联系人、精确位置等禁用权限。 | 正文已打开；本页与金融服务专题（快照：`financial-services-and-loans.md`，未导入本仓库）交叉核对。 |
+| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 除广义金融安全例外外，个人贷款、信用额度/贷款导流、辅助贷款工具和 EWA 应用不得使用 `QUERY_ALL_PACKAGES`；另列出照片、联系人、精确位置等禁用权限。 | 正文已打开；本页与[金融服务专题](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)交叉核对。 |
 | [Package visibility filtering on Android](https://developer.android.com/training/package-visibility) | Android 11+ 默认过滤应用清单；逐项说明自动可见包、精确声明可见性、常见交互用例和测试。 | 正文已打开；下表登记其政策相关直接目标。 |
 
 ### Android 包可见性指南的正文子链接

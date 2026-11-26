@@ -81,12 +81,12 @@ effective_date: "current-policy"
 | --- | --- | --- |
 | Child Endangerment | [官方页面](https://support.google.com/googleplay/android-developer/answer/9878809?hl=en) | [儿童安全与年龄限制](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |
 | Inappropriate Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) |
-| Financial Services | [官方页面](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库） |
-| Real-Money Gambling, Games, and Contests | [官方页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 真钱赌博（快照：`real-money-gambling.md`，未导入本仓库） |
+| Financial Services | [官方页面](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md) |
+| Real-Money Gambling, Games, and Contests | [官方页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) |
 | Illegal Activities | [官方页面](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | [非法活动](../illegal-activities/illegal-activities.zh-CN.md) |
 | User Generated Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | [UGC 与内容审核](../user-generated-content/user-generated-content.zh-CN.md) |
 | Health Content and Services | [官方页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） |
-| Blockchain-based Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | 加密资产与 NFT（快照：`crypto-assets-and-nfts.md`，未导入本仓库） |
+| Blockchain-based Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
 | AI-Generated Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | 本专题 |
 | Age-Restricted Content and Functionality | [官方页面](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | [儿童安全与年龄限制](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |
 

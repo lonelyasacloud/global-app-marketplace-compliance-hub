@@ -173,4 +173,4 @@ Google 的变更摘要还记录更早的历史事项：2018-02-26 涉及 EEA 商
 - [Google Play Developer Distribution Agreement（英文）](https://play.google.com/about/developer-distribution-agreement.html)
 - [Google Play 开发者分发协议（简体中文）](https://play.google/intl/ALL_cn/developer-distribution-agreement.html)
 - [Google Play 开发者政策中心](https://play.google/intl/zh-CN/developer-content-policy/)
-- [External Content Links 专项开发者条款](https://support.google.com/googleplay/android-developer/answer/16471405)：2025-12-09 生效，补充 DDA；就 ECL 参与事项与 DDA 冲突时，专项条款优先。详见美国 ECL 双语专题。
+- [External Content Links 专项开发者条款](https://support.google.com/googleplay/android-developer/answer/16471405)：2025-12-09 生效，补充 DDA；就 ECL 参与事项与 DDA 冲突时，专项条款优先。详见[美国 ECL 专题](../us-external-content-links/us-external-content-links.zh-CN.md)。

@@ -41,16 +41,16 @@ The Illegal Activities article body contains no outbound policy-resource links. 
 | Sibling navigation target | Relationship |
 | --- | --- |
 | [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | English and Chinese bodies were opened; the local [bilingual topic](../inappropriate-content/inappropriate-content.en-US.md) covers drug, tobacco/alcohol, and dangerous-product overlap. |
-| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | Illegal activity can overlap with regulated financial products/lending; see Financial services and loans (snapshot: `financial-services-and-loans-en.md`, not imported in this repository). |
-| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | Check licensing, market restrictions, and real-money game rules separately; see Real-Money Gambling (snapshot: `real-money-gambling-en.md`, not imported in this repository). |
+| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | Illegal activity can overlap with regulated financial products/lending; see [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md). |
+| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | Check licensing, market restrictions, and real-money game rules separately; see [Real-Money Gambling](../real-money-gambling/real-money-gambling.en-US.md). |
 | [User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | Users may post illegal trading offers or instructions; see [UGC moderation](../user-generated-content/user-generated-content.en-US.md). |
 | [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | Drug, cessation, and treatment claims may also implicate health rules; see Health apps (snapshot: `health-apps-and-health-connect-en.md`, not imported in this repository). |
-| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | See Crypto assets and NFTs (snapshot: `crypto-assets-and-nfts-en.md`, not imported in this repository) for tokenized/transactional features. |
+| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | See [Crypto assets and NFTs](../crypto-assets-and-nfts/crypto-assets-and-nfts.en-US.md) for tokenized/transactional features. |
 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | Apply age restrictions in parallel when content involves minors and alcohol/tobacco. |
 
 ## Related topics
 
-- [Inappropriate Content](../inappropriate-content/inappropriate-content.en-US.md) · Real-Money Gambling (snapshot: `real-money-gambling-en.md`, not imported in this repository) · Financial services and loans (snapshot: `financial-services-and-loans-en.md`, not imported in this repository)
-- Country and region distribution (snapshot: `country-specific-distribution-en.md`, not imported in this repository) · [UGC moderation](../user-generated-content/user-generated-content.en-US.md)
+- [Inappropriate Content](../inappropriate-content/inappropriate-content.en-US.md) · [Real-Money Gambling](../real-money-gambling/real-money-gambling.en-US.md) · [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md)
+- [Country and region distribution](../country-specific-distribution/country-specific-distribution.en-US.md) · [UGC moderation](../user-generated-content/user-generated-content.en-US.md)
 
 **Coverage boundary:** The English body was opened in full. The Chinese URL returned a cache miss, so the Chinese summary is paraphrased from the official English body and retains the Chinese source URL for later review. The policy body has no child links; its bottom Restricted Content sidebar is inventoried here. This does not establish recursive coverage of each sidebar destination or its descendants.

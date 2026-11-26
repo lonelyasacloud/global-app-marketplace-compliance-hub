@@ -97,7 +97,7 @@ CEDR 的调解协议要求双方预先签署，规定调解员角色、保密、
 | [My app has been removed from Google Play](https://support.google.com/googleplay/android-developer/answer/2477981) | 区分拒绝、下架、暂停及修复后重提的影响。 | 英文正文已打开并总结。 |
 | [Understanding Google Play developer account terminations](https://support.google.com/googleplay/android-developer/answer/2491922) | 账号终止的含义、影响和可用申诉路线。 | 英文正文已打开并总结。 |
 | [Report inappropriate reviews](https://support.google.com/googleplay/android-developer/answer/7318385) | 举报违反评价规则的内容，不是请求提高评分。 | 英文正文已打开并总结。 |
-| [Common violations for gambling apps](https://support.google.com/googleplay/android-developer/answer/13381106?hl=en) | 真实赌博应用的十类常见审核失败及责任博彩信息最佳实践。 | 正文 2026-10-23 全文打开；见真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）。 |
+| [Common violations for gambling apps](https://support.google.com/googleplay/android-developer/answer/13381106?hl=en) | 真实赌博应用的十类常见审核失败及责任博彩信息最佳实践。 | 正文 2026-10-23 全文打开；见[真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)。 |
 | [Impersonation FAQs](https://support.google.com/googleplay/android-developer/answer/16341334) | 解释冒充/误导性关联与知识产权场景；见冒充专题（快照：`impersonation.md`，未导入本仓库）。 | 英文正文已打开并关联。 |
 | [Account termination appeal time limit](https://support.google.com/googleplay/android-developer/answer/16659089?hl=en&ref_topic=3453554) | 说明账号终止申诉期限和每次终止可用的申诉限制。 | 英文正文已打开并总结。 |
 

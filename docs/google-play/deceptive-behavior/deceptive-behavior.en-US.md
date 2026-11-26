@@ -62,12 +62,12 @@ The directory and its listed policy targets were opened. Each is a separate poli
 | --- | --- |
 | [Child Endangerment](https://support.google.com/googleplay/android-developer/answer/9878809) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) |
 | [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810) | [Inappropriate Content](../inappropriate-content/inappropriate-content.en-US.md) |
-| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | Financial services and loans (snapshot: `financial-services-and-loans-en.md`, not imported in this repository) |
-| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | Real-Money Gambling (snapshot: `real-money-gambling-en.md`, not imported in this repository) · Prediction-market pilot (snapshot: `prediction-market-pilot-en.md`, not imported in this repository) |
+| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md) |
+| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | [Real-Money Gambling](../real-money-gambling/real-money-gambling.en-US.md) · [Prediction-market pilot](../prediction-market-pilot/prediction-market-pilot.en-US.md) |
 | [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | Illegal Activities (snapshot: `illegal-activities-en.md`, not imported in this repository) |
 | [User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937) | [User-generated content](../user-generated-content/user-generated-content.en-US.md) |
 | [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | Health apps and Health Connect (snapshot: `health-apps-and-health-connect-en.md`, not imported in this repository) |
-| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | Crypto assets and NFTs (snapshot: `crypto-assets-and-nfts-en.md`, not imported in this repository) |
+| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | [Crypto assets and NFTs](../crypto-assets-and-nfts/crypto-assets-and-nfts.en-US.md) |
 | [AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/13985936) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) (includes AI-generated content requirements) |
 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) |
 

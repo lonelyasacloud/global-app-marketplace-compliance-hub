@@ -80,7 +80,7 @@ AdMob 是另一个广告变现/发布者账户体系：无效流量可能造成�
 | [App Promotion](https://support.google.com/googleplay/android-developer/answer/9899004) 与 [Store Listing and Promotion 目录](https://support.google.com/googleplay/android-developer/topic/9877064) | 推广不得欺骗或伤害用户；禁止强迫安装、未经同意跳转、相似系统通知、未经请求的短信推广，且开发者对广告网络/联盟负责。 | 正文已打开；素材要求见商店详情专题（快照：`store-listing-best-practices.md`，未导入本仓库），后代政策仍需逐页审计。 |
 | [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354) | App Promotion 的孙链接，覆盖以广告/推广诱导、冒充或误导用户的行为。 | 目标页已打开。本仓库在 Google batch 3 已单独收录[欺骗性行为](../deceptive-behavior/deceptive-behavior.zh-CN.md)；快照撰写时尚未把该页拆成独立文件。与 Ads 中广告伪装规则交叉引用。 |
 | [Restricted Content 目录](https://support.google.com/googleplay/android-developer/topic/9877466) | 将广告内容接入儿童安全、不当内容、金融、赌博、非法活动、UGC、健康、区块链、AI 和年龄限制等政策域。 | 目录已打开；其中金融、健康、区块链、儿童安全等已有本地专题，目录下其他专题仍需逐项核对。 |
-| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | 赌博广告只有在当地许可、年龄和受众限制、内容及落地页要求全部满足时才可能出现。 | 正文已打开并单独整理为真钱赌博专题（快照：`real-money-gambling.md`，未导入本仓库）。 |
+| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | 赌博广告只有在当地许可、年龄和受众限制、内容及落地页要求全部满足时才可能出现。 | [正文已打开并单独整理为真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)。 |
 | [Content Ratings](https://support.google.com/googleplay/android-developer/answer/9898843) | 广告及其推广的其他应用不得明显高于宿主应用内容分级。 | 正文已打开；每个新应用和活跃应用需完成 IARC 问卷，变化后更新。 |
 | [Families Policies](https://support.google.com/googleplay/android-developer/answer/9893335) | 儿童或混合受众应用的广告 SDK、个性化广告和中立年龄屏幕要求。 | 正文已打开；详见[年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。 |
 | [Ad Fraud](https://support.google.com/googleplay/android-developer/answer/9969955) → [AdMob Invalid traffic](https://support.google.com/admob/answer/3342054?hl=en) | Play 禁止伪造真实用户兴趣的广告交互；AdMob 指引补充意外点击、发布者责任及账户层面的广告投放/收入处理。 | Play 正文、无效流量、预防、Google 防护、账户暂停/停用和最终收入等目标已打开并接入[移动垃圾软件与广告欺诈专题](../mobile-unwanted-software/mobile-unwanted-software.zh-CN.md)。AdMob 变现处置与 Play 应用政策处置分开。 |
@@ -98,7 +98,7 @@ AdMob 是另一个广告变现/发布者账户体系：无效流量可能造成�
 ## 相关专题
 
 - [用户数据](../user-data/user-data.zh-CN.md) · [敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md) · [儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)
-- 商店详情与素材（快照：`store-listing-best-practices.md`，未导入本仓库） · 真钱赌博（快照：`real-money-gambling.md`，未导入本仓库） · [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)
+- 商店详情与素材（快照：`store-listing-best-practices.md`，未导入本仓库） · [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)
 
 ## Better Ads Standards 后代：示例、研究、期限与治理
 

@@ -41,7 +41,7 @@ effective_date: "consolidated-policy-2026-09-30-current"
 ## 本地关联专题
 
 - [冒充身份](../impersonation/impersonation.zh-CN.md)：品牌/应用身份仿冒、商店展示、Android 品牌指南及举报/法律路径。
-- 国家/地区分发要求（快照：`country-specific-distribution.md`，未导入本仓库）：市场投放与地区规则；地区法律和账户资格仍需按目标市场复核。
+- [国家/地区分发要求](../country-specific-distribution/country-specific-distribution.zh-CN.md)：市场投放与地区规则；地区法律和账户资格仍需按目标市场复核。
 - 商店详情与素材最佳实践（快照：`store-listing-best-practices.md`，未导入本仓库）：确保名称、图标、截图和说明准确呈现实际功能。
 
 **覆盖边界：** 已打开英文独立帮助页全文，并与当前合并版政策相应段落交叉核对；简体中文 URL [`answer/9888689?hl=zh-CN`](https://support.google.com/googleplay/android-developer/answer/9888689?hl=zh-CN) 本次无法访问。正文无政策资源子链接；页面侧栏兄弟政策的正文后代由各专题分别覆盖，通用客服、社区和图片资产未作递归展开。

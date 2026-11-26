@@ -62,12 +62,12 @@ effective_date: "current-policy"
 | --- | --- |
 | [Child Endangerment](https://support.google.com/googleplay/android-developer/answer/9878809) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |
 | [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810) | [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) |
-| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | 金融服务与贷款（快照：`financial-services-and-loans.md`，未导入本仓库） |
-| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | 真钱赌博（快照：`real-money-gambling.md`，未导入本仓库） · 预测市场试点（快照：`prediction-market-pilot.md`，未导入本仓库） |
+| [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md) |
+| [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · [预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md) |
 | [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | 非法活动（快照：`illegal-activities.md`，未导入本仓库） |
 | [User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937) | [用户生成内容](../user-generated-content/user-generated-content.zh-CN.md) |
 | [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） |
-| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | 加密资产与 NFT（快照：`crypto-assets-and-nfts.md`，未导入本仓库） |
+| [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
 | [AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/13985936) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)（含 AI 生成内容要求） |
 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |
 

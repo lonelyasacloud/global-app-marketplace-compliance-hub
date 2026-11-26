@@ -81,12 +81,12 @@ The policy page's Restricted Content navigation lists these 10 topics. They are 
 | --- | --- | --- |
 | Child Endangerment | [Official page](https://support.google.com/googleplay/android-developer/answer/9878809?hl=en) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) |
 | Inappropriate Content | [Official page](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | [Inappropriate Content](../inappropriate-content/inappropriate-content.en-US.md) |
-| Financial Services | [Official page](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | Financial services and loans (snapshot: `financial-services-and-loans-en.md`, not imported in this repository) |
-| Real-Money Gambling, Games, and Contests | [Official page](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | Real-Money Gambling (snapshot: `real-money-gambling-en.md`, not imported in this repository) |
+| Financial Services | [Official page](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md) |
+| Real-Money Gambling, Games, and Contests | [Official page](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [Real-Money Gambling](../real-money-gambling/real-money-gambling.en-US.md) |
 | Illegal Activities | [Official page](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | [Illegal Activities](../illegal-activities/illegal-activities.en-US.md) |
 | User Generated Content | [Official page](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | [UGC and Moderation](../user-generated-content/user-generated-content.en-US.md) |
 | Health Content and Services | [Official page](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | Health apps and Health Connect (snapshot: `health-apps-and-health-connect-en.md`, not imported in this repository) |
-| Blockchain-based Content | [Official page](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | Crypto assets and NFTs (snapshot: `crypto-assets-and-nfts-en.md`, not imported in this repository) |
+| Blockchain-based Content | [Official page](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [Crypto assets and NFTs](../crypto-assets-and-nfts/crypto-assets-and-nfts.en-US.md) |
 | AI-Generated Content | [Official page](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | This topic |
 | Age-Restricted Content and Functionality | [Official page](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) |
 
