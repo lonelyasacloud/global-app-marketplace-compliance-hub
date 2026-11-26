@@ -40,6 +40,6 @@ The Data Safety declaration does not replace the User Data policy, sensitive-per
 
 ## Detailed topic in this directory
 
-[Data safety form](data-safety.en-US.md) is the 2026-10-24 snapshot topic, checked on 2026-10-24. It covers form categories, FAQs, and the source audit. This baseline does not replace that page, and the two pages use different check dates.
+[Data safety form](data-safety.en-US.md) is the 2026-10-24 snapshot topic, checked on 2026-10-24. It covers form categories, FAQs, and the source audit. This baseline does not replace that page, and the two pages use different check dates. The policy obligation is the [User Data](../user-data/user-data.en-US.md) topic. The form does not replace it.
 
 This is an operational summary. Verify the current Play Console form and official pages before release.

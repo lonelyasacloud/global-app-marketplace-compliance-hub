@@ -15,9 +15,9 @@ source_url: "https://support.google.com/googleplay/android-developer/announcemen
 effective_date: "historical notice catalog; 2027-01-27 preview stays on the SMS topic"
 ---
 
-> **导入说明（Google batch 9）。** 正文是从已经分开的 2026-10-24 Google Play 知识库快照（`play.announcement-resources`，核对日 2026-10-24）压缩成的结构化目录。它保留公告正文直链清单、去重后的资源列表、58 条 Help 公告之外的两篇官方文章、PolicyBytes 访问表和维护说明，不复录快照里逐目标的子页面长表，也不是官方公告的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。公告 52 的英文路由仍返回 HTTP 429，官方 `zh-Hans` 正文可读。快照没有记录该公告的完整 `hl=zh-CN` 正文。缓存未命中、登录墙和没有字幕的视频是访问限制，不是政策变更。2026-07-15 公告已打开的 SMS/通话记录子页写明，通过 `READ_CALL_LOG` 做电话账号验证于 2027-01-27 结束。该日期仍是 SMS 与通话记录专题上的未来预告，不是本目录的现行规则。Play Policy Insights 是官方 Android 开发者工具，不是 Play 政策正文。证据等级：历史公告的 Operational 目录。
-
 # Google Play 政策公告子链接清单与分析
+
+> **导入说明（Google batch 9）。** 正文是从已经分开的 2026-10-24 Google Play 知识库快照（`play.announcement-resources`，核对日 2026-10-24）压缩成的结构化目录。它保留公告正文直链清单、去重后的资源列表、58 条 Help 公告之外的两篇官方文章、PolicyBytes 访问表和维护说明，不复录快照里逐目标的子页面长表，也不是官方公告的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。公告 52 的英文路由仍返回 HTTP 429，官方 `zh-Hans` 正文可读。快照没有记录该公告的完整 `hl=zh-CN` 正文。缓存未命中、登录墙和没有字幕的视频是访问限制，不是政策变更。2026-07-15 公告已打开的 SMS/通话记录子页写明，通过 `READ_CALL_LOG` 做电话账号验证于 2027-01-27 结束。该日期仍是 SMS 与通话记录专题上的未来预告，不是本目录的现行规则。Play Policy Insights 是官方 Android 开发者工具，不是 Play 政策正文。证据等级：历史公告的 Operational 目录。
 
 **核对日期：2026-10-24**  
 **范围：** 公告目录当日列出的 58 个公告正文中直接链接出去的政策页、帮助文档、Android 开发文档、博客、课程、视频、计划/申报页和社区页面。每条公告日期均链接至原公告；表中列出原公告里显示的子链接标题与其用途/合规含义，打开原公告即可访问对应链接。页面顶栏、页脚的通用“登录/帮助/联系”等导航不计入公告子链接；正文明确推荐的帮助社区会计入。政策名重复出现时在各公告下保留引用关系，在后面的资源分析中去重。
@@ -195,7 +195,6 @@ Android Developers 博客的 [脚注 1–4](https://android-developers.googleblo
 - [PolicyBytes Hub](https://support.google.com/googleplay/android-developer/answer/16373081)（公告 1、2、6–9、16–22）：视频可辅助理解近期变化和典型问题；遇到标题重复、旧集链接或口播与新政策不一致时，应回到文字政策核对。
 - [Policy Deadlines](https://support.google.com/googleplay/android-developer/table/12921780) 和 [Developer Policy Center](https://play.google.com/about/developer-content-policy/)：一个用于当前实施日期/历史档案，一个用于现行政策文本；公告、课程、视频或社区问答均不能取代这两个权威来源。
 
-
 ### PolicyBytes Hub：六个视频后代
 
 2026-10-22 已完整打开[PolicyBytes Hub](https://support.google.com/googleplay/android-developer/answer/16373081)。该页由 2026–2024 年六个视频链接组成，不是新的政策正文。下表保留页面行标题、目标视频 ID 和本轮访问状态；正文字幕不可读的，不根据视频标题推断政策内容。
@@ -225,4 +224,3 @@ Hub 页的 6 项 Updates and Other Resources Help 侧栏另行记录；它不是
 2026-07-15 公告已打开的 SMS 与通话记录子页写明，通过 `READ_CALL_LOG` 做电话账号验证于 2027-01-27 结束。该预告留在[SMS 与通话记录](../sms-call-log/sms-call-log.zh-CN.md)专题。它不是现行规则，也不与[执行控制总表](../google-play-policy-operations/google-play-policy-operations.zh-CN.md)中的其他未来日期合并。
 
 2026-07-15 和 2025-10-30 公告点名的 Play Policy Insights 是[官方 Android 开发者工具](../play-policy-insights-skill/play-policy-insights-skill.zh-CN.md)，不是 Play 政策正文。
-

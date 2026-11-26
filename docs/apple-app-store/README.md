@@ -42,8 +42,8 @@
 
 许可协议快照使用的 [`/cn/` 协议链接](https://developer.apple.com/cn/support/terms/apple-developer-program-license-agreement/) 在 2026-11-09 显示英文正文。[2026-10-13 协议更新公告](https://developer.apple.com/news/?id=17mwd36z) 称翻译将在一个月内提供。许可协议主题的中文同样是编辑摘要，不是 Apple 的正式译文。
 
-[App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
-[Apple Developer News](https://developer.apple.com/news/)
+- [App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
+- [Apple Developer News](https://developer.apple.com/news/)
 
 ## Scope note / 范围说明
 

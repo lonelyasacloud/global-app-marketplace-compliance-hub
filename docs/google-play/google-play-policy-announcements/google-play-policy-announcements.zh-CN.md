@@ -15,9 +15,9 @@ source_url: "https://support.google.com/googleplay/android-developer/announcemen
 effective_date: "historical notices 2016-03 through 2026-07-15; four deadline rows effective 2027-01-27 are upcoming"
 ---
 
-> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`play.policy-announcements`，目录于 2026-10-24 复核）的改写公告汇编，不是官方公告的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。Help 公告目录在 `hl=en` 复核，列出 1–58 项。公告 52 的英文路由仍返回 HTTP 429，其官方 `zh-Hans` 正文可读。快照没有记录公告 52 的完整 `hl=zh-CN` 正文，也没有记录每条公告中文路由的逐行对照。中文汇编是编辑改写。这些公告是历史材料。期限快照里于 2027-01-27 生效的四行是尚未生效的预告，不是现行规则。证据等级：公告为 Historical。期限行是指向现行期限页的 Operational 指针，不是第二份政策。
-
 # Google Play 政策公告汇编
+
+> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`play.policy-announcements`，目录于 2026-10-24 复核）的改写公告汇编，不是官方公告的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。Help 公告目录在 `hl=en` 复核，列出 1–58 项。公告 52 的英文路由仍返回 HTTP 429，其官方 `zh-Hans` 正文可读。快照没有记录公告 52 的完整 `hl=zh-CN` 正文，也没有记录每条公告中文路由的逐行对照。中文汇编是编辑改写。这些公告是历史材料。期限快照里于 2027-01-27 生效的四行是尚未生效的预告，不是现行规则。证据等级：公告为 Historical。期限行是指向现行期限页的 Operational 指针，不是第二份政策。
 
 **公告目录复核日期：2026-10-24**  
 **覆盖范围：** Google Play Developer Help「Announcements」当前目录正文编号为 1–58，本地索引收录 58/58 条；逐 URL 台账还记录 58/58 个对应公告页面正文已在至少一个官方语言路由完整打开并有人工摘要。公告 52 的英文路由仍返回 HTTP 429，但其官方 `zh-Hans` 正文可读。此项正文统计不表示所有正文子链接目标及其后代均已完整覆盖；本地保存改写摘要和来源链接，不是官方全文副本，也不涵盖 Play 可能存在的其他公告渠道。关联政策、帮助中心文章、课程和资源的子链状态见[公告子链接清单](../google-play-announcement-resources/google-play-announcement-resources.zh-CN.md)及递归链接图（快照：`google-play-policy-link-graph.md`，未导入本仓库）。最新一条公告为 2026-07-15，最早一条为 2016 年 3 月。

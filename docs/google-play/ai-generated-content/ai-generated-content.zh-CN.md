@@ -85,7 +85,7 @@ effective_date: "current-policy"
 | Real-Money Gambling, Games, and Contests | [官方页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) |
 | Illegal Activities | [官方页面](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | [非法活动](../illegal-activities/illegal-activities.zh-CN.md) |
 | User Generated Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | [UGC 与内容审核](../user-generated-content/user-generated-content.zh-CN.md) |
-| Health Content and Services | [官方页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） |
+| Health Content and Services | [官方页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（[健康应用、健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)） |
 | Blockchain-based Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
 | AI-Generated Content | [官方页面](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | 本专题 |
 | Age-Restricted Content and Functionality | [官方页面](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | [儿童安全与年龄限制](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |

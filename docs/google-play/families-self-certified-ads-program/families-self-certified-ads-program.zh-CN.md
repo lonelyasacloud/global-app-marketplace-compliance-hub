@@ -51,7 +51,7 @@ effective_date: "current-snapshot"
 
 [Families Self-Certified Ads SDK Policy](https://support.google.com/googleplay/android-developer/answer/12918983?hl=en) 是与计划说明不同的正式政策页面，补充 SDK/中介提供商的明确义务：披露对儿童个人/敏感数据的访问、收集、使用和分享，并将用途限制在已披露范围；不得把儿童或年龄未知用户的 AAID、SIM Serial、Build Serial、BSSID、MAC、SSID、IMEI 或 IMSI 传输出去；儿童定向请求须停用个性化广告、兴趣定向和再营销。实时竞价素材须预先审核并把隐私指示传给竞价方。广告还须适龄、清楚可辨，不能误导误触或操纵儿童；干扰正常应用/游戏使用的广告须在 5 秒后可关闭。违反政策可能导致 SDK/中介从计划中除名或暂停。
 
-SDK 提供商还须提交英文版服务条款、隐私政策和发布商集成指南，以及使用最新合规版本、可访问完整实时库存的测试 APK；需及时答复资料请求，并对新版本按最新政策重新自我认证。完整条文、正文直接子链及访问边界见第三方 SDK 要求专题（快照：`sdk-requirements.md`，未导入本仓库）和递归图 §4.114。SDK 认证不替代应用发布者依照 [User Data](../user-data/user-data.zh-CN.md) 与 [Families 政策](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)承担的数据、受众和广告责任。
+SDK 提供商还须提交英文版服务条款、隐私政策和发布商集成指南，以及使用最新合规版本、可访问完整实时库存的测试 APK；需及时答复资料请求，并对新版本按最新政策重新自我认证。完整条文、正文直接子链及访问边界见第三方 SDK 要求专题（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）和递归图 §4.114。SDK 认证不替代应用发布者依照 [User Data](../user-data/user-data.zh-CN.md) 与 [Families 政策](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)承担的数据、受众和广告责任。
 
 ### 中介平台
 
@@ -59,7 +59,7 @@ SDK 提供商还须提交英文版服务条款、隐私政策和发布商集成�
 
 ## 认证证据、水印和测试应用
 
-当前逐版本名单见 [Families 自认证广告 SDK 版本清单](https://support.google.com/googleplay/android-developer/answer/12955712?hl=en)，14 个 Maven 行、13 个不同厂商目标和厂商/版本差异已经整理在第三方 SDK 专题（快照：`sdk-requirements.md`，未导入本仓库）。名单会变动，须在每次发布或升级时回到官方实时页核对；离线快照不能证明某个新版本现在仍获认证。
+当前逐版本名单见 [Families 自认证广告 SDK 版本清单](https://support.google.com/googleplay/android-developer/answer/12955712?hl=en)，14 个 Maven 行、13 个不同厂商目标和厂商/版本差异已经整理在第三方 SDK 专题（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）。名单会变动，须在每次发布或升级时回到官方实时页核对；离线快照不能证明某个新版本现在仍获认证。
 
 [水印与测试应用页面](https://support.google.com/googleplay/android-developer/answer/9536665?hl=en)要求：
 
@@ -80,7 +80,7 @@ SDK 提供商还须提交英文版服务条款、隐私政策和发布商集成�
 | [Families Policy](https://support.google.com/googleplay/android-developer/answer/9893335) | 上位儿童政策；规定受众声明、儿童数据、SDK、广告和应用功能边界。 | 正文已打开；儿童广告和政策交叉关系见[儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。 |
 | [User Data Policy](https://support.google.com/googleplay/android-developer/answer/9888076) | 计划明确要求开发者仍遵循 User Data 的披露、数据用途和处理义务。旧 URL 重定向至[现行正文](https://support.google.com/googleplay/android-developer/answer/10144311)。 | 目标正文已打开；旧链路与现行页均在逐 URL 台账记录。 |
 | [U.S. COPPA](https://www.ftc.gov/tips-advice/business-center/privacy-and-security/children%27s-privacy) | 美国儿童隐私法律资源入口；计划示例要求考虑适用儿童法规。 | 旧地址重定向至 FTC 当前[Children’s Privacy](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)入口；具体法律适用按市场和数据判断。 |
-| [GDPR](https://gdpr.eu/) | 提供 GDPR 入门背景。该网站声明由 Proton AG 运营、并非欧盟委员会/政府官方资源，也不提供法律意见。 | 本专题沿其官方跳转链接进一步打开[欧盟委员会企业与组织指南](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en)及六个下级主题；并把 Article 8 儿童数据、同意年龄、核验边界与 EDPB 指引补入用户数据外部法律参考（快照：`user-data-policy-references.md`，未导入本仓库）和递归图 §4.120。EUR-Lex 正文、各国 DPA 网站和其他法条/EDPB 后代仍未穷尽。 |
+| [GDPR](https://gdpr.eu/) | 提供 GDPR 入门背景。该网站声明由 Proton AG 运营、并非欧盟委员会/政府官方资源，也不提供法律意见。 | 本专题沿其官方跳转链接进一步打开[欧盟委员会企业与组织指南](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en)及六个下级主题；并把 Article 8 儿童数据、同意年龄、核验边界与 EDPB 指引补入用户数据外部法律参考（[用户数据政策的外部法律与参考资源](../user-data-policy-references/user-data-policy-references.zh-CN.md)）和递归图 §4.120。EUR-Lex 正文、各国 DPA 网站和其他法条/EDPB 后代仍未穷尽。 |
 | [Families Ads and Monetization](https://play.google.com/about/families/ads-monetization/) | 旧 Google Play 家庭广告入口；当前可读的权威条文在 Families 政策帮助页。 | 2026-10-23 从 SDK 政策正文再次点击时观察到该旧路由重定向至[当前 Families 政策](https://support.google.com/googleplay/android-developer/answer/9893335)，但抓取工具在跟随跳转时返回错误；当前目标正文已单独打开。该旧路由不构成独立条款。 |
 | [Teacher Approved course](https://playacademy.exceedlms.com/sl/044a202e) | Play Academy 课程介绍广告和 IAP 的教师认证标准，并提醒避免让 13 岁以下儿童困惑、分心、受操纵或过度商业化。 | 短链重定向至[课程页面](https://playacademy.exceedlms.com/student/path/22151/activity/32755)；简介可读，课程内容需登录，属于培训资料而非政策正文。 |
 | [旧版 interest form](https://docs.google.com/forms/d/e/1FAIpQLSc8msikGDxjTHHFmIECoitMnpudaCbtrb_hhgzpUOznPhDoBw/viewform?p=adnet) | 表单页说明已弃用并指向新版表单。 | 已确认关闭页与新版地址；新版字段无法读取，且计划暂停新申请，不推断申请资格或字段。 |
@@ -100,9 +100,9 @@ SDK 提供商还须提交英文版服务条款、隐私政策和发布商集成�
 
 ## 与本知识库其他专题的关系
 
-- 第三方 SDK 要求（快照：`sdk-requirements.md`，未导入本仓库）：SDK 厂商、版本坐标、公告和深层技术/供应商后代；本专题不复制完整厂商表。
+- 第三方 SDK 要求（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）：SDK 厂商、版本坐标、公告和深层技术/供应商后代；本专题不复制完整厂商表。
 - [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)：Families 上位政策、儿童可见内容、受众与社交安全规则。
-- [用户数据](../user-data/user-data.zh-CN.md)和用户数据外部法律参考（快照：`user-data-policy-references.md`，未导入本仓库）：Play 数据义务、GDPR 官方入门指引与外部法源的层级。
+- [用户数据](../user-data/user-data.zh-CN.md)和用户数据外部法律参考（[用户数据政策的外部法律与参考资源](../user-data-policy-references/user-data-policy-references.zh-CN.md)）：Play 数据义务、GDPR 官方入门指引与外部法源的层级。
 - [付款与订阅](../payments/payments-and-subscriptions.zh-CN.md)：Monetization and Ads Help 导航关系；广告 SDK 计划不会改变 Play Billing 或订阅义务。
 
 访问状态、重定向与更深页面边界见逐 URL 来源台账（快照：`../SOURCE_LEDGER.md`，未导入本仓库）和双语递归链接图 §4.114（快照：`../google-play-policy-link-graph.md`，未导入本仓库）。本轮覆盖可读的计划正文和重要直接目标，但不声称 Help 侧栏、课程、表单、厂商页面、GDPR 条文及所有外部后代已递归闭合。

@@ -1,12 +1,16 @@
 # Source Registry / 来源台账
 
-This file is the human-readable index. Detailed URL audits and generated inventories may be added under this directory later.
+This file is the human-readable index of source families. Topic pages are the detailed records. Offline wiki HTML, recursive link graphs, and URL-audit CSVs from the snapshots are not in this repository.
+
+Topic pages store authority as a lowercase token: `normative`, `operational`, `regulatory`, `implementation-note`, `community`, or `historical`. The words in this table use those same meanings.
 
 | Source family | Platform | Authority | Baseline snapshot | Primary entry |
 | --- | --- | --- | --- | --- |
 | Apple App Review Guidelines | Apple | Normative | 2026-11-10 supplied snapshot | https://developer.apple.com/app-store/review/guidelines/ |
 | Apple App Store Connect Help | Apple | Operational | 2026-11-10 supplied snapshot | https://developer.apple.com/help/app-store-connect/ |
-| Apple Developer News | Apple | Change | 2026-11-10 supplied snapshot | https://developer.apple.com/news/ |
+| Apple age-rating definitions | Apple | Operational | 2026-11-10 supplied snapshot | https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions |
+| Apple Developer Program License Agreement | Apple | Operational summary of the agreement | 2026-11-10 supplied snapshot; the supplied `/cn/` URL rendered English on 2026-11-09 | https://developer.apple.com/cn/support/terms/apple-developer-program-license-agreement/ |
+| Apple Developer News | Apple | Historical / change notices | 2026-11-10 supplied snapshot; RSS boundary not verified | https://developer.apple.com/news/ |
 | Google Play Developer Program Policies | Google Play | Normative | 2026-10-24 supplied snapshot, through Google batch 9 | https://play.google.com/about/developer-content-policy/ |
 | Google Play Developer Policy Center | Google Play | Operational directory | 2026-10-24 supplied snapshot, Google batch 9 | https://play.google/developer-content-policy/ |
 | Google Play policy deadlines | Google Play | Operational | 2026-10-24 supplied snapshot, Google batch 9 | https://support.google.com/googleplay/android-developer/table/12921780?hl=en |
@@ -41,3 +45,5 @@ This file is the human-readable index. Detailed URL audits and generated invento
 - unknown: not yet assessed
 
 A snapshot is evidence of what was reviewed at that time, not a claim that the live source is unchanged.
+
+Apple topics that were not full texts in the 2026-11-10 package stay unwritten: Privacy Manifest, Required Reason API, App Privacy Details, ATT, in-app purchase, subscriptions, external purchase, and regional terms. A mention in the news index, the embedded-link catalog, or community evidence is not a substitute topic.

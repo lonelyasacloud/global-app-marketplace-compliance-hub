@@ -61,7 +61,7 @@ The downloadable [full Trust framework PDF](https://technologycoalition.org/wp-c
 
 The framework groups report content into **policies and practices, processes and systems, and outcomes**. Useful starting metrics include CSEA identified and actioned, accounts identified and actioned, and reports to external authorities. Define each metric, scope, period, counting method, and limitation. Avoid double counting and do not present a platform's moderation volume as a measure of societal prevalence.
 
-In June 2026, the Tech Coalition published [Transparency reporting for generative AI](https://technologycoalition.org/resources/trust-transparency-reporting-for-generative-ai/) and a [nine-page PDF](https://technologycoalition.org/wp-content/uploads/transparency-reporting-for-generative-ai.pdf). It applies the Trust structure to model policies, training-data governance, safety evaluation/red teaming, detection and mitigation, moderation and enforcement, and outcome data. It recommends defining metrics while avoiding disclosure of safety details that could be abused. This is child-safety industry guidance, not a substitute for Google Play's AI-generated-content policy; see the AI-generated content topic (snapshot: `ai-generated-content-en.md`, not imported in this repository).
+In June 2026, the Tech Coalition published [Transparency reporting for generative AI](https://technologycoalition.org/resources/trust-transparency-reporting-for-generative-ai/) and a [nine-page PDF](https://technologycoalition.org/wp-content/uploads/transparency-reporting-for-generative-ai.pdf). It applies the Trust structure to model policies, training-data governance, safety evaluation/red teaming, detection and mitigation, moderation and enforcement, and outcome data. It recommends defining metrics while avoiding disclosure of safety details that could be abused. This is child-safety industry guidance, not a substitute for Google Play's AI-generated-content policy; see the AI-generated content topic ([Google Play AI-Generated Content Policy and Safety Practices](../ai-generated-content/ai-generated-content.en-US.md)).
 
 ### Descendant pages, best practices, and access records
 
@@ -111,6 +111,6 @@ This pass covers the child-safety/transparency links in the DSA guide, the Trust
 ## Related topics
 
 - [Age restrictions, anonymous chat, and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md)
-- AI-generated content policy and safety practices (snapshot: `ai-generated-content-en.md`, not imported in this repository)
+- AI-generated content policy and safety practices ([Google Play AI-Generated Content Policy and Safety Practices](../ai-generated-content/ai-generated-content.en-US.md))
 - [User-generated content and moderation](../user-generated-content/user-generated-content.en-US.md)
 - [User data and privacy](../user-data/user-data.en-US.md)

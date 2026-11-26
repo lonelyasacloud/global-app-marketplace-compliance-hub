@@ -1,15 +1,18 @@
 # Knowledge Base Map / 知识库导航
 
+英文官方页面是效力来源。中文页面是便利阅读；官方中文落后于英文时，差距写在该专题里。摘要加官方链接，不替代当前原文。
+
 ## 1. Shared controls / 共性控制
 
-适用于 Apple App Store 和 Google Play 的共性主题，包括隐私、数据安全、账户删除、UGC、儿童安全、付款和第三方 SDK。
+适用于两个平台的控制目标。平台义务仍以各自专题为准。
 
 - [Shared controls](shared/README.md)
-- [Privacy and data protection baseline](shared/privacy-data-protection/privacy-baseline.zh-CN.md)
+- [Privacy and data protection baseline / 隐私基线](shared/privacy-data-protection/privacy-baseline.zh-CN.md) · [English](shared/privacy-data-protection/privacy-baseline.en-US.md)
 
 ## 2. Apple App Store
 
-- [Apple platform map](apple-app-store/README.md)
+完整清单在 [Apple platform map](apple-app-store/README.md)。
+
 - [App Review Guidelines summary / 审核指南摘要](apple-app-store/app-review-guidelines/guidelines-summary.zh-CN.md) · [English](apple-app-store/app-review-guidelines/guidelines-summary.en-US.md)
 - [Review readiness / 审核准备](apple-app-store/app-review-guidelines/review-readiness.zh-CN.md) · [English](apple-app-store/app-review-guidelines/review-readiness.en-US.md)
 - [Apple pre-submission checklist / 上架前检查清单](apple-app-store/pre-submission/submission-checklist.zh-CN.md) · [English](apple-app-store/pre-submission/submission-checklist.en-US.md)
@@ -21,42 +24,33 @@
 - [Apple news index / 新闻索引](apple-app-store/news/news-rss-index.zh-CN.md) · [English](apple-app-store/news/news-rss-index.en-US.md)（RSS 边界未核实）
 - [News link targets / 公告目标页](apple-app-store/news/news-link-targets.zh-CN.md) · [English](apple-app-store/news/news-link-targets.en-US.md)
 - [Community evidence / 社区经验](apple-app-store/community-evidence/community-evidence.zh-CN.md) · [English](apple-app-store/community-evidence/community-evidence.en-US.md)（不能覆盖官方规则）
-- Privacy Manifest and Required Reason API（不在 2026-11-10 快照包的全文里，仍未成篇）
-- App Privacy Details and ATT（不在本次快照包的独立主题里）
-- In-App Purchase, subscriptions, external purchase, and regional terms（协议层见许可协议摘要；独立专题不在本次快照包中）
-- Review notes, demo accounts, screenshots and metadata (see review readiness and the pre-submission checklist)
+
+这些主题不在 2026-11-10 快照包的全文里，仍未成篇：Privacy Manifest、Required Reason API、App Privacy Details、ATT、In-App Purchase、subscriptions、external purchase、regional terms。协议层只见到许可协议摘要。审核备注、演示账号、截图和元数据见审核准备与上架清单，没有单独专题。
 
 ## 3. Google Play
 
-- [Google Play platform map](google-play/README.md)
-- [Developer Distribution Agreement](google-play/developer-distribution-agreement/developer-distribution-agreement.zh-CN.md)
-- [Consolidated Developer Program Policy](google-play/developer-program-policy/developer-program-policy.zh-CN.md) (effective 2026-09-30)
-- [User Data](google-play/user-data/user-data.zh-CN.md)
-- [Data Safety baseline](google-play/data-safety/data-safety-baseline.zh-CN.md) and [Data safety form](google-play/data-safety/data-safety.zh-CN.md)
-- [Payments, billing, and subscriptions](google-play/payments/payments-and-subscriptions.zh-CN.md)
-- [Testing, review, and release](google-play/publishing/play-release-workflow.zh-CN.md)
-- [Sensitive permissions and APIs](google-play/sensitive-permissions/sensitive-permissions.zh-CN.md), [permissions declaration](google-play/permissions-declaration/permissions-declaration.zh-CN.md), [background location](google-play/background-location/background-location.zh-CN.md), [SMS and Call Log](google-play/sms-call-log/sms-call-log.zh-CN.md), and [photo and video permissions](google-play/photo-video-permissions/photo-video-permissions.zh-CN.md)
-- [Account deletion](google-play/account-deletion/account-deletion.zh-CN.md)
-- [Target API level requirements](google-play/target-api/target-api-level.zh-CN.md)
-- [User-generated content](google-play/user-generated-content/user-generated-content.zh-CN.md), [inappropriate content](google-play/inappropriate-content/inappropriate-content.zh-CN.md), [content ratings](google-play/content-ratings/content-ratings.zh-CN.md), and [deceptive behavior](google-play/deceptive-behavior/deceptive-behavior.zh-CN.md)
-- [Age restrictions and child safety](google-play/age-restricted-child-safety/age-restricted-child-safety.zh-CN.md), [Families Self-Certified Ads SDK program](google-play/families-self-certified-ads-program/families-self-certified-ads-program.zh-CN.md), [child-safety DSA transparency](google-play/child-safety-dsa-transparency/child-safety-dsa-transparency.zh-CN.md) (regulatory, not a Play rule), and [child-safety regional reporting](google-play/child-safety-regional-reporting/child-safety-regional-reporting.zh-CN.md) (reporting directory, not a Play rule)
-- [Enforcement, appeals, and EEA mediation](google-play/enforcement-and-appeals/enforcement-and-appeals.zh-CN.md)
-- [Ads and advertising](google-play/ads-and-advertising/ads-and-advertising.zh-CN.md) and [Advertising ID](google-play/advertising-id/advertising-id.zh-CN.md)
-- [Malware](google-play/malware/malware.zh-CN.md), [mobile unwanted software](google-play/mobile-unwanted-software/mobile-unwanted-software.zh-CN.md), [spyware and data exfiltration](google-play/spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md), [spam and functionality](google-play/spam-and-functionality/spam-and-functionality.zh-CN.md), and [device and network abuse](google-play/device-and-network-abuse/device-and-network-abuse.zh-CN.md)
-- [Illegal activities](google-play/illegal-activities/illegal-activities.zh-CN.md), [impersonation](google-play/impersonation/impersonation.zh-CN.md), [misrepresentation](google-play/misrepresentation/misrepresentation.zh-CN.md), [intellectual property](google-play/intellectual-property/intellectual-property.zh-CN.md), and [AI-generated content](google-play/ai-generated-content/ai-generated-content.zh-CN.md)
-- [Contacts and foreground location](google-play/contacts-location-permissions/contacts-location-permissions.zh-CN.md) (2027-01-27 preview, not current on the snapshot date), [foreground services and geofencing](google-play/foreground-services-and-geofencing/foreground-services-and-geofencing.zh-CN.md) (current FGS rules kept separate from the 2027-01-27 geofencing change), [health apps and Health Connect](google-play/health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md), [Android privacy checklist](google-play/android-privacy-checklist/android-privacy-checklist.zh-CN.md) (implementation checklist, not a Play policy), [third-party SDK requirements](google-play/sdk-requirements/sdk-requirements.zh-CN.md), [custom audiences and Grouping API](google-play/custom-audiences-and-grouping-api/custom-audiences-and-grouping-api.zh-CN.md) (Console tools, not a policy exemption), [VpnService](google-play/vpnservice-policy-and-implementation/vpnservice-policy-and-implementation.zh-CN.md), and [User Data external references](google-play/user-data-policy-references/user-data-policy-references.zh-CN.md) (reference compilation, not a Play rule)
-- [Financial services and loans](google-play/financial-services-and-loans/financial-services-and-loans.zh-CN.md), [real-money gambling](google-play/real-money-gambling/real-money-gambling.zh-CN.md), [crypto assets and NFTs](google-play/crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md), [prediction-market pilot](google-play/prediction-market-pilot/prediction-market-pilot.zh-CN.md) (program guidance, not a substitute for the gambling policy), [news and magazines](google-play/news-and-magazines/news-and-magazines.zh-CN.md), [country and region distribution](google-play/country-specific-distribution/country-specific-distribution.zh-CN.md) (Play Help, not a complete local-law list), [EEA general conditions](google-play/eea-general-conditions/eea-general-conditions.zh-CN.md) (does not replace the distribution agreement), [US External Content Links](google-play/us-external-content-links/us-external-content-links.zh-CN.md) (2026-12-01 download-reporting deadline kept separate from 2027-01-27), and [Google Play Books content policies](google-play/google-play-books-content-policies/google-play-books-content-policies.zh-CN.md) (publisher policy, not an Android app-review policy)
-- [Play Console requirements](google-play/play-console-requirements/play-console-requirements.zh-CN.md), [create and set up an app](google-play/play-console-app-setup/play-console-app-setup.zh-CN.md), [Play Console Terms](google-play/play-console-terms/play-console-terms.zh-CN.md) (contract; English controls), [users and permissions](google-play/play-console-user-permissions/play-console-user-permissions.zh-CN.md), [Android Developer Console accounts](google-play/android-developer-console-accounts/android-developer-console-accounts.zh-CN.md) (outside-Play identity; 20-device and 50-device texts kept separate), [account ownership transfer](google-play/account-ownership-transfer/account-ownership-transfer.zh-CN.md), [publishing readiness](google-play/app-publishing-readiness/app-publishing-readiness.zh-CN.md), [app review preparation](google-play/app-review-preparation/app-review-preparation.zh-CN.md) (2026-10-27 tool date kept separate from the 2027-01-27 policy preview), [store listing best practices](google-play/store-listing-best-practices/store-listing-best-practices.zh-CN.md), [promotional content](google-play/promotional-content-and-best-practices/promotional-content-and-best-practices.zh-CN.md), [review posting policy](google-play/play-store-review-posting/play-store-review-posting.zh-CN.md) (consumer posts), and [ratings, reviews, and installs](google-play/user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md) (developer policy)
-- [App quality and form-factor guidelines](google-play/app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md), [version codes and APK distribution](google-play/app-version-codes-and-apk-distribution/app-version-codes-and-apk-distribution.zh-CN.md), [Play Asset Delivery](google-play/play-asset-delivery/play-asset-delivery.zh-CN.md) (implementation note; the `dataSync` exception is not expanded), [Android developer verification](google-play/android-developer-verification/android-developer-verification.zh-CN.md) (2026-09-30 enforcement in four countries; “2027 and beyond” kept separate from 2027-01-27; the later 20-device reopen stays separate from the 20/50 record on the Android Developer Console accounts page), [App Security Improvement campaigns](google-play/android-app-security-improvement-campaigns/android-app-security-improvement-campaigns.zh-CN.md) (historical campaign dates; two support bodies unread), [Android Emoji support](google-play/android-emoji-support/android-emoji-support.zh-CN.md) (normative; the derived 2026-12-28 reminder is not an account deadline), [Android Instant Apps](google-play/android-instant-apps/android-instant-apps.zh-CN.md) (retired December 2025), [Android XR app quality and policies](google-play/android-xr-app-quality-and-policies/android-xr-app-quality-and-policies.zh-CN.md), [Android 17 beta feedback](google-play/android17-beta-feedback/android17-beta-feedback.zh-CN.md) (platform feedback path, not a Play permission rule), [Apps Experience and Level Up](google-play/apps-experience-and-level-up/apps-experience-and-level-up.zh-CN.md) (voluntary programs; 2027-03-01 and 2027-09-30 kept separate from 2027-01-27), [Play Integrity API](google-play/play-integrity-api/play-integrity-api.zh-CN.md) (implementation note and API contract, not a content policy), [Google Play Shorts](google-play/google-play-shorts-creative-guidelines/google-play-shorts-creative-guidelines.zh-CN.md), and [system services and preinstalled software](google-play/system-services-and-preinstalled-software/system-services-and-preinstalled-software.zh-CN.md) (not a general third-party exemption)
-- [Developer Policy Center](google-play/google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md) (directory; Simplified Chinese has 51 entries and English has 52, with Android XR English-only), [policy operations register](google-play/google-play-policy-operations/google-play-policy-operations.zh-CN.md) (2027-01-27 previews kept separate from other future dates), [policy announcements](google-play/google-play-policy-announcements/google-play-policy-announcements.zh-CN.md) (historical; announcement 52 English HTTP 429, `zh-Hans` readable), [policy archive](google-play/google-play-policy-archive/google-play-policy-archive.zh-CN.md) (historical PDFs, not current policy), [announcement resources](google-play/google-play-announcement-resources/google-play-announcement-resources.zh-CN.md) (direct-link catalog), [Play Academy policy courses](google-play/play-academy-policy-courses/play-academy-policy-courses.zh-CN.md) (training, not policy text), [app policy scope intake](google-play/app-policy-scope-intake/app-policy-scope-intake.zh-CN.md) (router, not a compliance finding), and [Play Policy Insights](google-play/play-policy-insights-skill/play-policy-insights-skill.zh-CN.md) (official Android/Play developer tool, not Play policy text)
+完整清单、证据等级、语言差异，以及和 2027-01-27 分开的日期，都在 [Google Play platform map](google-play/README.md)。下面只列阅读入口。
+
+- [Developer Distribution Agreement](google-play/developer-distribution-agreement/developer-distribution-agreement.zh-CN.md) · [English](google-play/developer-distribution-agreement/developer-distribution-agreement.en-US.md)
+- [Consolidated Developer Program Policy](google-play/developer-program-policy/developer-program-policy.zh-CN.md) · [English](google-play/developer-program-policy/developer-program-policy.en-US.md)（快照记录除另有说明外自 2026-09-30 起生效）
+- [User Data](google-play/user-data/user-data.zh-CN.md) · [English](google-play/user-data/user-data.en-US.md)
+- [Data Safety baseline](google-play/data-safety/data-safety-baseline.zh-CN.md) · [English](google-play/data-safety/data-safety-baseline.en-US.md) and [Data safety form](google-play/data-safety/data-safety.zh-CN.md) · [English](google-play/data-safety/data-safety.en-US.md)
+- [Payments, billing, and subscriptions](google-play/payments/payments-and-subscriptions.zh-CN.md) · [English](google-play/payments/payments-and-subscriptions.en-US.md)
+- [Testing, review, and release](google-play/publishing/play-release-workflow.zh-CN.md) · [English](google-play/publishing/play-release-workflow.en-US.md)
+- [Policy operations register](google-play/google-play-policy-operations/google-play-policy-operations.zh-CN.md) · [English](google-play/google-play-policy-operations/google-play-policy-operations.en-US.md)（2027-01-27 预告与其他未来日期分开）
+- [Developer Policy Center](google-play/google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md) · [English](google-play/google-play-developer-policy-center/google-play-developer-policy-center.en-US.md)
+
+2026-10-24 快照里的专题页都已导入。离线 Wiki、递归链接图和 URL 审计 CSV 没有导入。Play Policy Insights 是官方开发者工具，不是 Play 政策正文。
 
 ## 4. Operations / 运营流程
 
-- [Pre-submission quick check](operations/pre-submission/quick-check.zh-CN.md)
+- [Pre-submission quick check](operations/pre-submission/quick-check.zh-CN.md) · [English](operations/pre-submission/quick-check.en-US.md)
 - [Rejection and appeals](operations/rejection-and-appeals/README.md)
-- Regional launch requirements
-- Policy deadlines and change history
+- [Regional map](regions/README.md)（地区目录还没有单独的司法辖区专题）
+- [Policy deadlines](operations/deadlines/README.md)
 
 ## 5. How to read a page / 如何阅读
 
-先看“适用范围”和“核心结论”，再看“必须做什么”和“证据与测试”。最终决定必须回到当前官方来源核对。知识库中的摘要、翻译和执行建议不替代平台原文或当地法律。
+导入的专题保留快照里的小节结构，没有改写成同一套标题。先看标题和导入说明或语言差异，再看范围和义务，最后用页内官方链接回到当前原文。知识库中的摘要、编辑译文和执行建议不替代平台原文或当地法律。
+
+Phase 1 的短页（隐私基线、Data Safety baseline、审核准备、提交前快速检查）使用“范围 / 核心结论 / 必须做什么 / 证据”这一类标题。

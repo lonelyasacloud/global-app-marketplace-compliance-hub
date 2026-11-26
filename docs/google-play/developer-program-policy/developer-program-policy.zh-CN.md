@@ -30,21 +30,21 @@ effective_on: 2026-09-30
 
 ## 覆盖的政策领域
 
-合并版把此前分散在政策中心的规则集中呈现。原政策中心的 **51 个主题入口**及其逐项摘要仍见开发者政策中心和政策链接图。
+合并版把此前分散在政策中心的规则集中呈现。原政策中心的 **51 个主题入口**及其逐项摘要仍见[开发者政策中心](../google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md)。政策链接图是快照文件，未导入本仓库。
 
 | 领域 | 主要要求与需要核对的政策 | 常见关联材料 |
 | --- | --- | --- |
-| 受限内容与安全 | 儿童安全、色情/仇恨/暴力等不当内容、年龄限制、金融服务、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、违法活动、UGC、健康、区块链和 AI 生成内容；还须检查当地法律、地区限制及受众适配。 | 年龄限制与儿童安全、不当内容、非法活动、[金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、用户生成内容、健康应用与 Health Connect、[加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
-| 身份、权利与真实性 | 不得冒充或误导；商店资料、应用功能、评分评价、下载量和开发者关系说明须准确；须拥有分发和使用所含知识产权的权利。 | 冒充身份、虚假陈述、知识产权、商店详情最佳实践、评分、评价与安装量 |
-| 用户数据、隐私与权限 | 对应用及 SDK/第三方 AI 组件收集、访问、使用和共享的数据负责；坚持最少必要、目的限制、安全保护、隐私政策、Data safety、适用时显著披露与同意、账号/数据删除；敏感权限/API 还要满足资格、用途、运行时授权和 Console 申报。 | [用户数据](../user-data/user-data.zh-CN.md)、[Data safety 表单](../data-safety/data-safety.zh-CN.md)、敏感权限与 API、权限申报、短信与通话记录权限、照片与视频权限、联系人与前台位置权限、后台位置、账号删除、第三方 SDK 要求、健康数据与 Health Connect |
-| 设备、网络与恶意软件 | 禁止恶意软件、移动垃圾软件、广告欺诈、社会工程和滥用设备/网络；系统功能/API 只能按允许用途使用，应用及 SDK 不得隐藏、绕过或未经同意执行有害行为。 | 恶意软件、间谍软件与数据外传、移动垃圾软件、欺骗性行为、设备与网络滥用、第三方 SDK 要求 |
-| 获利、付款与广告 | 数字商品/服务通常按 Payments 规则使用 Google Play Billing，适用例外和地区计划须逐项核实；订阅须清楚披露价格、周期、续订和取消；广告及其落地页也受内容、年龄、隐私和体验规则约束。 | [付款、计费与订阅](../payments/payments-and-subscriptions.zh-CN.md)、广告与推广、儿童安全与年龄限制、第三方 SDK 要求 |
-| 商品详情、推广与分发 | 元数据、图像、事件、促销和应用宣传须真实且不操纵排名/评价；正确完成内容分级、新闻/杂志申报及目标 API 要求。 | 商店详情与素材最佳实践、评分、评价与安装量、内容分级与目标受众、[新闻与杂志](../news-and-magazines/news-and-magazines.zh-CN.md)、目标 API 要求 |
-| 垃圾内容、功能和用户体验 | 应用必须有稳定、响应良好的实际功能和原创价值；限制重复/低质、无功能、未经许可的 WebView/导流、消息垃圾和扰乱 Play/设备体验的行为。 | 垃圾内容、功能性与用户体验、[应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、审核准备、[测试与发布流程](../publishing/play-release-workflow.zh-CN.md) |
-| 特定设备、受众与计划 | Android Auto/Automotive、Android TV、Wear OS、[Instant Apps](../android-instant-apps/android-instant-apps.zh-CN.md)、[表情符号](../android-emoji-support/android-emoji-support.zh-CN.md)、Families 等各有适配要求；参加真钱博彩、健康、广告 SDK 或地区试点时还适用专项资格和申报。 | [应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、年龄限制与儿童安全、健康应用与 Health Connect、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、[预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md)、政策课程索引 |
-| 执行与申诉 | Google 可拒绝、移除、暂停或限制应用/账号；在 Console 查看 Policy status，按通知修复并通过正式渠道申诉。重复/严重违反、账号关联和审核材料不完整会带来额外风险。 | 执行处置与申诉、Play Console 要求、审核准备、Google Play 政策执行控制总表 |
+| 受限内容与安全 | 儿童安全、色情/仇恨/暴力等不当内容、年龄限制、金融服务、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、违法活动、UGC、健康、区块链和 AI 生成内容；还须检查当地法律、地区限制及受众适配。 | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)、[不当内容](../inappropriate-content/inappropriate-content.zh-CN.md)、[非法活动](../illegal-activities/illegal-activities.zh-CN.md)、[金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、[用户生成内容](../user-generated-content/user-generated-content.zh-CN.md)、[健康应用与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)、[加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
+| 身份、权利与真实性 | 不得冒充或误导；商店资料、应用功能、评分评价、下载量和开发者关系说明须准确；须拥有分发和使用所含知识产权的权利。 | [冒充身份](../impersonation/impersonation.zh-CN.md)、[虚假陈述](../misrepresentation/misrepresentation.zh-CN.md)、[知识产权](../intellectual-property/intellectual-property.zh-CN.md)、[商店详情最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)、[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md) |
+| 用户数据、隐私与权限 | 对应用及 SDK/第三方 AI 组件收集、访问、使用和共享的数据负责；坚持最少必要、目的限制、安全保护、隐私政策、Data safety、适用时显著披露与同意、账号/数据删除；敏感权限/API 还要满足资格、用途、运行时授权和 Console 申报。 | [用户数据](../user-data/user-data.zh-CN.md)、[Data safety 表单](../data-safety/data-safety.zh-CN.md)、[敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[权限申报](../permissions-declaration/permissions-declaration.zh-CN.md)、[短信与通话记录权限](../sms-call-log/sms-call-log.zh-CN.md)、[照片与视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[联系人与前台位置权限](../contacts-location-permissions/contacts-location-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)、[账号删除](../account-deletion/account-deletion.zh-CN.md)、[第三方 SDK 要求](../sdk-requirements/sdk-requirements.zh-CN.md)、[健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md) |
+| 设备、网络与恶意软件 | 禁止恶意软件、移动垃圾软件、广告欺诈、社会工程和滥用设备/网络；系统功能/API 只能按允许用途使用，应用及 SDK 不得隐藏、绕过或未经同意执行有害行为。 | [恶意软件](../malware/malware.zh-CN.md)、[间谍软件与数据外传](../spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md)、[移动垃圾软件](../mobile-unwanted-software/mobile-unwanted-software.zh-CN.md)、[欺骗性行为](../deceptive-behavior/deceptive-behavior.zh-CN.md)、[设备与网络滥用](../device-and-network-abuse/device-and-network-abuse.zh-CN.md)、[第三方 SDK 要求](../sdk-requirements/sdk-requirements.zh-CN.md) |
+| 获利、付款与广告 | 数字商品/服务通常按 Payments 规则使用 Google Play Billing，适用例外和地区计划须逐项核实；订阅须清楚披露价格、周期、续订和取消；广告及其落地页也受内容、年龄、隐私和体验规则约束。 | [付款、计费与订阅](../payments/payments-and-subscriptions.zh-CN.md)、[广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)、[儿童安全与年龄限制](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)、[第三方 SDK 要求](../sdk-requirements/sdk-requirements.zh-CN.md) |
+| 商品详情、推广与分发 | 元数据、图像、事件、促销和应用宣传须真实且不操纵排名/评价；正确完成内容分级、新闻/杂志申报及目标 API 要求。 | [商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)、[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md)、[内容分级与目标受众](../content-ratings/content-ratings.zh-CN.md)、[新闻与杂志](../news-and-magazines/news-and-magazines.zh-CN.md)、[目标 API 要求](../target-api/target-api-level.zh-CN.md) |
+| 垃圾内容、功能和用户体验 | 应用必须有稳定、响应良好的实际功能和原创价值；限制重复/低质、无功能、未经许可的 WebView/导流、消息垃圾和扰乱 Play/设备体验的行为。 | [垃圾内容、功能性与用户体验](../spam-and-functionality/spam-and-functionality.zh-CN.md)、[应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、[审核准备](../app-review-preparation/app-review-preparation.zh-CN.md)、[测试与发布流程](../publishing/play-release-workflow.zh-CN.md) |
+| 特定设备、受众与计划 | Android Auto/Automotive、Android TV、Wear OS、[Instant Apps](../android-instant-apps/android-instant-apps.zh-CN.md)、[表情符号](../android-emoji-support/android-emoji-support.zh-CN.md)、Families 等各有适配要求；参加真钱博彩、健康、广告 SDK 或地区试点时还适用专项资格和申报。 | [应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、[年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)、[健康应用与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、[预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md)、[政策课程索引](../play-academy-policy-courses/play-academy-policy-courses.zh-CN.md) |
+| 执行与申诉 | Google 可拒绝、移除、暂停或限制应用/账号；在 Console 查看 Policy status，按通知修复并通过正式渠道申诉。重复/严重违反、账号关联和审核材料不完整会带来额外风险。 | [执行处置与申诉](../enforcement-and-appeals/enforcement-and-appeals.zh-CN.md)、[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md)、[审核准备](../app-review-preparation/app-review-preparation.zh-CN.md)、[Google Play 政策执行控制总表](../google-play-policy-operations/google-play-policy-operations.zh-CN.md) |
 
-表中站内链接把合并版政策领域连到现有双语专题，便于离线逐层查阅；专题摘要和子链接核查状态仍以各专题页及政策递归链接图为准。
+表中站内链接把合并版政策领域连到现有双语专题，便于离线逐层查阅；专题摘要以各专题页为准。子链接核查状态仍在政策递归链接图中，该链接图未导入本仓库。
 
 ## 发布生命周期的共同核对点
 
@@ -58,12 +58,12 @@ effective_on: 2026-09-30
 
 ## 与项目其他条目的关系
 
-- 原 51 个政策主题和未展开的后代链接状态：见政策递归链接图。
-- 可执行的发布前和运营核对项（隐私、权限、计费、受众、内容、安全、申报）：见 Google Play 政策执行控制总表（English）。
-- Play Console 的 App content 申报、身份和发布门槛：见 Play Console 要求。
-- 动态期限：以[Policy Deadlines](https://support.google.com/googleplay/android-developer/table/12921780)为准；截至核对日，2026 年 target API 常规期限已过，符合条件的延期至 2026-11-01，详见 Play Console 要求条目。
-- 历史公告：见公告索引；历史措辞不能覆盖现行合并版政策。
-- 合同义务：见[开发者分发协议](../developer-distribution-agreement/developer-distribution-agreement.zh-CN.md)。验证状态和适用地区：见 Android 开发者验证。
+- 原 51 个政策主题见[开发者政策中心](../google-play-developer-policy-center/google-play-developer-policy-center.zh-CN.md)。未展开的后代链接状态仍在政策递归链接图中，该链接图未导入本仓库。
+- 可执行的发布前和运营核对项（隐私、权限、计费、受众、内容、安全、申报）：见[Google Play 政策执行控制总表](../google-play-policy-operations/google-play-policy-operations.zh-CN.md)。快照交叉核对指向英文总表；配对页面是 [English](../google-play-policy-operations/google-play-policy-operations.en-US.md)。
+- Play Console 的 App content 申报、身份和发布门槛：见[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md)。
+- 动态期限：以[Policy Deadlines](https://support.google.com/googleplay/android-developer/table/12921780)为准；截至核对日，2026 年 target API 常规期限已过，符合条件的延期至 2026-11-01，详见[Play Console 要求](../play-console-requirements/play-console-requirements.zh-CN.md)条目。
+- 历史公告：见[公告索引](../google-play-policy-announcements/google-play-policy-announcements.zh-CN.md)；历史措辞不能覆盖现行合并版政策。档案 PDF 见[政策档案](../google-play-policy-archive/google-play-policy-archive.zh-CN.md)。
+- 合同义务：见[开发者分发协议](../developer-distribution-agreement/developer-distribution-agreement.zh-CN.md)。验证状态和适用地区：见[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)。
 - “用户数据”与“SDK 要求”部分已同独立[用户数据专题](../user-data/user-data.zh-CN.md)交叉核对：核心要求一致；合并版 SDK 部分另举出广告/分析分享、已安装软件包清单披露和两周证据响应示例。对照范围与本轮 User Data 重试失败记录见专题及递归链接图 §4.123。
 
 ## 覆盖缺口与审计结论
@@ -73,7 +73,7 @@ effective_on: 2026-09-30
 1. 当前政策中心中文目录的 51 个直接目标、英文目录的 52 个直接目标（多出的 [Android XR](../android-xr-app-quality-and-policies/android-xr-app-quality-and-policies.zh-CN.md) 仅列于英文目录），均在逐 URL 台账中标记为已完整打开并有人工摘要记录；本地保存双语摘要与官方来源链接，不是政策原文全文档。各主题帮助页中的内链、孙链接和更深后代仍未逐页穷尽。当前链接图和执行控制总表逐项说明范围与状态。
 2. 按国家/地区变化的金融、贷款、赌博、隐私、税务、消费者保护和行业许可规则没有逐国汇编。法规可能变更，且 Google Play 政策不能代替法律审查。
 3. 56 份 Policy Archive 历史 PDF 仅登记为版本索引，未逐份全文归档；只在需要复原某一日期规则时按版本单独核对。
-4. 登录后才能查看的 Play Console 表单/账号状态、封闭式计划条款、Play Academy 课程、视频和社区个案没有被当作可验证的完整政策文本。
+4. 登录后才能查看的 Play Console 表单/账号状态、封闭式计划条款、[Play Academy 课程](../play-academy-policy-courses/play-academy-policy-courses.zh-CN.md)、视频和社区个案没有被当作可验证的完整政策文本。
 5. 一般 Android API 文档、Google 服务条款、付款/广告/游戏等专项计划和第三方 SDK 条款只纳入与 Play 政策直接相关的材料，不递归爬取整个 Google/Android 站点。
 
 因此，本库可帮助定位规则、期限和实操指南，但不能据此推断某个应用已合规或已获审核批准。请以具体账号 Console 通知和当前官方全文作最终判定。

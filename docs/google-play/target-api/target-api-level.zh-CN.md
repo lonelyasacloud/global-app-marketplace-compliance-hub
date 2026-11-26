@@ -112,7 +112,7 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/1
 | Intent 与配对隐私 | Intent 重定向防护默认增强；只有确认合法兼容需求时才考虑关闭防护。伴侣设备配对不再直接向应用告知发现超时，系统先向用户显示对话框，用户关闭后应用收到 `RESULT_USER_REJECTED`。 |
 | 蓝牙配对丢失 | 重新连接鉴权失败时，系统断开链路、保留本机配对信息并提示用户重新配对，减少应用自行重配导致的意外体验；同时结合目标 API 页的新广播说明处理 OEM 差异。 |
 
-以上两类清单不能替代完整迁移链：仍需查看从当前目标版本到 API 36 的每个 Android 主版本行为变化，以及应用实际使用的 SDK/API。权限变化要与[敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md)、健康数据（快照：`health-apps-and-health-connect.md`，未导入本仓库）、[照片/视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)和[权限声明审核](../permissions-declaration/permissions-declaration.zh-CN.md)交叉核对。
+以上两类清单不能替代完整迁移链：仍需查看从当前目标版本到 API 36 的每个 Android 主版本行为变化，以及应用实际使用的 SDK/API。权限变化要与[敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md)、健康数据（[健康应用、健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)）、[照片/视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)和[权限声明审核](../permissions-declaration/permissions-declaration.zh-CN.md)交叉核对。
 
 权限、健康数据、位置、照片/视频和前台服务等迁移可能同时触发独立 Play 政策或申报要求。API 升级通过不代表敏感权限审核、Data safety 或 Console 声明自动通过，参见[敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[照片/视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)和[权限声明审核](../permissions-declaration/permissions-declaration.zh-CN.md)。
 
@@ -148,9 +148,9 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/1
 | [Privacy, Deception and Device Abuse](https://support.google.com/googleplay/android-developer/topic/9877467?hl=en) | 已打开的政策分类目录；其 User Data、Sensitive Permissions、Device and Network Abuse、Deceptive Behavior、Misrepresentation 和 Target API 子项分别关联下列专题。本轮一个旧的 Device and Network Abuse 点击返回错误，但现行规范目标已有完整专题和正文审计。 |
 | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) | 已打开；见[用户数据专题](../user-data/user-data.zh-CN.md)。它与目标 API 的连接主要在数据收集、披露和权限迁移，不改变 API 日期门槛。 |
 | [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 已打开现行合并页；见[敏感权限专题](../sensitive-permissions/sensitive-permissions.zh-CN.md)。目标 API 改动可能触发新的平台权限行为，但权限资格与申报单独判断。 |
-| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | 现行规范页已有完整正文审计；见设备与网络滥用专题（快照：`device-and-network-abuse.md`，未导入本仓库）。一次侧栏点击失败不表示目标页未审。 |
-| [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en) | 已打开；见欺骗性行为专题（快照：`deceptive-behavior.md`，未导入本仓库）。它与 API 升级的联系限于应用实际行为、兼容性和用户呈现，非同一项政策。 |
-| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689?hl=en) | 已打开；见虚假陈述专题（快照：`misrepresentation.md`，未导入本仓库）。主要用于核对商店资料和实际功能的一致性。 |
+| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | 现行规范页已有完整正文审计；见设备与网络滥用专题（[设备与网络滥用、前台服务与安全环境](../device-and-network-abuse/device-and-network-abuse.zh-CN.md)）。一次侧栏点击失败不表示目标页未审。 |
+| [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en) | 已打开；见欺骗性行为专题（[Google Play 欺骗性行为政策](../deceptive-behavior/deceptive-behavior.zh-CN.md)）。它与 API 升级的联系限于应用实际行为、兼容性和用户呈现，非同一项政策。 |
+| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689?hl=en) | 已打开；见虚假陈述专题（[Google Play 虚假陈述（Misrepresentation）政策](../misrepresentation/misrepresentation.zh-CN.md)）。主要用于核对商店资料和实际功能的一致性。 |
 | 当前 Target API 页面 | 当前页自身，已打开全文并纳入上面的正文锚点清单。 |
 
 延期日期为 2026-11-01；帮助页一般段落仍写“later this year”，FAQ 给出只有受影响应用能从 Console 警告详情进入的具体路径。应以账号内实际警告/表单为准。以上侧栏页面的更深后代仍按逐页审计状态处理，不宣称递归闭合。
@@ -180,4 +180,4 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/1
 - [Android 16：对所有应用的行为变化](https://developer.android.com/about/versions/16/behavior-changes-all)
 - [Google Play：取消发布应用](https://support.google.com/googleplay/android-developer/answer/9859350?hl=en)
 
-相关知识库：[敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[权限声明与审核](../permissions-declaration/permissions-declaration.zh-CN.md)、联系人与前台位置（快照：`contacts-location-permissions.md`，未导入本仓库）、[照片/视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)。本页是双语结构化摘要，不是政策逐字全文；账户专属状态须登录 Console 核验。
+相关知识库：[敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[权限声明与审核](../permissions-declaration/permissions-declaration.zh-CN.md)、联系人与前台位置（[联系人与前台位置权限：最小范围和替代方案](../contacts-location-permissions/contacts-location-permissions.zh-CN.md)）、[照片/视频权限](../photo-video-permissions/photo-video-permissions.zh-CN.md)、[后台位置](../background-location/background-location.zh-CN.md)。本页是双语结构化摘要，不是政策逐字全文；账户专属状态须登录 Console 核验。

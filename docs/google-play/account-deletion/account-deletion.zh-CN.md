@@ -92,7 +92,7 @@ Android Developers Blog 的五项建议与现行帮助页要求对照如下。�
 | [Data safety 帮助页](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en) | 今天从 FAQ 直链打开现行正文，并重核第 546–559 行：表单要求回答是否提供删除请求机制；机制类型不限，且在符合“收集后 90 天内自动启动删除或匿名化”条件时可选择该机制标记。FAQ 的“匿名化”示例又链接到 Google 的[匿名化方法说明](https://policies.google.com/technologies/anonymization?hl=zh-CN)，本轮双语全文重开，摘要 K 匿名、L 多样性、差分隐私及正文视频抓取失败状态见[Data safety 专题](../data-safety/data-safety.zh-CN.md)。该 Google 页面不是 Play 的算法/阈值标准；90 天填报条件不豁免账号创建应用的应用内/站外账号删除义务。 |
 | Help Community 与 Contact us | 两个页脚链接本轮均未返回可读政策正文；社区内容是动态互助讨论，Contact us 属账号专属支持路径，另见逐 URL 台账。 |
 
-本页还链接至共享的[Policy education and app requirements 索引](https://support.google.com/googleplay/android-developer/topic/12798386?hl=en)。2026-10-23 核对账号删除页显示的 32 项与共享侧栏逐项清单（快照：`age-restricted-child-safety.md`，未导入本仓库）相同，并从本页逐项尝试：31 个目标返回页面正文；Android Health Permissions FAQ 当时超时，保留此前的全文核验。最后一项前台服务预览已在前台服务专题（快照：`foreground-services-and-geofencing.md`，未导入本仓库）单独整理。32 项属于帮助导航/推荐，目标页自身的孙链接覆盖程度不一；此处关闭的是当前页面到这批直接目标的核验，不声称递归穷尽。
+本页还链接至共享的[Policy education and app requirements 索引](https://support.google.com/googleplay/android-developer/topic/12798386?hl=en)。2026-10-23 核对账号删除页显示的 32 项与共享侧栏逐项清单（[年龄限制、匿名聊天与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)）相同，并从本页逐项尝试：31 个目标返回页面正文；Android Health Permissions FAQ 当时超时，保留此前的全文核验。最后一项前台服务预览已在前台服务专题（[前台服务与地理围栏迁移](../foreground-services-and-geofencing/foreground-services-and-geofencing.zh-CN.md)）单独整理。32 项属于帮助导航/推荐，目标页自身的孙链接覆盖程度不一；此处关闭的是当前页面到这批直接目标的核验，不声称递归穷尽。
 
 这些是设计建议；正式政策仍以可发现的请求路径、实际删除、合理处理、准确申报和透明保留为准。
 
@@ -112,6 +112,6 @@ Android Developers Blog 的五项建议与现行帮助页要求对照如下。�
 - [Provide information for Google Play’s Data safety section — deletion request mechanism FAQ](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en)
 - [Android Developers Blog: Designing your account deletion experience with users in mind](https://android-developers.googleblog.com/2024/03/designing-your-account-deletion-experience-google-play.html)
 - [Android Developers Blog: Giving Users More Transparency and Control Over Account Data (2023 policy launch)](https://android-developers.googleblog.com/2023/04/giving-people-more-control-over-their-data.html)
-- 关联专题：[用户数据](../user-data/user-data.zh-CN.md)、[Data safety](../data-safety/data-safety.zh-CN.md)、[权限声明与审核](../permissions-declaration/permissions-declaration.zh-CN.md)、年龄限制与儿童安全（快照：`age-restricted-child-safety.md`，未导入本仓库）。
+- 关联专题：[用户数据](../user-data/user-data.zh-CN.md)、[Data safety](../data-safety/data-safety.zh-CN.md)、[权限声明与审核](../permissions-declaration/permissions-declaration.zh-CN.md)、年龄限制与儿童安全（[年龄限制、匿名聊天与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)）。
 
 本页是结构化改写摘要。真实删除请求还须满足适用隐私法、消费者保护/订阅规则和服务提供商合同；Console 当前表单及账号审核状态需在相应开发者账号中确认。

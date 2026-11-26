@@ -23,7 +23,7 @@ effective_date: "current-policy"
 
 The current English Help article is [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en). The older [answer/16680223 URL](https://support.google.com/googleplay/android-developer/answer/16680223?hl=en) redirects to the current article. The page has five sections: misleading claims, deceptive device-setting changes, enabling dishonest behavior, manipulated media, and behavior transparency. The app, third-party SDKs, ads, and services must all comply.
 
-**Distinction from Misrepresentation:** Deceptive Behavior covers the actual product experience, device settings, dishonest tools, manipulated media, hidden features, and review evasion. Misrepresentation (snapshot: `misrepresentation-en.md`, not imported in this repository) is a separate sibling policy with its own store-listing and developer/government-identity rules; check both.
+**Distinction from Misrepresentation:** Deceptive Behavior covers the actual product experience, device settings, dishonest tools, manipulated media, hidden features, and review evasion. Misrepresentation ([Google Play Misrepresentation policy](../misrepresentation/misrepresentation.en-US.md)) is a separate sibling policy with its own store-listing and developer/government-identity rules; check both.
 
 ## Five policy areas and practical checks
 
@@ -64,9 +64,9 @@ The directory and its listed policy targets were opened. Each is a separate poli
 | [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810) | [Inappropriate Content](../inappropriate-content/inappropriate-content.en-US.md) |
 | [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | [Financial services and loans](../financial-services-and-loans/financial-services-and-loans.en-US.md) |
 | [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | [Real-Money Gambling](../real-money-gambling/real-money-gambling.en-US.md) · [Prediction-market pilot](../prediction-market-pilot/prediction-market-pilot.en-US.md) |
-| [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | Illegal Activities (snapshot: `illegal-activities-en.md`, not imported in this repository) |
+| [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | Illegal Activities ([Google Play Illegal Activities policy](../illegal-activities/illegal-activities.en-US.md)) |
 | [User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937) | [User-generated content](../user-generated-content/user-generated-content.en-US.md) |
-| [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | Health apps and Health Connect (snapshot: `health-apps-and-health-connect-en.md`, not imported in this repository) |
+| [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | Health apps and Health Connect ([Health apps, health data, and Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.en-US.md)) |
 | [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | [Crypto assets and NFTs](../crypto-assets-and-nfts/crypto-assets-and-nfts.en-US.md) |
 | [AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/13985936) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) (includes AI-generated content requirements) |
 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250) | [Age restrictions and child safety](../age-restricted-child-safety/age-restricted-child-safety.en-US.md) |
@@ -79,9 +79,9 @@ The Help article's related-policy index was opened on October 22, 2026. It is na
 | --- | --- |
 | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311) | Data disclosure, consent, security, deletion, and SDK responsibility; see [User Data](../user-data/user-data.en-US.md). |
 | [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241) | Permissions must match advertised core functionality, use minimum scope, and respect denial; see [Sensitive Permissions](../sensitive-permissions/sensitive-permissions.en-US.md). |
-| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646) | Prohibits unauthorized device/network interference, sandbox bypass, and off-Play executable downloads; see Mobile Unwanted Software/device abuse (snapshot: `mobile-unwanted-software-en.md`, not imported in this repository). |
+| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646) | Prohibits unauthorized device/network interference, sandbox bypass, and off-Play executable downloads; see Mobile Unwanted Software/device abuse ([Mobile Unwanted Software (MUwS), ad fraud, and deceptive behavior](../mobile-unwanted-software/mobile-unwanted-software.en-US.md)). |
 | [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354) | This topic. |
-| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689) | Separate, related policy; see Misrepresentation (snapshot: `misrepresentation-en.md`, not imported in this repository). |
+| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689) | Separate, related policy; see Misrepresentation ([Google Play Misrepresentation policy](../misrepresentation/misrepresentation.en-US.md)). |
 | [Google Play Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298) | Specialized target API policy; see [Target API requirements](../target-api/target-api-level.en-US.md). |
 | [Preview: Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16909972?hl=en) | April 2026 policy preview; Contacts and Location changes are scheduled for January 27, 2027. A preview is not current effective text. |
 
@@ -91,7 +91,7 @@ The Help article's related-policy index was opened on October 22, 2026. It is na
 2. Check for fake login pages, OS-warning impersonation, unauthorized government/brand claims, remote feature toggles, and review-only behavior. Reviewers should see the same functionality as users.
 3. Audit device-setting changes, background downloads, remote scripts/code, and automated modification: are they core to the app, explicitly consented, reversible, and preceded by a download-size disclosure where needed?
 4. For generated/edited/shared images, audio, video, and text, review sensitive-event context, visible watermarks/disclaimers, satire context, and Restricted Content rules.
-5. Review alongside Misrepresentation (snapshot: `misrepresentation-en.md`, not imported in this repository), Mobile Unwanted Software/device abuse (snapshot: `mobile-unwanted-software-en.md`, not imported in this repository), [User Data](../user-data/user-data.en-US.md), and Store Listing Best Practices [store listing and asset best practices](../store-listing-best-practices/store-listing-best-practices.en-US.md).
+5. Review alongside Misrepresentation ([Google Play Misrepresentation policy](../misrepresentation/misrepresentation.en-US.md)), Mobile Unwanted Software/device abuse ([Mobile Unwanted Software (MUwS), ad fraud, and deceptive behavior](../mobile-unwanted-software/mobile-unwanted-software.en-US.md)), [User Data](../user-data/user-data.en-US.md), and Store Listing Best Practices [store listing and asset best practices](../store-listing-best-practices/store-listing-best-practices.en-US.md).
 
 ## Coverage limits
 

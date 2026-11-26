@@ -46,4 +46,9 @@ Retain the data-flow diagram, SDK inventory, permission matrix, consent and with
 - [Google Play User Data policy](https://support.google.com/googleplay/android-developer/answer/10144311)
 - [Google Play Data safety](https://support.google.com/googleplay/android-developer/answer/10787469)
 
+## Related hub pages
+
+- Google Play: [User Data](../../google-play/user-data/user-data.en-US.md), [Data safety form](../../google-play/data-safety/data-safety.en-US.md), [Data Safety baseline](../../google-play/data-safety/data-safety-baseline.en-US.md), [account deletion](../../google-play/account-deletion/account-deletion.en-US.md).
+- Apple: [guidelines summary](../../apple-app-store/app-review-guidelines/guidelines-summary.en-US.md). Privacy Manifest, Required Reason API, App Privacy Details, and ATT are not topic pages. The 2026-11-10 snapshot did not include those full texts. The official links above are the pointers until those topics exist.
+
 This page is an operational summary, not a privacy policy or legal advice.

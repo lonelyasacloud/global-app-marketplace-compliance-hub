@@ -135,4 +135,4 @@ Families 的限制须单独检查：儿童专用应用不得传输儿童标识�
 4. 对照隐私政策、应用内披露、Data safety 和 SDK/广告中介实际网络行为。
 5. 保留 SDK 版本、权限结果、同意状态、测试记录和 Play Console 通知，便于申诉或复审。
 
-相关专题：[广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md) · [用户数据](../user-data/user-data.zh-CN.md) · Android 隐私清单（快照：`android-privacy-checklist.md`，未导入本仓库） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 第三方 SDK（快照：`sdk-requirements.md`，未导入本仓库）
+相关专题：[广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md) · [用户数据](../user-data/user-data.zh-CN.md) · Android 隐私清单（[Android 隐私清单、权限最小化与数据保护](../android-privacy-checklist/android-privacy-checklist.zh-CN.md)） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 第三方 SDK（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）

@@ -4,6 +4,8 @@
 
 ## Initial coverage / 首批覆盖
 
+这些是计划中的首批司法辖区，还没有单独的地区专题页。快照里的国家规则留在对应的 Google Play 或 Apple 专题中，不在这里另写一页。
+
 - European Union
 - United States
 - China

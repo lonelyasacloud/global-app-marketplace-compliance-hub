@@ -113,7 +113,7 @@ Twelve paired topics from the same 2026-10-24 snapshot. `kb_checked_at` on those
 
 Ads and advertising, Advertising ID, AI-generated content, malware, mobile unwanted software, spyware and data exfiltration, spam and functionality, illegal activities, impersonation, misrepresentation, intellectual property, and device and network abuse stay separate from one another and from User Data, inappropriate content, and deceptive behavior. Play policy text stays separate from Play Protect messaging, AdMob account actions, Coalition for Better Ads and OWASP/vendor references, and Android API guidance.
 
-The starting inventory’s planned list did not itemize these twelve titles. They are recorded here. The remaining planned item below is unchanged.
+The starting inventory’s planned list did not itemize these twelve titles. They are recorded here. Later batches imported the remaining snapshot topics. Offline wiki HTML, link graphs, and URL-audit CSVs stayed out of the repository.
 
 | Topic | Hub path | Snapshot id | Review date in source | Authority | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -153,7 +153,7 @@ Eight paired topics from the same 2026-10-24 snapshot. `kb_checked_at` on those 
 
 Contacts and foreground location, foreground services and geofencing, health apps and Health Connect, the Android privacy checklist, third-party SDK requirements, custom audiences and the Grouping API, VpnService, and the User Data external-reference compilation stay separate from one another and from User Data, Data safety, sensitive permissions, and device and network abuse. The contacts and foreground-location page is a scheduled policy preview, not rules already in force on the snapshot review date. Current foreground-service rules stay separate from the 2027-01-27 geofencing change. The Android privacy checklist is an implementation checklist, not a Play policy. Custom audiences are operational Console growth tools, not a policy exemption. The User Data reference page is a compilation of external materials, not a Play rule.
 
-The planned list below did not itemize these eight titles. They are recorded here. The remaining planned item is unchanged.
+The planned list below did not itemize these eight titles. They are recorded here. Later batches imported the remaining snapshot topics. Offline wiki HTML, link graphs, and URL-audit CSVs stayed out of the repository.
 
 | Topic | Hub path | Snapshot id | Review date in source | Authority | Status |
 | --- | --- | --- | --- | --- | --- |

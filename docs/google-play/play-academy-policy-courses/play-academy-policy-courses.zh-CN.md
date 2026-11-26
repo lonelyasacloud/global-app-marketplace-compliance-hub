@@ -15,9 +15,9 @@ source_url: "https://playacademy.withgoogle.com/courses/google-play-policy/"
 effective_date: "training index; lessons login-gated; not policy text; no 2027-01-27"
 ---
 
-> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`play.academy-policy-courses`，核对日 2026-10-24）的改写课程索引，不是登录后课件的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照源文件记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。课程地址是英文 Exceed LMS 页面。快照没有记录简体中文 Academy 路由，也没有记录 `hl=zh-CN` 抓取失败。中文正文是对英文公开落地页的编辑改写。登录后的课件、测验和视频没有读取。缓存未命中不表示课程已下线。课程是培训，不能增加、豁免或替代 Play 政策。没有记录 2027-01-27。证据等级：Operational。
-
 # Google Play Academy 政策课程与学习资源
+
+> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`play.academy-policy-courses`，核对日 2026-10-24）的改写课程索引，不是登录后课件的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照源文件记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。课程地址是英文 Exceed LMS 页面。快照没有记录简体中文 Academy 路由，也没有记录 `hl=zh-CN` 抓取失败。中文正文是对英文公开落地页的编辑改写。登录后的课件、测验和视频没有读取。缓存未命中不表示课程已下线。课程是培训，不能增加、豁免或替代 Play 政策。没有记录 2027-01-27。证据等级：Operational。
 
 **核对日期：2026-10-24。** 本页索引 Google Play Academy 的公开政策课程页和学习路径，记录可见课程简介、目录与访问边界。课程是辅助培训材料，不是政策原文、审核承诺或合规认证；发生冲突时以现行 Play 政策、Play Console 要求和账号内通知为准。
 

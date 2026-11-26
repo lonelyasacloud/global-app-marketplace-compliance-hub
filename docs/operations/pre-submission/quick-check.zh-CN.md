@@ -7,6 +7,7 @@ status: current
 kb_checked_at: 2026-11-26
 review_due: 2027-02-26
 regions: [global]
+topics: [pre-submission, quick-check]
 ---
 
 # 提交前快速检查 / Pre-submission Quick Check
@@ -54,3 +55,5 @@ regions: [global]
 ## 相关页面
 
 本页仍是跨平台快速门禁。Apple 的详细清单另见[上架前检查清单](../../apple-app-store/pre-submission/submission-checklist.zh-CN.md)，审核准备短表见[审核准备](../../apple-app-store/app-review-guidelines/review-readiness.zh-CN.md)。两份清单一起使用。
+
+Google Play 的对应详解见 [Data safety](../../google-play/data-safety/data-safety.zh-CN.md)、[用户数据](../../google-play/user-data/user-data.zh-CN.md)、[敏感权限](../../google-play/sensitive-permissions/sensitive-permissions.zh-CN.md)、[目标 API](../../google-play/target-api/target-api-level.zh-CN.md)、[付款与订阅](../../google-play/payments/payments-and-subscriptions.zh-CN.md) 和[发布流程](../../google-play/publishing/play-release-workflow.zh-CN.md)。

@@ -26,5 +26,5 @@ A community report can reveal a useful test case, but it cannot override the cur
 
 ## Platform entry points
 
-- Apple: [App Review](https://developer.apple.com/app-store/review/)
-- Google Play: [Policy Center](https://play.google.com/about/developer-content-policy/)
+- Apple: [App Review](https://developer.apple.com/app-store/review/). Hub pages: [review workflow](../../apple-app-store/review-workflow/review-workflow.zh-CN.md) · [English](../../apple-app-store/review-workflow/review-workflow.en-US.md).
+- Google Play: [Policy Center](https://play.google.com/about/developer-content-policy/). Hub pages: [enforcement, appeals, and EEA mediation](../../google-play/enforcement-and-appeals/enforcement-and-appeals.zh-CN.md) · [English](../../google-play/enforcement-and-appeals/enforcement-and-appeals.en-US.md). That page is the operational process. The distribution agreement and the Developer Program Policy stay the normative sources.

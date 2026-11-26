@@ -2,7 +2,7 @@
 id: google-play.play-policy-insights-skill
 platform: google-play
 language: en-US
-authority: implementation note
+authority: implementation-note
 status: current
 kb_checked_at: 2026-10-23
 review_due: 2027-01-23
@@ -15,11 +15,11 @@ source_url: "https://github.com/android/skills/tree/main/play/play-policy-insigh
 effective_date: "official developer tool updated 2026-07-13; not Play policy text"
 ---
 
+# Android Play Policy Insights Skill: Code-Review Aid, Resources, and Scope
+
 > **Import note (Google batch 9).** The body is the paraphrased tool summary from the already separated 2026-10-24 Google Play knowledge-base snapshot (`android.play-policy-insights-skill`, reviewed 2026-10-23). It is not a verbatim copy of the repository and it is not Play policy text. The English files in Google's android/skills repository are the source of truth for what the tool contained on the review date. `kb_checked_at` is the review date recorded in the snapshot source file; this import did not re-open the live repository. Phrases such as “this knowledge base,” “this library,” and “local topic” describe coverage inside that snapshot, not the set of pages imported into this repository. Relative snapshot links to topics, link graphs, ledgers, or CSVs that are not in this repository are kept as text mentions. Relative links that target Google batch 1–8 topics or these eight batch 9 topics point at the hub files. **This page describes an official Android/Play developer tool. The skill metadata names Google LLC as author and lists July 13, 2026 as its update date. GitHub `main` is mutable. The tool is not Google Play policy text, not a Play review result, and not a compliance certification.** The reviewed repository content is English. The snapshot does not record a Chinese official skill page. The Chinese hub text is an editorial paraphrase. The configuration links to the Contacts policy preview. That preview’s 2027-01-27 date lives on the contacts topic and is not a rule stated by this tool. Evidence level: Implementation note.
 
 **Official Android/Play developer tool.** This page describes the Play Policy Insights skill in Google's [android/skills](https://github.com/android/skills/tree/main/play/play-policy-insights) repository. It is not Play policy text.
-
-# Android Play Policy Insights Skill: Code-Review Aid, Resources, and Scope
 
 ## Purpose and review basis
 

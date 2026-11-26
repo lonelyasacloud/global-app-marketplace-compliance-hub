@@ -56,7 +56,7 @@ Play 要求新提交的应用、在 Play 上架但尚无分级的现有应用，
 - Families 应用有更严格上限：主要面向儿童的应用广告上限由系统设为 G；混合受众的上限最高为 PG。界面设置可能被覆盖，广告仍须由相应自我认证 SDK 提供。
 - 若使用实时竞价，广告素材应在交付前经审查/评级，或只接入合格的自我认证来源。
 
-关联政策见广告与推广专题（快照：`ads-and-advertising.md`，未导入本仓库）、[年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)及[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md)。
+关联政策见广告与推广专题（[Google Play 广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)）、[年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)及[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md)。
 
 ## 各地区评级体系：同一应用可能有不同结果
 
@@ -87,7 +87,7 @@ Google Play 页面还列出了 ESRB 和 PEGI 的适用国家清单：ESRB 覆盖
 | [Target audience and app content settings](https://support.google.com/googleplay/android-developer/answer/9867159?hl=en) | 目标年龄组的选择、年龄适配、Families 触发、中性年龄屏幕、个人信息、广告 SDK、成人访问限制。 | 正文已打开；已有[年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。 |
 | [Families policy topic](https://support.google.com/googleplay/android-developer/topic/9877766?hl=en) | 含儿童目标受众时的 Families 要求。 | 本次 Help 请求超时；以已整理的 Families/儿童安全主题交叉参考。 |
 | [Families Self-Certified Ads SDK program](https://support.google.com/googleplay/android-developer/answer/12955712?hl=en) | 列出可用于儿童广告的自我认证 SDK 与版本，并说明混合受众、中性年龄屏幕、开发者责任及名录变化。 | 正文已打开；页面说明暂停新申请，既有参加者要求不变，实时 SDK 版本表需发布前复查。 |
-| [Ads policy](https://support.google.com/googleplay/android-developer/answer/9857753?hl=en) 与 [AdMob 最大广告分级设置](https://support.google.com/admob/answer/7562142?hl=en) | 前者规定广告内容、骚扰式/欺骗式广告及广告分级；后者说明账号/应用/广告请求的分级优先级、广告量影响和 Families 覆盖。 | 两页已打开；Play 广告要求另见广告专题（快照：`ads-and-advertising.md`，未导入本仓库）。 |
+| [Ads policy](https://support.google.com/googleplay/android-developer/answer/9857753?hl=en) 与 [AdMob 最大广告分级设置](https://support.google.com/admob/answer/7562142?hl=en) | 前者规定广告内容、骚扰式/欺骗式广告及广告分级；后者说明账号/应用/广告请求的分级优先级、广告量影响和 Families 覆盖。 | 两页已打开；Play 广告要求另见广告专题（[Google Play 广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)）。 |
 | [Developer Program Policy](https://play.google/developer-content-policy/) 与[开发者分发协议](https://play.google/developer-distribution-agreement.html) | 通用政策约束与合同条款；内容分级还须与当地法律一致。 | 两项已有双语知识库条目；此处保留源链接。 |
 | [Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455?hl=en) 中的广告/隐私申报说明、[App access instructions](https://support.google.com/googleplay/android-developer/answer/9815348?hl=en) 与 [Play Console App content](https://play.google.com/console/app/app-content/summary) | 开始目标受众与内容申报前，需先处理是否含广告、应用访问说明和隐私政策；Console 页面是实际填报入口。 | Prepare 正文已打开并整理；App access 目标被自动化抓取页拦截；Console 入口跳转登录。 |
 | [IARC 首页](https://www.globalratings.com/)、[Ratings Definitions](https://www.globalratings.com/ratings-definitions/) 与[联系方式](https://www.globalratings.com/contact-us/) | 首页导向流程、参与机构、平台、FAQ 和机构信息；Definitions 解释地区评级标签；Contact 提供一般咨询及各评级机构查询入口。 | 2026-10-23 重开三页。首页有六个主导航子页，另有 Definitions 与 Contact 两个实质链接；首页指标与 About 页口径不一致，不用于合规结论。Contact 表单说明提交的个人信息会传输至美国；九个地区机构链接及台湾法规分支见下文。 |
@@ -177,6 +177,6 @@ IARC Contact 的 USK 入口先到 USK 首页；首页的企业入口进一步区
 
 AdMob 最大分级文章正文还链接至[通过 AdMob 遵守 Families](https://support.google.com/admob/answer/6223431)和[广告请求的年龄处理标签](https://support.google.com/admob/answer/6219315)。两页均已打开：前者包含儿童受众与混合受众的请求示例，但其中较旧的 TFCD 代码应对照现行 TFAT 指南核实；后者说明 TFCD/TFUA 已弃用，并介绍 CHILD、TEEN、UNSPECIFIED 处理方式。这些属于实现指导。AdMob 页的“More about apps”侧栏有 6 项（含当前页），相关条目包括上述两篇和 Content mapping；其他 AdMob 帮助后代尚未全部登记。
 
-本地关联条目：商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md) · 用户评分/评价/安装量政策[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md) · 广告与推广（快照：`ads-and-advertising.md`，未导入本仓库） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。
+本地关联条目：商店详情与素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md) · 用户评分/评价/安装量政策[评分、评价与安装量](../user-ratings-reviews-installs/user-ratings-reviews-installs.zh-CN.md) · 广告与推广（[Google Play 广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)） · [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)。
 
 本专题是基于官方页面的双语改写，不逐字复制全部地区评级描述。地区分级映射、图标商标、目标受众和广告合规均需在目标市场发布前对照官方现行页面及 Play Console 核实。

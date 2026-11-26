@@ -346,7 +346,7 @@ Google 的 API 参考明确要求先填写[Incoming Call Retriever 接入申请�
 | [Permissions Declaration Form 详解](../permissions-declaration/permissions-declaration.zh-CN.md) · [官方表单帮助](https://support.google.com/googleplay/android-developer/answer/9214102) | 申报、测试轨道阻塞、视频和测试账号、延长审核及旧 APK 例外步骤。 |
 | [敏感信息权限总则](../sensitive-permissions/sensitive-permissions.zh-CN.md) | SMS/通话记录属于个人和敏感数据；核心功能、最小范围、替代方案及其他敏感权限的横向规则。 |
 | [用户数据政策](../user-data/user-data.zh-CN.md) 与 [Data safety 表单](../data-safety/data-safety.zh-CN.md) | 规定披露、同意、隐私政策和 Console 数据声明；SMS 例外仍须遵守。 |
-| [Malware 总政策](https://support.google.com/googleplay/android-developer/answer/9888380)（短信页该锚点显示 “Spyware Policy”） | 本次点击实际打开 Malware 总政策，覆盖恶意代码及 SDK，spyware 是其风险类别之一；完整分类见双语专题（快照：`malware.md`，未导入本仓库）。它与下一行的独立 Spyware 说明页分开记录。 |
+| [Malware 总政策](https://support.google.com/googleplay/android-developer/answer/9888380)（短信页该锚点显示 “Spyware Policy”） | 本次点击实际打开 Malware 总政策，覆盖恶意代码及 SDK，spyware 是其风险类别之一；完整分类见双语专题（[Google Play 恶意软件（Malware）与 Play Protect 威胁分类](../malware/malware.zh-CN.md)）。它与下一行的独立 Spyware 说明页分开记录。 |
 | [Spyware policy 说明](https://support.google.com/googleplay/android-developer/answer/14745000) | 禁止与合规功能无关的数据外传；个人贷款/预算应用不得外传非金融或个人短信历史；SDK 同样需要核查。 |
 | [Digital Credentials 电话号码验证](https://developer.android.com/identity/digital-credentials/phone-number-verification) | Android 10/API 29+ 支持的号码验证链：客户端请求临时 TS.43 凭证，后端通过运营商/聚合服务换取已验证号码。 |
 | [Incoming Call Retriever API](https://developers.google.com/android/reference/com/google/android/gms/auth/api/phone/IncomingCallRetrieverClient) 与[逐应用接入申请表](https://docs.google.com/forms/d/e/1FAIpQLSezoJZPt6L-J-httaMiSJnHFUIF0oR1n0Xvvpoxco9LB42LMg/viewform) | 用户同意后仅匹配开发者提供号码范围内的验证来电，拒接首个匹配来电并回传状态；Android API 29+。接口申请与 Play 权限声明分开。完整流程、失败回退、Manifest 接收器安全要求见上文。 |

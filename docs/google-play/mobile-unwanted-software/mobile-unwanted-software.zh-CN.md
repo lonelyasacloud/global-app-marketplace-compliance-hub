@@ -52,7 +52,7 @@ Google 的一般 [Unwanted Software Policy](https://www.google.com/about/unwante
 
 ### 5. 与其他 Play 政策的交叉适用
 
-MUwS 正文直接要求遵守 [User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en)、[敏感权限和 API](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en)、[Spyware](https://support.google.com/googleplay/android-developer/answer/14745000?hl=en) 与 [SDK Requirements](https://support.google.com/googleplay/android-developer/answer/13323374?hl=en)。广告另受 [Ads](https://support.google.com/googleplay/android-developer/answer/9857753?hl=en) 规则约束；这些对应本知识库已有的[用户数据](../user-data/user-data.zh-CN.md)、[敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[Spyware](../spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md)、第三方 SDK（快照：`sdk-requirements.md`，未导入本仓库）和[广告专题](../ads-and-advertising/ads-and-advertising.zh-CN.md)。
+MUwS 正文直接要求遵守 [User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en)、[敏感权限和 API](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en)、[Spyware](https://support.google.com/googleplay/android-developer/answer/14745000?hl=en) 与 [SDK Requirements](https://support.google.com/googleplay/android-developer/answer/13323374?hl=en)。广告另受 [Ads](https://support.google.com/googleplay/android-developer/answer/9857753?hl=en) 规则约束；这些对应本知识库已有的[用户数据](../user-data/user-data.zh-CN.md)、[敏感权限](../sensitive-permissions/sensitive-permissions.zh-CN.md)、[Spyware](../spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md)、第三方 SDK（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）和[广告专题](../ads-and-advertising/ads-and-advertising.zh-CN.md)。
 
 ## Ad Fraud：无效流量与实施最佳实践
 

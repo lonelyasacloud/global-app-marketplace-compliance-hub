@@ -2,7 +2,7 @@
 id: google-play.play-policy-insights-skill
 platform: google-play
 language: zh-CN
-authority: implementation note
+authority: implementation-note
 status: current
 kb_checked_at: 2026-10-23
 review_due: 2027-01-23
@@ -15,11 +15,11 @@ source_url: "https://github.com/android/skills/tree/main/play/play-policy-insigh
 effective_date: "official developer tool updated 2026-07-13; not Play policy text"
 ---
 
+# Android Play Policy Insights 技能：代码审查辅助、资源清单与范围边界
+
 > **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`android.play-policy-insights-skill`，核对日 2026-10-23）的改写工具摘要，不是仓库文件的逐字副本，也不是 Play 政策正文。核对日 Google android/skills 仓库中的英文文件是该工具内容的效力来源。`kb_checked_at` 是快照源文件记录的核对日；本次导入没有重新打开线上仓库。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。**本页描述的是官方 Android/Play 开发者工具。技能元数据把作者标为 Google LLC，更新日期为 2026-07-13。GitHub 的 `main` 分支会变化。该工具不是 Google Play 政策正文，不是 Play 审核结果，也不是合规认证。** 所核对的仓库内容是英文。快照没有记录中文官方技能页。中文正文是编辑改写。配置链接到联系人政策预览。该预览的 2027-01-27 日期留在联系人专题，不是本工具陈述的规则。证据等级：Implementation note。
 
 **官方 Android/Play 开发者工具。** 本页描述 Google [android/skills](https://github.com/android/skills/tree/main/play/play-policy-insights) 仓库中的 Play Policy Insights 技能。它不是 Play 政策正文。
-
-# Android Play Policy Insights 技能：代码审查辅助、资源清单与范围边界
 
 ## 定位与核对口径
 

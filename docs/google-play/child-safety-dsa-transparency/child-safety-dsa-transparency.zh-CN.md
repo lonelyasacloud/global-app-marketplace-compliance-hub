@@ -61,7 +61,7 @@ Tech Coalition 的 DSA 指南将透明度拆成三类：用户条款说明允许
 
 框架把报告分成三组：**政策与实践、流程与系统、结果**。常见起步指标包括发现并处置的 CSEA、涉事账号、向外部机构报告的数量；指标应解释定义、口径、时间范围和局限，避免重复计数，也不要把平台处理量误说成社会问题的流行率。
 
-Tech Coalition 在 2026-06-17 发布[生成式 AI 透明度报告指南](https://technologycoalition.org/resources/trust-transparency-reporting-for-generative-ai/)及[9 页 PDF](https://technologycoalition.org/wp-content/uploads/transparency-reporting-for-generative-ai.pdf)。它沿用 Trust 三分法，但建议模型开发者解释训练数据治理、安全评估/红队、检测与缓解、审核与执法，以及适当的结果数据；还提醒解释统计口径并避免暴露会被滥用的安全细节。它是儿童安全透明度的行业建议，不是 Play AI 生成内容政策替代品，后者见AI 生成内容专题（快照：`ai-generated-content.md`，未导入本仓库）。
+Tech Coalition 在 2026-06-17 发布[生成式 AI 透明度报告指南](https://technologycoalition.org/resources/trust-transparency-reporting-for-generative-ai/)及[9 页 PDF](https://technologycoalition.org/wp-content/uploads/transparency-reporting-for-generative-ai.pdf)。它沿用 Trust 三分法，但建议模型开发者解释训练数据治理、安全评估/红队、检测与缓解、审核与执法，以及适当的结果数据；还提醒解释统计口径并避免暴露会被滥用的安全细节。它是儿童安全透明度的行业建议，不是 Play AI 生成内容政策替代品，后者见AI 生成内容专题（[Google Play AI 生成内容政策与安全实践](../ai-generated-content/ai-generated-content.zh-CN.md)）。
 
 ### 子页面、最佳实践与访问记录
 
@@ -111,6 +111,6 @@ Trust PDF 直接链接到 ECPAT 的 Luxembourg Guidelines；ECPAT 页面还提�
 ## 关联专题
 
 - [年龄限制、匿名聊天与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)
-- AI 生成内容政策与安全实践（快照：`ai-generated-content.md`，未导入本仓库）
+- AI 生成内容政策与安全实践（[Google Play AI 生成内容政策与安全实践](../ai-generated-content/ai-generated-content.zh-CN.md)）
 - [用户生成内容与内容审核](../user-generated-content/user-generated-content.zh-CN.md)
 - [用户数据与隐私](../user-data/user-data.zh-CN.md)

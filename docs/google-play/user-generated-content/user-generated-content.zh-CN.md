@@ -63,7 +63,7 @@ effective_date: "current-policy"
 
 ## AI 生成内容是相邻但独立的规则
 
-生成式 AI 应用必须遵守 Google Play 的其他开发者政策，防止生成受限内容（包括危害儿童或欺骗用户的内容），并提供应用内举报/标记入口，让用户无需离开应用即可报告有害输出；开发者应把举报用于改进过滤和审核。Google 的最佳实践还建议采用过滤器/分类器，并参考安全测试框架。若 AI 输出被用户发布、分享或展示给其他用户，应结合真实功能进一步判断 UGC 政策是否同时适用。范围、违规示例和每个直接安全资源见独立的 AI 生成内容双语专题（快照：`ai-generated-content.md`，未导入本仓库） · English（快照：`ai-generated-content-en.md`，未导入本仓库）。
+生成式 AI 应用必须遵守 Google Play 的其他开发者政策，防止生成受限内容（包括危害儿童或欺骗用户的内容），并提供应用内举报/标记入口，让用户无需离开应用即可报告有害输出；开发者应把举报用于改进过滤和审核。Google 的最佳实践还建议采用过滤器/分类器，并参考安全测试框架。若 AI 输出被用户发布、分享或展示给其他用户，应结合真实功能进一步判断 UGC 政策是否同时适用。范围、违规示例和每个直接安全资源见独立的 AI 生成内容双语专题（[Google Play AI 生成内容政策与安全实践](../ai-generated-content/ai-generated-content.zh-CN.md)） · English（[Google Play AI 生成内容政策与安全实践](../ai-generated-content/ai-generated-content.zh-CN.md)）。
 
 ## 上线与运营核对清单
 
@@ -115,11 +115,11 @@ effective_date: "current-policy"
 | Inappropriate Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) | [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) · 解释禁止内容与 UGC 中“附随性色情内容”的边界。 |
 | Financial Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md) · 受监管金融功能、申报、贷款与地区要求。 |
 | Real-Money Gambling, Games, and Contests | [政策页面](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · 适用资格、许可、地域/年龄限制与责任博彩要求。 |
-| Illegal Activities | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | 非法活动（快照：`illegal-activities.md`，未导入本仓库） · 禁止促进非法行为，并须结合目标市场法律核验。 |
+| Illegal Activities | [政策页面](https://support.google.com/googleplay/android-developer/answer/9878877?hl=en) | 非法活动（[Google Play 非法活动政策](../illegal-activities/illegal-activities.zh-CN.md)） · 禁止促进非法行为，并须结合目标市场法律核验。 |
 | User Generated Content | [当前政策页面](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | 本页 · UGC 范围、审核、举报/屏蔽和附随性内容条件。 |
-| Health Content and Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） · 健康功能、医疗声明、健康数据与监管要求。 |
+| Health Content and Services | [政策页面](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 健康应用与 Health Connect（[健康应用、健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)） · 健康功能、医疗声明、健康数据与监管要求。 |
 | Blockchain-based Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) · 钱包、交易所、代币化资产与 NFT 游戏要求。 |
-| AI-Generated Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | AI 生成内容（快照：`ai-generated-content.md`，未导入本仓库） · 受限输出预防和应用内举报入口。 |
+| AI-Generated Content | [政策页面](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) | AI 生成内容（[Google Play AI 生成内容政策与安全实践](../ai-generated-content/ai-generated-content.zh-CN.md)） · 受限输出预防和应用内举报入口。 |
 | Age-Restricted Content and Functionality | [政策页面](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 需要阻止未成年人访问的核心功能类别。 |
 
 ### AI 安全最佳实践文章的直接外部链接
@@ -141,4 +141,4 @@ effective_date: "current-policy"
 - [UGC moderation and incidental sexual content guidance](https://support.google.com/googleplay/android-developer/answer/12923286?hl=en) · [官方简体中文 `zh-Hans`](https://support.google.com/googleplay/android-developer/answer/12923286?hl=zh-Hans)
 - [AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/13985936?hl=en) · [AI safety best practices](https://support.google.com/googleplay/android-developer/answer/16353813?hl=en)
 - [Policy Coverage](https://support.google.com/googleplay/android-developer/answer/10146128?hl=en) · [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810?hl=en) · [Content Ratings](https://support.google.com/googleplay/android-developer/answer/9898843?hl=en)
-- [年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 第三方 SDK 专题（快照：`sdk-requirements.md`，未导入本仓库） · [用户数据专题](../user-data/user-data.zh-CN.md)
+- [年龄限制与儿童安全专题](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) · 第三方 SDK 专题（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)） · [用户数据专题](../user-data/user-data.zh-CN.md)

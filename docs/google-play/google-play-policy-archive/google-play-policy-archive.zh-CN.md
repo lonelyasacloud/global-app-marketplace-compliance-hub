@@ -16,9 +16,9 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/1
 effective_date: "historical PDFs labeled 2016-03 through 2026-08-26; not current policy"
 ---
 
-> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`policy-archive-snapshots`，核对日 2026-10-22）的改写历史版本索引，不是档案 PDF 的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照源文件记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。英文源地址是 `hl=en`，中文源地址是 `hl=zh-CN`。两种语言索引都记录为同一份 56 个 PDF 日期标签，从 2026-08-26 回溯到 2016-03。快照没有记录 `hl=zh-CN` 索引抓取失败，也没有记录超出这份共同清单的逐行对照。中文正文是编辑改写。56 个 PDF 目标中，39 个返回 PDF 正文，2 个超时，4 个超过读取器大小上限，11 个无法由该浏览器工具访问。返回的正文没有逐版摘要。这些 PDF 是历史材料，不是现行政策，也不是 2027-01-27 预告。证据等级：Historical。
-
 # Google Play 政策档案与历史版本索引
+
+> **导入说明（Google batch 9）。** 正文来自已经分开的 2026-10-24 Google Play 知识库快照（`policy-archive-snapshots`，核对日 2026-10-22）的改写历史版本索引，不是档案 PDF 的逐字副本。英文官方页面是效力来源。`kb_checked_at` 是快照源文件记录的核对日；本次导入没有重新打开线上官方页面。文中“本知识库”“本库”“本地专题”等说法描述的是该快照库的覆盖范围，不是本仓库已经导入的页面。指向本仓库没有收录的专题、链接图、台账或 CSV 的相对链接改为文字提及。指向 Google batch 1–8 或本批八个专题的相对链接改为本仓库文件。英文源地址是 `hl=en`，中文源地址是 `hl=zh-CN`。两种语言索引都记录为同一份 56 个 PDF 日期标签，从 2026-08-26 回溯到 2016-03。快照没有记录 `hl=zh-CN` 索引抓取失败，也没有记录超出这份共同清单的逐行对照。中文正文是编辑改写。56 个 PDF 目标中，39 个返回 PDF 正文，2 个超时，4 个超过读取器大小上限，11 个无法由该浏览器工具访问。返回的正文没有逐版摘要。这些 PDF 是历史材料，不是现行政策，也不是 2027-01-27 预告。证据等级：Historical。
 
 [Policy Archive 官方索引](https://support.google.com/googleplay/android-developer/answer/13386702?hl=zh-CN) 在核对日列出 56 个带日期的 Developer Program Policy PDF 快照，范围为 2026-08-26 至 2016-03。以下逐项记录索引标签、官方 PDF 目标和本次抓取状态。
 

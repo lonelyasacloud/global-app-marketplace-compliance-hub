@@ -40,6 +40,6 @@ Data Safety 申报不替代 User Data policy、敏感权限政策、儿童政策
 
 ## 同目录详细专题
 
-[Data safety 表单详解](data-safety.zh-CN.md) 来自 2026-10-24 快照，核对日为 2026-10-24。它覆盖表单分类、FAQ 和来源审计。本基线不替换该详解，两页的核对日也不同。
+[Data safety 表单详解](data-safety.zh-CN.md) 来自 2026-10-24 快照，核对日为 2026-10-24。它覆盖表单分类、FAQ 和来源审计。本基线不替换该详解，两页的核对日也不同。政策义务见[用户数据](../user-data/user-data.zh-CN.md)。表单申报不替代该政策。
 
 本页是执行摘要，发布前必须核对当前 Play Console 表单和官方页面。

@@ -44,7 +44,7 @@ effective_date: "current-policy"
 | [金融服务](https://support.google.com/googleplay/android-developer/answer/9876821?hl=en) | 非法行为与受监管金融产品/借贷可能重叠；见[金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md)。 |
 | [真钱赌博、游戏和竞赛](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en) | 赌博许可、市场限制和真钱游戏须按专项页面及市场法律单独核查；见[真钱赌博专题](../real-money-gambling/real-money-gambling.zh-CN.md)。 |
 | [用户生成内容](https://support.google.com/googleplay/android-developer/answer/9876937?hl=en) | 用户可能上传违法交易或教程内容；见[UGC 审核专题](../user-generated-content/user-generated-content.zh-CN.md)。 |
-| [健康内容和服务](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 药物、戒断和治疗宣传还可能涉及健康政策；见健康专题（快照：`health-apps-and-health-connect.md`，未导入本仓库）。 |
+| [健康内容和服务](https://support.google.com/googleplay/android-developer/answer/16679511?hl=en) | 药物、戒断和治疗宣传还可能涉及健康政策；见健康专题（[健康应用、健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)）。 |
 | [基于区块链的内容](https://support.google.com/googleplay/android-developer/answer/13607354?hl=en) | [代币化/交易功能见加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md)。 |
 | [有年龄限制的内容和功能](https://support.google.com/googleplay/android-developer/answer/16302250?hl=en) | 涉及未成年人饮酒/烟草等内容时，与年龄限制规则并行。 |
 

@@ -23,7 +23,7 @@ effective_date: "current-policy"
 
 现行英文帮助页为[Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en)。旧链接 [answer/16680223](https://support.google.com/googleplay/android-developer/answer/16680223?hl=en) 已重定向到新版。页面把政策分为误导性声明、欺骗性修改设备设置、促成不诚实行为、操纵媒体和行为透明度五部分。应用本体、第三方 SDK、广告和服务都要符合规则。
 
-**与“虚假陈述”区分：** 欺骗性行为涵盖用户实际体验、设备设置、欺诈工具、操纵媒体、隐藏功能和规避审核；Misrepresentation（快照：`misrepresentation.md`，未导入本仓库） 是并列的独立政策主题，需同时核对商店页、开发者/政府身份声明等具体规则。
+**与“虚假陈述”区分：** 欺骗性行为涵盖用户实际体验、设备设置、欺诈工具、操纵媒体、隐藏功能和规避审核；Misrepresentation（[Google Play 虚假陈述（Misrepresentation）政策](../misrepresentation/misrepresentation.zh-CN.md)） 是并列的独立政策主题，需同时核对商店页、开发者/政府身份声明等具体规则。
 
 ## 五类禁止行为与核验要点
 
@@ -64,9 +64,9 @@ effective_date: "current-policy"
 | [Inappropriate Content](https://support.google.com/googleplay/android-developer/answer/9878810) | [不当内容](../inappropriate-content/inappropriate-content.zh-CN.md) |
 | [Financial Services](https://support.google.com/googleplay/android-developer/answer/9876821) | [金融服务与贷款](../financial-services-and-loans/financial-services-and-loans.zh-CN.md) |
 | [Real-Money Gambling, Games, and Contests](https://support.google.com/googleplay/android-developer/answer/9877032) | [真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md) · [预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md) |
-| [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | 非法活动（快照：`illegal-activities.md`，未导入本仓库） |
+| [Illegal Activities](https://support.google.com/googleplay/android-developer/answer/9878877) | 非法活动（[Google Play 非法活动政策](../illegal-activities/illegal-activities.zh-CN.md)） |
 | [User Generated Content](https://support.google.com/googleplay/android-developer/answer/9876937) | [用户生成内容](../user-generated-content/user-generated-content.zh-CN.md) |
-| [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | 健康应用与 Health Connect（快照：`health-apps-and-health-connect.md`，未导入本仓库） |
+| [Health Content and Services](https://support.google.com/googleplay/android-developer/answer/16679511) | 健康应用与 Health Connect（[健康应用、健康数据与 Health Connect](../health-apps-and-health-connect/health-apps-and-health-connect.zh-CN.md)） |
 | [Blockchain-based Content](https://support.google.com/googleplay/android-developer/answer/13607354) | [加密资产与 NFT](../crypto-assets-and-nfts/crypto-assets-and-nfts.zh-CN.md) |
 | [AI-Generated Content](https://support.google.com/googleplay/android-developer/answer/13985936) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)（含 AI 生成内容要求） |
 | [Age-Restricted Content and Functionality](https://support.google.com/googleplay/android-developer/answer/16302250) | [年龄限制与儿童安全](../age-restricted-child-safety/age-restricted-child-safety.zh-CN.md) |
@@ -79,9 +79,9 @@ effective_date: "current-policy"
 | --- | --- |
 | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311) | 数据收集、披露、同意、安全、删除和 SDK 责任；见[用户数据专题](../user-data/user-data.zh-CN.md)。 |
 | [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241) | 权限须与公开核心功能相符、按最小范围请求并尊重拒绝；见[敏感权限专题](../sensitive-permissions/sensitive-permissions.zh-CN.md)。 |
-| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646) | 禁止未授权干扰设备/网络、绕过沙盒、站外下载可执行代码等；见移动垃圾软件与设备滥用专题（快照：`mobile-unwanted-software.md`，未导入本仓库）。 |
+| [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646) | 禁止未授权干扰设备/网络、绕过沙盒、站外下载可执行代码等；见移动垃圾软件与设备滥用专题（[移动垃圾软件（MUwS）、广告欺诈与欺骗性行为](../mobile-unwanted-software/mobile-unwanted-software.zh-CN.md)）。 |
 | [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354) | 当前专题本身。 |
-| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689) | 并列的虚假陈述政策；见虚假陈述专题（快照：`misrepresentation.md`，未导入本仓库）。 |
+| [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689) | 并列的虚假陈述政策；见虚假陈述专题（[Google Play 虚假陈述（Misrepresentation）政策](../misrepresentation/misrepresentation.zh-CN.md)）。 |
 | [Google Play Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298) | 目标 API 专门政策；见[目标 API 专题](../target-api/target-api-level.zh-CN.md)。 |
 | [Preview: Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16909972?hl=en) | 2026 年 4 月预览页；联系人和位置政策计划于 2027-01-27 生效，预览不是现行生效文本。 |
 
@@ -91,7 +91,7 @@ effective_date: "current-policy"
 2. 检查是否有假登录页、仿冒系统警告、未授权政府/品牌声明、动态功能开关或审核环境差异；确保审查员看到的行为与普通用户一致。
 3. 逐项审查应用外设备设置、后台下载、远端脚本/代码及自动化改动：是否核心必需、用户是否明确同意、能否轻松撤回、下载大小是否事前披露。
 4. 对生成/编辑/传播图像、音频、视频和文本的功能，检查敏感事件语境、清晰水印/免责声明、讽刺语境及受限内容政策。
-5. 将本专题与虚假陈述（快照：`misrepresentation.md`，未导入本仓库）、移动垃圾软件/设备滥用（快照：`mobile-unwanted-software.md`，未导入本仓库）、[用户数据](../user-data/user-data.zh-CN.md)及商店素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)一起复核。
+5. 将本专题与虚假陈述（[Google Play 虚假陈述（Misrepresentation）政策](../misrepresentation/misrepresentation.zh-CN.md)）、移动垃圾软件/设备滥用（[移动垃圾软件（MUwS）、广告欺诈与欺骗性行为](../mobile-unwanted-software/mobile-unwanted-software.zh-CN.md)）、[用户数据](../user-data/user-data.zh-CN.md)及商店素材最佳实践[商店详情与素材最佳实践](../store-listing-best-practices/store-listing-best-practices.zh-CN.md)一起复核。
 
 ## 核验边界
 

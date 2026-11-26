@@ -54,7 +54,7 @@ Play 的 Malware/Stalkerware 规则只允许专为家长监护孩子或企业管
 | [User Data policy](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) | 全文已打开。要求透明披露处理方式、数据用途符合披露、SDK 数据实践合规、安全处理并遵守当地隐私法；它为 Spyware 提供跨应用的数据处理底线。 |
 | [Mobile Unwanted Software (MUwS)](https://developers.google.com/android/play-protect/mobile-unwanted-software) | 全文已打开。补充透明功能、明确系统变更、用户同意、加密传输、不诱使用户关闭 Play Protect，以及未经同意收集数据、社会工程、破坏体验广告、滥用系统功能和广告欺诈等分类。MUwS 与 Malware 分开维护，但可与 Spyware/权限滥用重叠。 |
 | [Sensitive Permissions policy](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 正文已打开并在[敏感权限专题](../sensitive-permissions/sensitive-permissions.zh-CN.md)中摘要；用于核对权限/接口是否为核心功能所必需，以及最小范围、申报和披露同意。旧链接 `answer/9888170` 已重定向到当前政策页。 |
-| [SDK Requirements](https://support.google.com/googleplay/android-developer/answer/13323374?hl=en) 与 [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895?hl=en) | 两个目标均已打开。前者是 SDK 要求页，后者为安全集成说明；两者都说明开发者须对集成代码和 SDK 数据处理承担责任，详见第三方 SDK 专题（快照：`sdk-requirements.md`，未导入本仓库）。 |
+| [SDK Requirements](https://support.google.com/googleplay/android-developer/answer/13323374?hl=en) 与 [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895?hl=en) | 两个目标均已打开。前者是 SDK 要求页，后者为安全集成说明；两者都说明开发者须对集成代码和 SDK 数据处理承担责任，详见第三方 SDK 专题（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）。 |
 | [Prominent disclosure and consent best practices](https://support.google.com/googleplay/android-developer/answer/11150561?hl=en) | 全文已打开。补充披露应在应用内、清楚说明数据/用途/共享、展示在正常使用情境并取得明确肯定同意的界面实践；不能只放在隐私政策或条款。 |
 | [Use of the isMonitoringTool Flag](https://support.google.com/googleplay/android-developer/answer/12955211?hl=en) | 全文已打开。三个标记值为 child_monitoring、enterprise_management、other；Google Play 根据类别与商店描述审核，并通过 Play Protect 提醒用户。 |
 | [Google Play Protect Malware categories](https://developers.google.com/android/play-protect/phacategories) | 全文已打开，展示 Malware 分类与 Play Protect 说明；它解释检测分类，不另行建立开发者上传/申报流程。 |
@@ -64,6 +64,6 @@ Play 的 Malware/Stalkerware 规则只允许专为家长监护孩子或企业管
 ## 关联专题
 
 - [敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md) · [用户数据](../user-data/user-data.zh-CN.md) · [Data safety](../data-safety/data-safety.zh-CN.md)
-- [SMS 与通话记录](../sms-call-log/sms-call-log.zh-CN.md) · 第三方 SDK 要求（快照：`sdk-requirements.md`，未导入本仓库） · [广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)
+- [SMS 与通话记录](../sms-call-log/sms-call-log.zh-CN.md) · 第三方 SDK 要求（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)） · [广告与推广](../ads-and-advertising/ads-and-advertising.zh-CN.md)
 
 已覆盖所选 Spyware 解释页的正文及直接政策/学习目标；帮助页侧栏推荐、SDK 的所有技术后代、不同地区监控法律、视频字幕与 Play Console 私有申报状态仍未全部读取。外链出现在目录中不代表所有后代都已审计。

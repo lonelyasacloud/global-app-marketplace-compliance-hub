@@ -38,7 +38,7 @@ Android 系统优化要求须结合 [Core App Quality](https://developer.android
 
 面向 Android 14/API 34 及更高版本的应用须为每个 FGS 声明准确的 Manifest 服务类型及匹配权限，并在 Play Console 申报实际用例。只有在服务支撑对用户有益且与核心功能相关的功能、由用户发起或持续可感知、用户能停止、无法安全延迟/中断且只运行必要时长时，才可申报相应用途。Play 页面列出 `systemExempted`、`shortService`，以及仅用于 Play Asset Delivery 功能时的 `dataSync` 例外；这不是所有同类型服务的通用豁免。
 
-申报需说明功能、延迟/中断的用户影响和用例，并提供用户触发该功能的视频。Android 类型/权限/启动条件及 Console 审核是两层要求；Manifest 声明本身不等于 Play 批准。完整迁移说明见前台服务与地理围栏专题（快照：`foreground-services-and-geofencing.md`，未导入本仓库）。地理围栏 FGS 用例另有 2027-01-27 的未来变更，应按该专题和政策期限表（快照：`../google-play-policy-link-graph.md`，未导入本仓库）检查。
+申报需说明功能、延迟/中断的用户影响和用例，并提供用户触发该功能的视频。Android 类型/权限/启动条件及 Console 审核是两层要求；Manifest 声明本身不等于 Play 批准。完整迁移说明见前台服务与地理围栏专题（[前台服务与地理围栏迁移](../foreground-services-and-geofencing/foreground-services-and-geofencing.zh-CN.md)）。地理围栏 FGS 用例另有 2027-01-27 的未来变更，应按该专题和政策期限表（快照：`../google-play-policy-link-graph.md`，未导入本仓库）检查。
 
 ## 用户发起的数据传输（UIDT）
 
@@ -117,7 +117,7 @@ Play 禁止不符合 allowlisting 资格的应用绕过系统电源管理；Andr
 | [AccessibilityService policy](https://support.google.com/googleplay/android-developer/answer/10964491?hl=en) | 与 `FLAG_SECURE` 例外相关；已有独立全文审计。无障碍工具仍不得把受保护内容传输、保存或缓存到设备外。 |
 | [Android security features](https://source.android.com/docs/security/features) | Android 安全架构背景资料；已打开，属于技术背景而非独立 Play 审批/豁免。 |
 | [On-device Android container apps and `REQUIRE_SECURE_ENV`](https://support.google.com/googleplay/android-developer/answer/13609005?hl=en) | Play FAQ 已完整打开：定义容器、标志用途、企业工作资料排除项、无技术强制拦截及容器运营方必须检查并尊重标志。FAQ 的 32 项帮助侧栏不属于本政策正文闭包。 |
-| [Play Console FGS 声明短链](https://goo.gle/play-permission-decl-form) → [权限声明帮助 answer/9214102](https://support.google.com/googleplay/android-developer/answer/9214102?hl=en) | 现行合并政策把 FGS 申报作为 Android 14+ 开发者的 Console 步骤；该短链指向通用权限声明帮助，实际 FGS 表单字段与资格仍须按对应应用的 Console 流程核验。详见前台服务专题（快照：`foreground-services-and-geofencing.md`，未导入本仓库）。 | 短链返回 Internal Error，但错误响应暴露了规范目标；`answer/9214102` 已单独打开。账号内真实表单未读取，未推断字段。 |
+| [Play Console FGS 声明短链](https://goo.gle/play-permission-decl-form) → [权限声明帮助 answer/9214102](https://support.google.com/googleplay/android-developer/answer/9214102?hl=en) | 现行合并政策把 FGS 申报作为 Android 14+ 开发者的 Console 步骤；该短链指向通用权限声明帮助，实际 FGS 表单字段与资格仍须按对应应用的 Console 流程核验。详见前台服务专题（[前台服务与地理围栏迁移](../foreground-services-and-geofencing/foreground-services-and-geofencing.zh-CN.md)）。 | 短链返回 Internal Error，但错误响应暴露了规范目标；`answer/9214102` 已单独打开。账号内真实表单未读取，未推断字段。 |
 
 ## 相关政策导航（页面底部侧栏）
 
@@ -130,7 +130,7 @@ Play 禁止不符合 allowlisting 资格的应用绕过系统电源管理；Andr
 
 | 场景 | 应分别核对 |
 | --- | --- |
-| 第三方 SDK 下载/执行代码 | Device and Network Abuse、SDK 要求（快照：`sdk-requirements.md`，未导入本仓库）、恶意软件/MUwS；不能仅因“SDK 自带下载器”而把责任转给供应商。 |
+| 第三方 SDK 下载/执行代码 | Device and Network Abuse、SDK 要求（[Google Play 第三方 SDK 要求与安全集成](../sdk-requirements/sdk-requirements.zh-CN.md)）、恶意软件/MUwS；不能仅因“SDK 自带下载器”而把责任转给供应商。 |
 | 后台长任务或定位 | Android FGS 启动和类型规则、Play FGS 声明、[后台位置政策](../background-location/background-location.zh-CN.md)；满足技术条件不代表通过 Play 审核。 |
 | 需要用户点击后上传/下载 | UIDT 的用户触发、网络传输与运行时长条件；自动备份/同步不因此自动符合 UIDT。 |
 | 屏幕捕获、录屏、容器/多开 | `FLAG_SECURE` 与 `REQUIRE_SECURE_ENV` 的不同保护对象；一个保护敏感界面，一个声明不应在安全功能不完整的容器环境运行。 |
