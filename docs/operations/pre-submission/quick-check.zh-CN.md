@@ -43,3 +43,10 @@ regions: [global]
 ## 证据记录
 
 对每个勾选项记录：来源 URL、核查日期、负责人、测试环境、截图或日志位置，以及不适用时的理由。
+
+## 官方来源
+
+- [Apple App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- [Apple App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
+- [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
+- [Google Play Console Help](https://support.google.com/googleplay/android-developer/)
