@@ -50,7 +50,7 @@ The Chinese and English versions may differ when the platform publishes differen
 
 ## Current baseline
 
-The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Google batch 1 adds six topics from that Google snapshot: the Developer Distribution Agreement, the consolidated Developer Program Policy, User Data, the detailed Data Safety form, payments and subscriptions, and the Play release workflow. Check dates on those pages are the review dates recorded in the snapshot. Always re-check the live official source before making a release decision.
+The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Google batch 1 adds six topics from that Google snapshot: the Developer Distribution Agreement, the consolidated Developer Program Policy, User Data, the detailed Data Safety form, payments and subscriptions, and the Play release workflow. Google batch 2 adds seven further topics from the same snapshot: sensitive permissions, the permissions declaration workflow, background location, SMS and Call Log, photo and video permissions, account deletion, and target API level requirements. Check dates on those pages are the review dates recorded in the snapshot. Always re-check the live official source before making a release decision.
 
 ## Contributing
 

@@ -26,8 +26,9 @@
 - [Data Safety baseline](google-play/data-safety/data-safety-baseline.zh-CN.md) and [Data safety form](google-play/data-safety/data-safety.zh-CN.md)
 - [Payments, billing, and subscriptions](google-play/payments/payments-and-subscriptions.zh-CN.md)
 - [Testing, review, and release](google-play/publishing/play-release-workflow.zh-CN.md)
-- Sensitive permissions and declarations
-- Target API and Android release requirements
+- [Sensitive permissions and APIs](google-play/sensitive-permissions/sensitive-permissions.zh-CN.md), [permissions declaration](google-play/permissions-declaration/permissions-declaration.zh-CN.md), [background location](google-play/background-location/background-location.zh-CN.md), [SMS and Call Log](google-play/sms-call-log/sms-call-log.zh-CN.md), and [photo and video permissions](google-play/photo-video-permissions/photo-video-permissions.zh-CN.md)
+- [Account deletion](google-play/account-deletion/account-deletion.zh-CN.md)
+- [Target API level requirements](google-play/target-api/target-api-level.zh-CN.md)
 
 ## 4. Operations / 运营流程
 

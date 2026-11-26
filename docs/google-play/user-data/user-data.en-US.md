@@ -98,7 +98,7 @@ The link must be active, public, globally accessible, and not a PDF; the page mu
 
 ## Account deletion
 
-An app that lets users create an account must provide a readily discoverable in-app deletion option and an external web resource. Enter the external link in the designated Play Console field. After a request, delete data associated with that account. Freezing, disabling, or temporarily deactivating the account is not deletion. If specific data must be retained for security, fraud prevention, or legal compliance, disclose the retention clearly.
+An app that lets users create an account must provide a readily discoverable in-app deletion option and an external web resource. Enter the external link in the designated Play Console field. After a request, delete data associated with that account. Freezing, disabling, or temporarily deactivating the account is not deletion. If specific data must be retained for security, fraud prevention, or legal compliance, disclose the retention clearly. The standalone summary is [Account deletion](../account-deletion/account-deletion.en-US.md).
 
 ## App Set ID
 
@@ -142,11 +142,11 @@ The User Data Help page also has a seven-item policy navigation rail. Its parent
 | Navigation target | Relationship to User Data and local topic | Target/descendant review |
 | --- | --- | --- |
 | [User Data (current page)](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) | This topic; current policy entry in the parent index. | Full body reviewed and summarized bilingually; body links are listed above. |
-| [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | Governs sensitive-permission access to user data; see Sensitive Permissions. | English body opened in full; the Contacts/Location preview and high-impact descendants are cross-linked. Other direct links and Android technical descendants remain partial. |
+| [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | Governs sensitive-permission access to user data; see [Sensitive Permissions](../sensitive-permissions/sensitive-permissions.en-US.md). | English body opened in full; the Contacts/Location preview and high-impact descendants are cross-linked. Other direct links and Android technical descendants remain partial. |
 | [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | Adds device, network, and data-abuse boundaries; see Device and Network Abuse. | Full body reviewed and 17 direct policy/technical targets inventoried; deeper Android implementation descendants remain partial. |
 | [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en) | Covers deceptive interfaces, functionality, and data-use claims; see Deceptive Behavior. | Full body opened; 11 anchor occurrences/10 distinct targets inventoried. Descendants remain partial. |
 | [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689?hl=en) | Covers false claims about identity, functionality, origin, and relationships; see Misrepresentation. | Full body opened; no independent policy-body links were found, and its navigation rail is tracked separately. |
-| [Google Play's Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298?hl=en) | Platform API thresholds affect implementation under sensitive-permission rules; see Target API requirements. | English body and navigation reviewed. The Simplified Chinese endpoint was unreadable; API/form-factor descendants remain partial. |
+| [Google Play's Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298?hl=en) | Platform API thresholds affect implementation under sensitive-permission rules; see [Target API requirements](../target-api/target-api-level.en-US.md). | English body and navigation reviewed. The Simplified Chinese endpoint was unreadable; API/form-factor descendants remain partial. |
 | [Preview: Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16909972?hl=en) | April 2026 policy preview; it marks Contacts and Location changes effective January 27, 2027, and should not be merged with current clauses; see Contacts and Location. | Preview body opened and summarized; Contact Picker, Location Button, and declaration/review relationships reviewed. Android API/sample descendants remain partial. |
 
 The parent index's other direct links were also checked: its [Google Play Policy video](https://www.youtube.com/watch?v=zMHv1yH7C4E) could not be fetched and no usable transcript was available; [Help Community](https://support.google.com/googleplay/android-developer/community?hl=en) opened as a dynamic community landing page whose posts change and are not authoritative policy; [Contact us](https://support.google.com/googleplay/android-developer/gethelp) redirects to account-only Play Console support and requires sign-in. These navigation/support routes are kept separate from policy text. Technical, course, dynamic legal-directory, and account-specific Console descendants continue to be checked within access limits; this does not claim infinite recursive closure.
@@ -167,9 +167,9 @@ Access note: the English and Simplified Chinese User Data bodies had been fully 
 
 - [Data safety form](../data-safety/data-safety.en-US.md)
 - Third-party SDK requirements and safe integration
-- Sensitive permissions and APIs
+- [Sensitive permissions and APIs](../sensitive-permissions/sensitive-permissions.en-US.md)
 - Health apps, health data, and Health Connect
-- [Account deletion requirements](https://support.google.com/googleplay/android-developer/answer/13327111?hl=en)
+- [Account deletion](../account-deletion/account-deletion.en-US.md) · [Account deletion requirements](https://support.google.com/googleplay/android-developer/answer/13327111?hl=en)
 - External law and reference materials for User Data: prominent-disclosure practices, CNIL mobile-app recommendations, and the relationship/access limits of DPF and Google Controller Terms
 - [Consolidated Developer Program Policy](../developer-program-policy/developer-program-policy.en-US.md)
 - Official: [User Data (English)](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) · [用户数据（简体中文）](https://support.google.com/googleplay/android-developer/answer/10144311?hl=zh-Hans)

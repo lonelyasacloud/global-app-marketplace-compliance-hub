@@ -98,7 +98,7 @@ Play Console 中每个应用都须维护清晰、准确的 Data safety 申报，
 
 ## 账号删除
 
-只要应用允许用户创建账号，就必须提供易于发现的应用内删除入口和应用外删除网页资源；外部链接须填写在 Play Console 指定字段。收到请求后删除该账号相关用户数据。冻结、停用或临时禁用不等同于删除。若基于安全、欺诈防范或法规义务保留特定数据，应明确告知保留范围和依据。
+只要应用允许用户创建账号，就必须提供易于发现的应用内删除入口和应用外删除网页资源；外部链接须填写在 Play Console 指定字段。收到请求后删除该账号相关用户数据。冻结、停用或临时禁用不等同于删除。若基于安全、欺诈防范或法规义务保留特定数据，应明确告知保留范围和依据。独立专题见[账号删除](../account-deletion/account-deletion.zh-CN.md)。
 
 ## App Set ID
 
@@ -142,11 +142,11 @@ User Data 帮助页还有 7 项政策导航。父级[Privacy, Deception and Devi
 | 导航目标 | 与 User Data 的关系和本地入口 | 目标页/后代核验 |
 | --- | --- | --- |
 | [User Data（当前页）](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en) | 本专题；父目录中的当前政策入口。 | 正文已完整核对并有双语摘要；正文链接另见上表。 |
-| [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 规定受限权限如何访问用户数据；见敏感权限专题。 | 英文正文已完整打开；联系人/位置预览及重点后代已互链，其他直接链接和 Android 技术后代仍部分覆盖。 |
+| [Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 规定受限权限如何访问用户数据；见[敏感权限专题](../sensitive-permissions/sensitive-permissions.zh-CN.md)。 | 英文正文已完整打开；联系人/位置预览及重点后代已互链，其他直接链接和 Android 技术后代仍部分覆盖。 |
 | [Device and Network Abuse](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | 补充设备、网络与数据滥用边界；见设备与网络滥用专题。 | 正文已完整核对，17 个直接政策/技术目标已登记；更深 Android 实现后代仍部分覆盖。 |
 | [Deceptive Behavior](https://support.google.com/googleplay/android-developer/answer/17006354?hl=en) | 覆盖误导性界面、功能和数据处理表述；见欺骗性行为专题。 | 正文已完整打开，11 次锚点/10 个不同目标已登记；目标页后代仍部分覆盖。 |
 | [Misrepresentation](https://support.google.com/googleplay/android-developer/answer/9888689?hl=en) | 涉及身份、功能、来源和关系的虚假陈述；见虚假陈述专题。 | 正文已完整打开；未发现独立政策正文外链，侧栏另行记录。 |
-| [Google Play's Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298?hl=en) | 版本门槛影响敏感权限政策/实现所依赖的平台 API；见目标 API 专题。 | 英文正文及侧栏已核对；简体中文官方入口不可读，API/设备形态后代仍部分覆盖。 |
+| [Google Play's Target API Level Policy](https://support.google.com/googleplay/android-developer/answer/16561298?hl=en) | 版本门槛影响敏感权限政策/实现所依赖的平台 API；见[目标 API 专题](../target-api/target-api-level.zh-CN.md)。 | 英文正文及侧栏已核对；简体中文官方入口不可读，API/设备形态后代仍部分覆盖。 |
 | [Preview: Permissions and APIs that Access Sensitive Information](https://support.google.com/googleplay/android-developer/answer/16909972?hl=en) | 2026 年 4 月政策预览；将联系人和位置变化标为 2027-01-27 生效，不能与当前条文混为一谈；见联系人与位置专题。 | 预览正文已完整打开并摘要；联系人选择器、Location Button 和申报/审核关系已核对，Android API/样例后代仍部分覆盖。 |
 
 父级目录的其他直接链接也逐项核对：它的 [Google Play Policy 视频](https://www.youtube.com/watch?v=zMHv1yH7C4E)抓取失败，未取得可用字幕；[Help Community](https://support.google.com/googleplay/android-developer/community?hl=en)已打开为动态社区首页，帖子会变化且不是权威政策文本；[Contact us](https://support.google.com/googleplay/android-developer/gethelp)会跳转到 Play Console 账号内支持页，需登录，未提交请求。上述导航和支持入口与政策正文分开标注。直接目标页中的技术、课程、动态法律目录和账号专属 Console 后代仍按可访问范围递进核验，不声称无限递归闭合。
@@ -167,9 +167,9 @@ User Data 帮助页还有 7 项政策导航。父级[Privacy, Deception and Devi
 
 - [Data safety 表单](../data-safety/data-safety.zh-CN.md)
 - 第三方 SDK 要求与安全集成
-- 敏感权限与 API
+- [敏感权限与 API](../sensitive-permissions/sensitive-permissions.zh-CN.md)
 - 健康应用、健康数据与 Health Connect
-- [账号删除要求](https://support.google.com/googleplay/android-developer/answer/13327111?hl=zh-CN)
+- [账号删除](../account-deletion/account-deletion.zh-CN.md) · [账号删除要求](https://support.google.com/googleplay/android-developer/answer/13327111?hl=zh-CN)
 - 用户数据政策的外部法律与参考资源：醒目披露最佳实践、CNIL 移动应用建议、DPF 和 Google Controller Terms 的关系与访问边界
 - [开发者计划合并政策](../developer-program-policy/developer-program-policy.zh-CN.md)
 - 官方：[用户数据（简体中文）](https://support.google.com/googleplay/android-developer/answer/10144311?hl=zh-Hans) · [User Data (English)](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en)
