@@ -1,0 +1,96 @@
+---
+id: google-play.play-asset-delivery
+platform: google-play
+language: en-US
+authority: operational
+status: current
+kb_checked_at: 2026-10-24
+review_due: 2027-01-24
+regions: [global]
+topics: [Play Asset Delivery, PAD, asset packs, dataSync, games, Play Core]
+snapshot_id: play.asset-delivery-implementation
+snapshot_package: "GooglePlay-KnowledgeBase-2026-10-24-review.zip"
+coverage_status: "detailed-summary"
+source_url: "https://developer.android.com/guide/playcore/asset-delivery"
+source_url_java: "https://developer.android.com/guide/playcore/asset-delivery/integrate-java"
+source_url_native: "https://developer.android.com/guide/playcore/asset-delivery/integrate-native"
+source_url_unity: "https://developer.android.com/guide/playcore/asset-delivery/integrate-unity"
+effective_date: "implementation guidance; the narrow dataSync foreground-service exception stays on the device-abuse and foreground-service topics; no 2027-01-27"
+---
+
+# Play Asset Delivery: policy boundary, delivery modes, and implementation checks
+
+> **Import note (Google batch 8).** The body is the paraphrased summary from the already separated 2026-10-24 Google Play knowledge-base snapshot (`play.asset-delivery-implementation`, reviewed 2026-10-24). It is not a verbatim copy of an official page. The English official source is the source of truth. `kb_checked_at` is the review date recorded in the snapshot source file; this import did not re-open the live official pages. Phrases such as “this knowledge base,” “this library,” and “local topic” describe coverage inside that snapshot, not the set of pages imported into this repository. Relative snapshot links to topics, link graphs, ledgers, or CSVs that are not in this repository are kept as text mentions. Relative links that target the Google batch 1–7 topics or these thirteen batch 8 topics point at the hub files. Reviewed 2026-10-24. The Chinese file cites the Device and Network Abuse parent as `hl=zh-CN`. The Android PAD guides use unlocalized `developer.android.com` URLs. The snapshot does not record a checked Chinese official PAD guide or a failed `hl=zh-CN` fetch of those Android pages. The Chinese hub text is an editorial paraphrase. The Google Play Instant overview returned cache miss or Internal Error, and no Instant content was inferred. A video target exposed no URL. Those access limits are not policy changes. No 2027-01-27 date is recorded. PAD is an implementation note. It does not grant a Play policy exemption. The `dataSync` foreground-service exception applies only to Play Asset Delivery use and stays on the device-and-network-abuse and foreground-service topics. Evidence level: Implementation note.
+
+**Reviewed October 24, 2026.** This topic starts with the `dataSync` foreground-service (FGS) exception in Play's [Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en), then follows Android's official [Play Asset Delivery (PAD) guide](https://developer.android.com/guide/playcore/asset-delivery) and its Java/Kotlin, native C/C++, and Unity integration pages. PAD is an Android implementation technology; it does not independently grant a Play-policy exemption, permission approval, or Console approval.
+
+## Policy boundary
+
+Play currently lists a `dataSync` FGS exception only for use of **Play Asset Delivery features**. Do not extend it to ordinary background sync, generic file downloads, SDK updates, or transfers unrelated to PAD. Even when an app uses PAD, check its target SDK, service type, manifest, user visibility, and Console declaration requirements. Read this with the [Foreground Services topic](../foreground-services-and-geofencing/foreground-services-and-geofencing.en-US.md) and [Device and Network Abuse topic](../device-and-network-abuse/device-and-network-abuse.en-US.md).
+
+The PAD guide says asset packs may contain game resources such as textures, shaders, and sounds, but **must not contain executable code**. Do not use a dynamically delivered asset pack as an app-external code-distribution channel. Play's general restrictions on self-updates, executable code downloaded outside the app, and third-party SDK behavior still apply independently; see [SDK Requirements](../sdk-requirements/sdk-requirements.en-US.md).
+
+## Three delivery modes
+
+| Mode | Availability and install form | User/app handling |
+| --- | --- | --- |
+| `install-time` | Installed with the app and available at first launch as split APKs; included in the app size displayed on the Play listing. | Installation/update needs free space. The guide says available storage should be at least twice the total size of all asset packs. Users cannot move or delete the pack like a regular downloaded file. |
+| `fast-follow` | Downloads automatically after installation and does not block first launch; extracted to app-private storage after download. | Do not assume it is ready on the first screen. Show progress and let core functionality continue when assets are temporarily unavailable. Excluded from displayed listing size; files may be moved/deleted by the user or Play library. |
+| `on-demand` | Requested while the app runs; extracted to app-private storage after download. | Query size and inform users before requesting it; handle pause, cancellation, no network, and confirmation. Excluded from displayed listing size; paths and availability can change. |
+
+Google Play hosts packs and manages compression, delta updates, and download scheduling; developers still need a UI and recovery path for missing assets. Instant apps support only `on-demand`. Texture Compression Format Targeting (TCFT) selects assets based on device-supported formats; limits apply separately to each unique texture format. See the official [texture-compression guide](https://developer.android.com/guide/playcore/asset-delivery/texture-compression).
+
+## Release and runtime checks
+
+- **Disclose download size.** Java/native integration pages require the app to tell users the asset-pack size before download. The guides give a threshold of explicit consent for cellular downloads above 200 MB. Recheck the current page, platform prompt behavior, and app context when implementing.
+- **Handle interruptions and confirmation.** Losing Wi-Fi can pause a download; resuming may require confirmation. If the app is not recognized as Play-installed (for example, it was sideloaded), the API may return `REQUIRES_USER_CONFIRMATION`; after confirmation the flow may update the app, after which assets must be requested again.
+- **Re-query on every launch.** Do not cache a pack path as proof that a file remains available. An app update, data clear, or user/Play-managed action can invalidate an old path or asset. Query location and state again, and degrade or retry if the asset is missing.
+- **Treat downloaded assets as read-only.** Do not modify extracted PAD files; update integrity relies on the app leaving them unchanged. Store mutable state or derived files in app-managed locations.
+- **Tolerate update races.** Updating fast-follow/on-demand packs invalidates old packs. In rare cases the app binary may update before the asset patch is ready. Show an “Update in progress” state and avoid crashing or blocking users when an asset is temporarily unavailable.
+- **Keep size definitions clear.** `install-time` assets count toward displayed listing size; fast-follow/on-demand do not. Play's calculation may differ from a local estimate; see [app-size Help](https://support.google.com/googleplay/android-developer/answer/9859372).
+
+### Play Core SDK and Data safety
+
+Play Core has been split into feature-specific libraries. Gradle coordinates and static SDK download examples change; examples such as `play-core-native-sdk-1.16.0.zip` are old and should not be treated as current dependency versions. Check the live integration guide, release notes, and project build configuration.
+
+The native guide says the Native SDK collects package name, app version, and SDK version when uploading the app package, and describes opting out by removing `playcore-native-metadata.jar`. This is not the app's full data-flow inventory. The guide says developers are solely responsible for the app's [Data safety](../data-safety/data-safety.en-US.md) answers. Evaluate app code, SDKs, servers, recipients, retention, and user disclosures together; do not infer “no declaration needed” from this paragraph alone.
+
+[In-app Updates](https://developer.android.com/guide/playcore/in-app-updates) updates the app binary, separate from asset-pack delivery. It does not replace asset-pack state checks or remotely recover old installed versions through Play Console. Distinguish legal links too: the PAD page's Play Terms target is the consumer-facing [Google Play Terms of Service](https://play.google.com/about/play-terms/index.html), not the Developer Distribution Agreement. `/guide/playcore/license` currently redirects to the general Play Core overview, so it does not establish that a separate current SDK-terms body was verified.
+
+## Official pages and direct-child audit
+
+These tables cover external links in page bodies; headers, footers, sidebars, and generic navigation are not counted as policy descendants. “Opened” means the destination was read; it does not mean every grandchild/API member was closed. See the per-URL audit (snapshot: `../source-page-audit.csv`, not imported in this repository) and recursive graph §4.137 (snapshot: `../google-play-policy-link-graph-en.md#4137-play-asset-delivery-policy-boundary-implementation-guides-and-direct-children-october-24-2026`, not imported in this repository).
+
+### Body targets from the PAD overview
+
+| Target | Content and relationship | Status/boundary this pass |
+| --- | --- | --- |
+| [Play Core overview](https://developer.android.com/guide/playcore) | Feature-specific Play Core libraries; check release notes for current integration versions. | Full body opened; versions/API descendants not exhausted. |
+| [Google Play Instant overview](https://developer.android.com/gtopic/google-play-instant/overview) | Instant and supported PAD delivery modes. | Fetch returned Cache miss/Internal Error; no page content inferred. |
+| [Texture compression](https://developer.android.com/guide/playcore/asset-delivery/texture-compression) | TCFT, device-format selection, and texture setup; legacy route redirects here. | Current page opened; engine/API descendants remain partial. |
+| [In-app Updates](https://developer.android.com/guide/playcore/in-app-updates) | Flexible/immediate app-binary updates, separate from pack downloads; legacy route redirects here. | Body opened; language samples/API descendants remain partial. |
+| [App size limits](https://support.google.com/googleplay/android-developer/answer/9859372) | App/asset-pack size display and Console metrics. | Help body opened; account metrics remain sign-in gated. |
+| [Java/Kotlin integration](https://developer.android.com/guide/playcore/asset-delivery/integrate-java) and [Unity integration](https://developer.android.com/guide/playcore/asset-delivery/integrate-unity) | Gradle/AssetPackManager or Unity Addressables/AssetBundles and plugin workflows. | Legacy routes resolved to current pages; bodies opened; API/plugin descendants remain partial. |
+| [`/guide/playcore/license`](https://developer.android.com/guide/playcore/license) | SDK terms route labeled by the overview. | Redirects to the Play Core overview; not treated as terms text. |
+| [Google Play Terms of Service](https://play.google.com/about/play-terms/index.html) | Consumer service terms. | Full body opened; not the Developer Distribution Agreement. |
+| Developer stories: [Devsisters](https://developer.android.com/stories/games/devsisters), [Cat Daddy](https://developer.android.com/stories/games/cat-daddy), [CD PROJEKT RED](https://developer.android.com/stories/games/cdpr), [RV AppStudios](https://developer.android.com/stories/games/rv-appstudios-pad), [Gameloft](https://developer.android.com/stories/games/gameloft-pad) | PAD adoption examples. | All five opened; examples are not policy duties, guarantees, or review commitments. |
+| [Android Developers content license](https://developer.android.com/license) | License for Android Developers content/sample code. | Body opened; not a Play distribution rule. |
+| Overview illustrations: [distribution](https://developer.android.com/static/images/picto-icons/distribution.svg), [pathway](https://developer.android.com/static/images/picto-icons/pathway.svg), [frame](https://developer.android.com/static/images/picto-icons/frame.svg), [update](https://developer.android.com/static/images/spot-icons/tools-update.svg) | Illustrations/icons with no separate policy text. | All attempted; images were unreadable or cache misses. No content inferred from URLs. |
+| Body video link | PAD explainer video. | Click did not expose its destination URL; target was not identified/audited. No video content claimed. |
+
+### Integration guides and key grandchildren
+
+| Branch/target | Summary and audit boundary |
+| --- | --- |
+| [Native C/C++ integration](https://developer.android.com/guide/playcore/asset-delivery/integrate-native) | Uses `play/asset_pack.h` and CMake; checks download state, size, network confirmation, and invalidatable paths; discusses Native SDK metadata. Body opened (page says updated October 16, 2026); SDK download target was not exposed, and some version/Terms examples are historical. |
+| [Java integration](https://developer.android.com/guide/playcore/asset-delivery/integrate-java) | `AssetPackManager` has mode-specific flows; re-query each launch, disclose size, and handle fast-follow not yet ready. Body opened (page says updated October 16, 2026); API descendants only partly reviewed. |
+| [Unity integration](https://developer.android.com/guide/playcore/asset-delivery/integrate-unity), [Unity PAD codelab](https://developer.android.com/codelabs/unity-gamepad) | Addressables/older AssetBundles and a specific implementation tutorial. Opened; codelab/plugin versions need verification against the current Unity project. |
+| [Native PAD sample](https://github.com/android/app-bundle-samples/tree/main/PlayAssetDelivery/NativeSample), [Native codelab](https://developer.android.com/codelabs/native-gamepad), [PAD test guide](https://developer.android.com/guide/playcore/asset-delivery/test) | Examples cover three modes; codelab teaches implementation; test page covers mode/bundle workflows. Opened; examples are not normative and full test/API descendants remain partial. |
+| Java API | [assetpacks package](https://developer.android.com/reference/com/google/android/play/core/assetpacks/package-summary), [AssetPackManager](https://developer.android.com/reference/com/google/android/play/core/assetpacks/AssetPackManager), [AssetPackLocation](https://developer.android.com/reference/com/google/android/play/core/assetpacks/AssetPackLocation), [AssetPackStates](https://developer.android.com/reference/com/google/android/play/core/assetpacks/AssetPackStates), [AssetPackState](https://developer.android.com/reference/com/google/android/play/core/assetpacks/AssetPackState), [AssetPackStatus](https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackStatus), [AssetPackErrorCode](https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode), [AssetPackStateUpdatedListener](https://developer.android.com/reference/com/google/android/play/core/assetpacks/AssetPackStateUpdatedListener), [KTX package](https://developer.android.com/reference/com/google/android/play/core/ktx/package-summary), and [AssetManager](https://developer.android.com/reference/android/content/res/AssetManager). Pages opened and PAD-relevant members checked; other catalog members/descendants not exhausted. |
+| Native API | [Play Core native](https://developer.android.com/reference/native/play/core), [assetpack group](https://developer.android.com/reference/native/play/core/group/assetpack), [NDK asset API](https://developer.android.com/ndk/reference/group/asset), [ANativeActivityCallbacks](https://developer.android.com/ndk/reference/struct/a-native-activity-callbacks). Large targets opened and relevant symbols sampled; unrelated members were not individually summarized. |
+| Unity API/tooling | [AndroidAssetPacks](https://docs.unity3d.com/ScriptReference/Android.AndroidAssetPacks.html), [PlayAssetDelivery](https://developer.android.com/reference/unity/class/Google/Play/AssetDelivery/PlayAssetDelivery), [PlayAssetDelivery namespace](https://developer.android.com/reference/unity/namespace/Google/Play/AssetDelivery), [PlayAssetBundleRequest](https://developer.android.com/reference/unity/class/Google/Play/AssetDelivery/PlayAssetBundleRequest), [AssetPackConfig](https://developer.android.com/reference/unity/class/Google/Android/AppBundle/Editor/AssetPackConfig), [Bundletool](https://developer.android.com/reference/unity/class/Google/Android/AppBundle/Editor/Bundletool), [Addressables Android](https://docs.unity3d.com/Packages/com.unity.addressables.android@1.0/manual/index.html), [Unity PAD manual](https://docs.unity3d.com/Manual/play-asset-delivery.html), [AssetBundles](https://docs.unity3d.com/Manual/AssetBundlesIntro.html), [AssetBundle Browser](https://docs.unity3d.com/Packages/com.unity.assetbundlebrowser@1.7/manual/index.html), [Package Manager](https://docs.unity3d.com/Manual/class-PackageManager.html), [UPM install](https://docs.unity3d.com/Manual/upm-ui-install.html), [Coroutines](https://docs.unity3d.com/Manual/Coroutines.html), [BuildPlayerOptions](https://docs.unity3d.com/ScriptReference/BuildPlayerOptions.html), [OpenUPM CLI](https://github.com/openupm/openupm-cli), [Unity PAD plugin v1.9.5](https://github.com/google/play-asset-delivery-unity/releases/tag/v1.9.5). Pages opened/redirect-resolved; a version-specific link does not mean it is still latest. |
+| Build/licensing context | [Command-line builds](https://developer.android.com/build/building-cmdline), [Android Studio](https://developer.android.com/studio), [sdkmanager](https://developer.android.com/tools/sdkmanager), [Studio updates](https://developer.android.com/studio/intro/update), [NDK guides](https://developer.android.com/ndk/guides), [upload AAB](https://developer.android.com/studio/publish/upload-bundle), [Google APIs Terms](https://developers.google.com/terms), [Unity Addressables overview](https://unity.com/how-to/simplify-your-content-management-addressables). Targets opened; tooling/implementation context is not Play approval. |
+
+## Coverage and open items
+
+The PAD overview and Java, native, and Unity integration pages were opened; every overview body link was attempted, and key integration/API destinations were recorded. “Available in full” means this local knowledge base has a bilingual structured summary and traceable official URLs, not a verbatim copy or exhaustive closure of every API member, sample-repository file, tool-navigation link, or infinitely deep descendant. Native SDK download and video destinations remain unresolved; the Instant fetch failed; `/guide/playcore/license` did not reach a separate terms body. Android engineering guidance does not replace Play policy analysis.
