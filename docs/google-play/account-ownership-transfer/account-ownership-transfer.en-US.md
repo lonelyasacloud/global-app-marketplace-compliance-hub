@@ -81,5 +81,5 @@ The ownership article's ten generic sidebar entries are tracked separately from 
 ## Related local topics
 
 - [Play Console Requirements: account eligibility, identity information, and app migration](../play-console-requirements/play-console-requirements.en-US.md)
-- Android Developer Verification (snapshot: `android-developer-verification-en.md`, not imported in this repository)
+- Android Developer Verification [Android developer verification](../android-developer-verification/android-developer-verification.en-US.md)
 - [Google Play Developer Program Policy](../developer-program-policy/developer-program-policy.en-US.md)

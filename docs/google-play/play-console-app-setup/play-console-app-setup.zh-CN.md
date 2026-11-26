@@ -32,10 +32,10 @@ effective_date: "operational setup; Personal-account closed-test gate applies to
 
 ## 包名、构建产物与版本
 
-- **包名不可回收：** Play 要求应用文件的 package name 唯一且永久；创建时仔细选择，不能删除后给另一应用重用。新 Play 应用与 Android 开发者验证的包名登记关联，详见开发者验证专题（快照：`android-developer-verification.md`，未导入本仓库）。
+- **包名不可回收：** Play 要求应用文件的 package name 唯一且永久；创建时仔细选择，不能删除后给另一应用重用。新 Play 应用与 Android 开发者验证的包名登记关联，详见开发者验证专题[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)。
 - **AAB 与生成 APK：** Play 使用 Android App Bundle 为不同设备配置生成优化 APK；开发者上传一个签名 bundle，Play 负责分发 APK。新应用的 App Bundle、Play App Signing 和生成/交付状态见下方直链表及[发布流程中的签名专题](../publishing/play-release-workflow.zh-CN.md#play-app-signing-与-automatic-protection正文摘要和重要直接后代)。
 - **产物状态：** 来源帮助页用 Draft、Active、Archived 描述未向用户提供、正在提供和曾经提供但不再提供的 APK。新版 Console 的 App Bundle Explorer 可按版本检查 Details、Downloads、Delivery；这是账号内工具，用户级状态须登录查看。
-- **版本号：** `versionCode` 随每次更新递增；Play Console 当前帮助页规定最大值为 **2,100,000,000**，超出会阻止提交新 App Bundle。Android `MAXINT` 与 Play 上传限制不是一回事，版本规划应留出后续更新空间。
+- **[版本号](../app-version-codes-and-apk-distribution/app-version-codes-and-apk-distribution.zh-CN.md)：** `versionCode` 随每次更新递增；Play Console 当前帮助页规定最大值为 **2,100,000,000**，超出会阻止提交新 App Bundle。Android `MAXINT` 与 Play 上传限制不是一回事，版本规划应留出后续更新空间。
 - **Target API：** 每个上传的 bundle 都须符合当期 target API 要求。截止本次核对日，官方页列出的 2026-08-31 提交门槛、设备形态例外、旧应用可见性和 2026-11-01 延期，应以[目标 API 专题](../target-api/target-api-level.zh-CN.md)和当前 Console 警告为准，不将静态摘要当作下一年度规则。
 - **下载大小：** Play 按压缩后的下载体积评估 App Bundle、feature module 和 asset pack。当前帮助页列出 base module/单个 feature module 各 500 MB、单个 asset pack 1.5 GB、安装时累计 4 GB、fast-follow/on-demand 累计 30 GB、应用总计 34 GB；超过 200 MB 时移动网络安装会出现非阻塞提示。超过 1 GB 的应用须将 minSdk 设为 API 21 或更高。旧 APK 路径仍受 100 MB 限制。数字和打包规则可能更新，应重查[官方大小限制页](https://support.google.com/googleplay/android-developer/answer/9859372?hl=en)；生产发布后才能在 App size 页面查看实际下载大小趋势。
 

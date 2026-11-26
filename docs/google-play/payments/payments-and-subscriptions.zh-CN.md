@@ -21,7 +21,7 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/9
 
 **核对日期：2026-10-24。** 本专题合并 Payments、Subscriptions 的政策要求及其官方帮助/实现子页。Google Play Billing 是 Play 分发数字商品和服务的默认结算方式；替代计费、站外支付链接属于按国家/地区、产品和项目资格开放的例外。订阅展示、取消和持续价值要求独立适用，即使开发者参加了替代计费项目也不能忽略。
 
-Apps Experience 与 revamped Level Up 是自愿项目，不改变基础付款政策；经审核的项目费率和市场日期见双语项目专题 / English。
+Apps Experience 与 revamped Level Up 是自愿项目，不改变基础付款政策；经审核的项目费率和市场日期见[Apps Experience 与 Level Up](../apps-experience-and-level-up/apps-experience-and-level-up.zh-CN.md)。
 
 ## 1. 先判断交易卖的是什么
 

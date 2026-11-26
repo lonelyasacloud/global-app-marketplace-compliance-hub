@@ -81,5 +81,5 @@ Google Play 要求开发者账号的所有权保持透明、可追责。收购�
 ## 相关本地专题
 
 - [Play Console 要求：账号资格、身份信息和应用迁移](../play-console-requirements/play-console-requirements.zh-CN.md)
-- Android 开发者验证（快照：`android-developer-verification.md`，未导入本仓库）
+- Android 开发者验证[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)
 - [Google Play 开发者计划政策](../developer-program-policy/developer-program-policy.zh-CN.md)

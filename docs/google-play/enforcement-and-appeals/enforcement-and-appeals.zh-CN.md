@@ -63,7 +63,7 @@ Google 在评估政策问题时可以考虑商店元数据、应用内体验、�
 
 - **Play Protect 安装警告/拦截申诉：** [App verification](https://support.google.com/googleplay/android-developer/answer/2992033)和[Play Protect Appeal 表单](https://support.google.com/googleplay/android-developer/contact/protectappeals)针对 Play Protect 对从互联网/第三方市场侧载的应用发出警告或阻止安装的分类争议，不等同于 Play 商店拒绝、下架或账号终止申诉。表单要求包名、上传文件的 VirusTotal SHA-256 和支持材料；它表示决定为最终决定，不提供未来实现的合规咨询，页面称不会逐案回复。
 - **举报他人应用/评价：** [Report a policy violation](https://support.google.com/googleplay/android-developer/answer/1085703)用于举报其他应用违反 DDA/政策；版权、商标及违规评价分别有专门路径。[Report inappropriate reviews](https://support.google.com/googleplay/android-developer/answer/7318385)要求按 Comment Posting Policy 举报评价；同一条评价若被判不违规，不能再次举报，账户每日举报数也可能有限制。这些不是开发者对自己应用处置的申诉。
-- **开发者身份与 Play Protect 误报不是一件事。** Play Console 账号/包名验证要求见[Play Console Requirements](https://support.google.com/googleplay/android-developer/answer/10788890?hl=en&ref_topic=9877468)及开发者身份验证专题（快照：`../android-developer-verification.md`，未导入本仓库）；App verification 申诉则处理 Play Protect 的有害应用分类。
+- **开发者身份与 Play Protect 误报不是一件事。** Play Console 账号/包名验证要求见[Play Console Requirements](https://support.google.com/googleplay/android-developer/answer/10788890?hl=en&ref_topic=9877468)及开发者身份验证专题[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)；App verification 申诉则处理 Play Protect 的有害应用分类。
 
 ## EEA 开发者的额外调解路径
 

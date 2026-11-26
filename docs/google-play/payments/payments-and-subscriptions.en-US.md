@@ -21,7 +21,7 @@ source_url_zh: "https://support.google.com/googleplay/android-developer/answer/9
 
 **Reviewed October 24, 2026.** This topic combines the Payments and Subscriptions requirements with their most relevant Help and implementation descendants. Google Play Billing is the default payment method for digital goods and services distributed through Play. Alternative billing and links to external payment are exceptions controlled by market, product, and program eligibility. Subscription disclosure, cancellation, and recurring-value rules apply independently, including to developers using alternative billing programs.
 
-Apps Experience and revamped Level Up are voluntary programs and do not change baseline payment policy. See the bilingual program topic for reviewed program fees and market dates.
+Apps Experience and revamped Level Up are voluntary programs and do not change baseline payment policy. See the [Apps Experience and Level Up](../apps-experience-and-level-up/apps-experience-and-level-up.en-US.md) topic for reviewed program fees and market dates.
 
 ## 1. First classify the transaction
 

@@ -40,8 +40,8 @@ effective_on: 2026-09-30
 | 设备、网络与恶意软件 | 禁止恶意软件、移动垃圾软件、广告欺诈、社会工程和滥用设备/网络；系统功能/API 只能按允许用途使用，应用及 SDK 不得隐藏、绕过或未经同意执行有害行为。 | 恶意软件、间谍软件与数据外传、移动垃圾软件、欺骗性行为、设备与网络滥用、第三方 SDK 要求 |
 | 获利、付款与广告 | 数字商品/服务通常按 Payments 规则使用 Google Play Billing，适用例外和地区计划须逐项核实；订阅须清楚披露价格、周期、续订和取消；广告及其落地页也受内容、年龄、隐私和体验规则约束。 | [付款、计费与订阅](../payments/payments-and-subscriptions.zh-CN.md)、广告与推广、儿童安全与年龄限制、第三方 SDK 要求 |
 | 商品详情、推广与分发 | 元数据、图像、事件、促销和应用宣传须真实且不操纵排名/评价；正确完成内容分级、新闻/杂志申报及目标 API 要求。 | 商店详情与素材最佳实践、评分、评价与安装量、内容分级与目标受众、[新闻与杂志](../news-and-magazines/news-and-magazines.zh-CN.md)、目标 API 要求 |
-| 垃圾内容、功能和用户体验 | 应用必须有稳定、响应良好的实际功能和原创价值；限制重复/低质、无功能、未经许可的 WebView/导流、消息垃圾和扰乱 Play/设备体验的行为。 | 垃圾内容、功能性与用户体验、应用质量与设备形态、审核准备、[测试与发布流程](../publishing/play-release-workflow.zh-CN.md) |
-| 特定设备、受众与计划 | Android Auto/Automotive、Android TV、Wear OS、Instant Apps、表情符号、Families 等各有适配要求；参加真钱博彩、健康、广告 SDK 或地区试点时还适用专项资格和申报。 | 应用质量与设备形态、年龄限制与儿童安全、健康应用与 Health Connect、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、[预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md)、政策课程索引 |
+| 垃圾内容、功能和用户体验 | 应用必须有稳定、响应良好的实际功能和原创价值；限制重复/低质、无功能、未经许可的 WebView/导流、消息垃圾和扰乱 Play/设备体验的行为。 | 垃圾内容、功能性与用户体验、[应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、审核准备、[测试与发布流程](../publishing/play-release-workflow.zh-CN.md) |
+| 特定设备、受众与计划 | Android Auto/Automotive、Android TV、Wear OS、[Instant Apps](../android-instant-apps/android-instant-apps.zh-CN.md)、[表情符号](../android-emoji-support/android-emoji-support.zh-CN.md)、Families 等各有适配要求；参加真钱博彩、健康、广告 SDK 或地区试点时还适用专项资格和申报。 | [应用质量与设备形态](../app-quality-and-form-factor-guidelines/app-quality-and-form-factor-guidelines.zh-CN.md)、年龄限制与儿童安全、健康应用与 Health Connect、[真钱赌博](../real-money-gambling/real-money-gambling.zh-CN.md)、[预测市场试点](../prediction-market-pilot/prediction-market-pilot.zh-CN.md)、政策课程索引 |
 | 执行与申诉 | Google 可拒绝、移除、暂停或限制应用/账号；在 Console 查看 Policy status，按通知修复并通过正式渠道申诉。重复/严重违反、账号关联和审核材料不完整会带来额外风险。 | 执行处置与申诉、Play Console 要求、审核准备、Google Play 政策执行控制总表 |
 
 表中站内链接把合并版政策领域连到现有双语专题，便于离线逐层查阅；专题摘要和子链接核查状态仍以各专题页及政策递归链接图为准。
@@ -70,7 +70,7 @@ effective_on: 2026-09-30
 
 目前可以把本知识库称为“Google Play 主要公开政策与发布要求的双语导航/摘要库”，**不能称作 Google Play 全部制度规则的穷尽合集**。还存在以下边界：
 
-1. 当前政策中心中文目录的 51 个直接目标、英文目录的 52 个直接目标（多出的 Android XR 仅列于英文目录），均在逐 URL 台账中标记为已完整打开并有人工摘要记录；本地保存双语摘要与官方来源链接，不是政策原文全文档。各主题帮助页中的内链、孙链接和更深后代仍未逐页穷尽。当前链接图和执行控制总表逐项说明范围与状态。
+1. 当前政策中心中文目录的 51 个直接目标、英文目录的 52 个直接目标（多出的 [Android XR](../android-xr-app-quality-and-policies/android-xr-app-quality-and-policies.zh-CN.md) 仅列于英文目录），均在逐 URL 台账中标记为已完整打开并有人工摘要记录；本地保存双语摘要与官方来源链接，不是政策原文全文档。各主题帮助页中的内链、孙链接和更深后代仍未逐页穷尽。当前链接图和执行控制总表逐项说明范围与状态。
 2. 按国家/地区变化的金融、贷款、赌博、隐私、税务、消费者保护和行业许可规则没有逐国汇编。法规可能变更，且 Google Play 政策不能代替法律审查。
 3. 56 份 Policy Archive 历史 PDF 仅登记为版本索引，未逐份全文归档；只在需要复原某一日期规则时按版本单独核对。
 4. 登录后才能查看的 Play Console 表单/账号状态、封闭式计划条款、Play Academy 课程、视频和社区个案没有被当作可验证的完整政策文本。

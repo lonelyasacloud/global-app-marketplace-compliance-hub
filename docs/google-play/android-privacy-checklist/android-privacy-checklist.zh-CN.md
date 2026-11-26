@@ -138,7 +138,7 @@ Android 官方[提升应用安全性指南](https://developer.android.com/privac
 
 ### Google Play App Security Improvement 活动
 
-[App Security Improvement Program](https://developer.android.com/privacy-and-security/googleplay-asi) 会扫描应用并通过邮件/Play Console 通知潜在安全问题；部分通知含账号专属整改期限，部分问题可能阻止后续更新。其活动表里的日期是历史活动启动日期，不是当前统一截止日。35 个支持目标、正文访问状态和修复摘要见活动与整改专题（快照：`android-app-security-improvement-campaigns.md`，未导入本仓库）；每个活动页的技术后代仍部分未审阅。实务上应以对应应用 Console 告警确定目标版本、期限和发布影响。
+[App Security Improvement Program](https://developer.android.com/privacy-and-security/googleplay-asi) 会扫描应用并通过邮件/Play Console 通知潜在安全问题；部分通知含账号专属整改期限，部分问题可能阻止后续更新。其活动表里的日期是历史活动启动日期，不是当前统一截止日。35 个支持目标、正文访问状态和修复摘要见活动与整改专题[应用安全改进活动](../android-app-security-improvement-campaigns/android-app-security-improvement-campaigns.zh-CN.md)；每个活动页的技术后代仍部分未审阅。实务上应以对应应用 Console 告警确定目标版本、期限和发布影响。
 
 ## 直接链接与覆盖记录
 

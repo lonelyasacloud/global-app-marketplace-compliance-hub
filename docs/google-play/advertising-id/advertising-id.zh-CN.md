@@ -57,7 +57,7 @@ Families 的限制须单独检查：儿童专用应用不得传输儿童标识�
 
 | 正文链接目标 | 与 AAID 的关系及核验 |
 | --- | --- |
-| [唯一标识符最佳实践](https://developer.android.com/identity/user-data-ids)（Help 原链接：[旧入口](https://developer.android.com/training/articles/user-data-ids)会跳转至此） | Android 技术建议：按用途选择限制最严格的标识符；广告 ID 仅供广告/画像，尊重退出、不可串联重置；分析、防欺诈可评估 App Set ID/FID。它是实现指引，不是审核批准。Play Integrity API 专题（快照：`play-integrity-api.md`，未导入本仓库）补充服务条款明确禁止用 Integrity 做个人/设备指纹识别或跟踪，也整理请求数据、Device Recall 与服务端验证边界。2026-10-16 更新的正文、用途矩阵和 31 个正文链接已另在下文核验。 |
+| [唯一标识符最佳实践](https://developer.android.com/identity/user-data-ids)（Help 原链接：[旧入口](https://developer.android.com/training/articles/user-data-ids)会跳转至此） | Android 技术建议：按用途选择限制最严格的标识符；广告 ID 仅供广告/画像，尊重退出、不可串联重置；分析、防欺诈可评估 App Set ID/FID。它是实现指引，不是审核批准。Play Integrity API 专题[Play Integrity API](../play-integrity-api/play-integrity-api.zh-CN.md)补充服务条款明确禁止用 Integrity 做个人/设备指纹识别或跟踪，也整理请求数据、Device Recall 与服务端验证边界。2026-10-16 更新的正文、用途矩阵和 31 个正文链接已另在下文核验。 |
 | [App Set ID 指南](https://developer.android.com/identity/app-set-id)（Help 原链接：[旧入口](https://developer.android.com/training/articles/app-set-id)会跳转至此） | 说明开发者范围/应用范围、重置条件、异步读取及不要依赖缓存。与 Play 现行政策合读：只用于必要的非广告用途，并遵循披露和关联限制。 |
 | [Manifest 合并指南](https://developer.android.com/build/manage-manifests)（Help 原链接：[旧入口](https://developer.android.com/studio/build/manifest-merge)会跳转至此） | 解释应用、构建变体和 SDK 清单优先级以及合并冲突；据此检查广告 SDK 是否注入 AD_ID。它不决定应用是否有资格使用该权限。 |
 | [AdvertisingIdClient.Info API](https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info) | 记录 getId() 与 isLimitAdTrackingEnabled()；缺少适用的 AD_ID 声明或用户关闭跟踪时会返回零值。页面标注 2026-01-27 更新。 |

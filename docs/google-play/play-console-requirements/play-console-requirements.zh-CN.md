@@ -64,7 +64,7 @@ effective_date: "requirements article effective 2026-09-30; target-API extension
 | [Android VpnService API](https://developer.android.com/reference/android/net/VpnService) 与 [VPN Service policy](https://support.google.com/googleplay/android-developer/answer/16558241?hl=en) | 区分技术 API 与 Play 政策条件；获准使用 VpnService 的应用须登记为 Organization。 | API 参考和现行敏感权限政策均已打开；API 内容是技术语境，不会单独授予 Play 批准。 |
 | [D-U-N-S 查找/服务入口](https://service.dnb.com/home) | 组织账号资料与 Dun & Bradstreet 记录保持一致。 | 外部 D&B 落地页已打开；不是 Google Play 政策页，也不能替代 Console 身份核验。 |
 | [审核登录详情](https://support.google.com/googleplay/android-developer/answer/15748846?hl=en) | 受账号或地区限制的应用须提供审核人员可用的账号、步骤和资源。 | 正文已打开；见审核准备和发布流程专题。 |
-| [Android developer verification 总览](https://developer.android.com/developer-verification?hl=en)、[Play 包名登记帮助](https://support.google.com/googleplay/android-developer/answer/16984799?hl=en) | 提交前登记包名；总览说明平台机制，Help 页说明 Play Console 操作。 | 两页均已打开；登记流程与密钥证明见开发者验证专题（快照：`android-developer-verification.md`，未导入本仓库）。 |
+| [Android developer verification 总览](https://developer.android.com/developer-verification?hl=en)、[Play 包名登记帮助](https://support.google.com/googleplay/android-developer/answer/16984799?hl=en) | 提交前登记包名；总览说明平台机制，Help 页说明 Play Console 操作。 | 两页均已打开；登记流程与密钥证明见开发者验证专题[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)。 |
 | [Developer Program Policy](https://play.google.com/about/developer-content-policy/) 与 [Families policy](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en) | 应用、广告网络、分析服务和第三方 SDK 都要符合完整政策；受众含儿童时附加 Families 要求。 | 政策中心和 Families 正文已覆盖；旧政策中心 URL 会转到当前中心。 |
 | [Developer Distribution Agreement](https://play.google.com/intl/ALL_us/developer-distribution-agreement.html) | 开发者还须履行分发协议。 | 此次从本页点击时抓取器返回内部错误；现行 DDA 已由独立专题全文核对，不将此次失败说成 DDA 未读。 |
 | [正式转移开发者账号所有权](https://support.google.com/googleplay/android-developer/answer/16909862?hl=en) 与 [转移单个应用](https://support.google.com/googleplay/android-developer/answer/6230247?hl=en) | 分别处理整个账号的所有权变更与应用迁移。 | 两页正文已打开，并在本专题后文分开总结；不得用非正式方式买卖或租用账号。 |
@@ -207,7 +207,7 @@ Play Console 帮助页[转移开发者账号所有权](https://support.google.co
 | [将开发者账号关联到 Google 服务](https://support.google.com/googleplay/android-developer/answer/6110967)、Firebase 项目解除关联/重连 | 更新 Analytics、Google API 和 Firebase 集成关系。 | Play 帮助页已打开并在下节展开；Firebase 具体项目权限/操作需要目标项目权限，逐项目确认。 |
 | [发布专用应用](https://support.google.com/googleplay/android-developer/answer/9874937) | 企业专用应用有组织关系和可转移性限制。 | 页面已打开并在下节展开；iframe 创建的专用应用不可转移。 |
 | [Google Play Developer API](https://developers.google.com/android-publisher) → [Orders 资源](https://developers.google.com/android-publisher/api-ref/rest/v3/orders?hl=zh-CN) → [orders.refund](https://developers.google.com/android-publisher/api-ref/rest/v3/orders/refund?hl=zh-CN)；[Voided Purchases API](https://developers.google.com/android-publisher/voided-purchases?hl=zh-CN) → [purchases.voidedpurchases.list](https://developers.google.com/android-publisher/api-ref/rest/v3/purchases.voidedpurchases/list?hl=zh-CN) | 将历史订单退款操作与退款/拒付后的撤销核对分开：`orders.refund` 可退款一次性购买或订阅，超过 3 年的订单不可退款；`revoke=true` 会立即终止项目访问和后续订阅扣款，已消耗的一次性商品仍须由应用处理。Voided Purchases API 仅返回需要撤销的订单；开发者退款若未设置 revoke，不会出现在该列表。 | API 根页、Orders 资源、退款方法、Voided Purchases 总览和 list 方法均已打开/核对（2026-10-23）；需有对应开发者 API/财务权限。旧版 `purchases/subscriptions/refund` 路径此前返回 404；此处新路径由当前 REST 目录独立确认，不声称旧链接重定向到它。API 成员和更深的权限/示例后代仍部分覆盖。 |
-| [Android 开发者验证](https://developer.android.com/developer-verification?hl=zh-cn) | 已注册软件包名和关联密钥随应用迁移。 | 已另见开发者验证专题（快照：`android-developer-verification.md`，未导入本仓库）。 |
+| [Android 开发者验证](https://developer.android.com/developer-verification?hl=zh-cn) | 已注册软件包名和关联密钥随应用迁移。 | 已另见开发者验证专题[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)。 |
 | Play Console 的 App content、提交转移请求与支持入口 | 账号登录后查看转移表单、接受方确认和政策申报。 | 页面跳转到登录或账号专属入口，无法用公开网页核实具体字段/状态。 |
 | [Play Developer Account Basics](https://playacademy.exceedlms.com/student/path/6420) | 账号管理培训材料。 | 入口已打开；课程内容需登录，未归档全文。 |
 
@@ -258,7 +258,7 @@ Play Console 帮助页[转移开发者账号所有权](https://support.google.co
 
 ### Managed Google Play 私有应用：正文与最佳实践子页
 
-Managed Google Play 私有应用不在面向消费者的公开 Play 商店展示，只允许指定组织的用户访问。它可以通过 Managed Play iframe、Play Console 或 Custom App Publishing API 发布；每个应用最多关联 1,000 个组织。私有应用改为公开分发通常须使用新的软件包名；iframe 创建的应用不能转移到其他开发者账号。目标 API 对“永久私有、仅供组织内部使用”的例外，和 Android 开发者验证对受管理设备的适用范围，是不同规则，详见Android 开发者验证专题（快照：`android-developer-verification.md`，未导入本仓库）。
+Managed Google Play 私有应用不在面向消费者的公开 Play 商店展示，只允许指定组织的用户访问。它可以通过 Managed Play iframe、Play Console 或 Custom App Publishing API 发布；每个应用最多关联 1,000 个组织。私有应用改为公开分发通常须使用新的软件包名；iframe 创建的应用不能转移到其他开发者账号。目标 API 对“永久私有、仅供组织内部使用”的例外，和 Android 开发者验证对受管理设备的适用范围，是不同规则，详见Android 开发者验证专题[Android 开发者验证](../android-developer-verification/android-developer-verification.zh-CN.md)。
 
 | 私有应用页面/后代 | 关键要求与关系 | 核验状态 |
 | --- | --- | --- |
@@ -272,7 +272,7 @@ Managed Google Play 私有应用不在面向消费者的公开 Play 商店展示
 
 相关 Android Enterprise 指南包括 [开发者指南](https://developer.android.com/work/guide)、[企业术语](https://developers.google.com/android/work/terminology)、[认证设备说明](https://www.android.com/certified/)和[管理方案概览](https://www.android.com/enterprise/management/)。这些帮助企业开发者理解工作资料、全托管设备和 EMM；它们不是 Play 政策条文。[内嵌发布 API 指南](https://developers.google.com/android/work/play/emm-api/managed-play-iframe)已部分打开；Android Developer Console 入口要求登录。
 
-**勿与预装系统服务豁免混淆：** System services 专题（快照：`system-services-and-preinstalled-software.md`，未导入本仓库）解释了另一条仅供运营商、SoC 供应商和 OEM 核验的 Partner Center 资格路径。Managed Play 私有应用的组织可见性、目标 API 永久私有例外和系统服务豁免不是同一个规则。
+**勿与预装系统服务豁免混淆：** System services 专题[系统服务与预装软件](../system-services-and-preinstalled-software/system-services-and-preinstalled-software.zh-CN.md)解释了另一条仅供运营商、SoC 供应商和 OEM 核验的 Partner Center 资格路径。Managed Play 私有应用的组织可见性、目标 API 永久私有例外和系统服务豁免不是同一个规则。
 
 ## 审核状态与申诉
 
