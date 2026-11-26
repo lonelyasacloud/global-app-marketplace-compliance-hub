@@ -43,3 +43,10 @@ This is a release gate, not an approval guarantee. Record a reason for every not
 ## Evidence record
 
 For each check, record the source URL, review date, owner, test environment, evidence location, and the reason for any not-applicable item.
+
+## Official sources
+
+- [Apple App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- [Apple App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
+- [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
+- [Google Play Console Help](https://support.google.com/googleplay/android-developer/)
