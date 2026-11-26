@@ -29,6 +29,9 @@
 - [Sensitive permissions and APIs](google-play/sensitive-permissions/sensitive-permissions.zh-CN.md), [permissions declaration](google-play/permissions-declaration/permissions-declaration.zh-CN.md), [background location](google-play/background-location/background-location.zh-CN.md), [SMS and Call Log](google-play/sms-call-log/sms-call-log.zh-CN.md), and [photo and video permissions](google-play/photo-video-permissions/photo-video-permissions.zh-CN.md)
 - [Account deletion](google-play/account-deletion/account-deletion.zh-CN.md)
 - [Target API level requirements](google-play/target-api/target-api-level.zh-CN.md)
+- [User-generated content](google-play/user-generated-content/user-generated-content.zh-CN.md), [inappropriate content](google-play/inappropriate-content/inappropriate-content.zh-CN.md), [content ratings](google-play/content-ratings/content-ratings.zh-CN.md), and [deceptive behavior](google-play/deceptive-behavior/deceptive-behavior.zh-CN.md)
+- [Age restrictions and child safety](google-play/age-restricted-child-safety/age-restricted-child-safety.zh-CN.md), [Families Self-Certified Ads SDK program](google-play/families-self-certified-ads-program/families-self-certified-ads-program.zh-CN.md), [child-safety DSA transparency](google-play/child-safety-dsa-transparency/child-safety-dsa-transparency.zh-CN.md) (regulatory, not a Play rule), and [child-safety regional reporting](google-play/child-safety-regional-reporting/child-safety-regional-reporting.zh-CN.md) (reporting directory, not a Play rule)
+- [Enforcement, appeals, and EEA mediation](google-play/enforcement-and-appeals/enforcement-and-appeals.zh-CN.md)
 
 ## 4. Operations / 运营流程
 

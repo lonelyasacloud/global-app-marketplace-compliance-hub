@@ -22,7 +22,7 @@ A bilingual, source-backed knowledge hub for Apple App Store and Google Play com
 
 - `docs/shared/`: rules and controls that commonly apply across both platforms.
 - `docs/apple-app-store/`: Apple App Review, App Store Connect, privacy manifest, payments, and review materials.
-- `docs/google-play/`: Google Play policies, Data Safety, permissions, Play Console, and billing.
+- `docs/google-play/`: Google Play policies, Data Safety, permissions, Play Console, billing, content, child safety, and enforcement.
 - `docs/regions/`: jurisdiction-specific requirements and regional launch notes.
 - `docs/operations/`: pre-submission checks, rejection response, appeals, and deadlines.
 - `data/sources/`: source registry and evidence metadata.
@@ -50,7 +50,7 @@ The Chinese and English versions may differ when the platform publishes differen
 
 ## Current baseline
 
-The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Google batch 1 adds six topics from that Google snapshot: the Developer Distribution Agreement, the consolidated Developer Program Policy, User Data, the detailed Data Safety form, payments and subscriptions, and the Play release workflow. Google batch 2 adds seven further topics from the same snapshot: sensitive permissions, the permissions declaration workflow, background location, SMS and Call Log, photo and video permissions, account deletion, and target API level requirements. Check dates on those pages are the review dates recorded in the snapshot. Always re-check the live official source before making a release decision.
+The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Google batch 1 adds six topics from that Google snapshot: the Developer Distribution Agreement, the consolidated Developer Program Policy, User Data, the detailed Data Safety form, payments and subscriptions, and the Play release workflow. Google batch 2 adds seven further topics from the same snapshot: sensitive permissions, the permissions declaration workflow, background location, SMS and Call Log, photo and video permissions, account deletion, and target API level requirements. Google batch 3 adds nine further topics from the same snapshot: user-generated content, inappropriate content, content ratings, deceptive behavior, age restrictions and child safety, the Families Self-Certified Ads SDK program, child-safety DSA transparency, the child-safety regional reporting directory, and enforcement and appeals. Check dates on those pages are the review dates recorded in the snapshot. Always re-check the live official source before making a release decision.
 
 ## Contributing
 
