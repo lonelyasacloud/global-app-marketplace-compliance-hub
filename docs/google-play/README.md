@@ -1,6 +1,6 @@
 # Google Play / Google Play 应用商店
 
-本目录整理 Google Play Developer Distribution Agreement、Developer Program Policies、Play Console 操作、User Data、Data Safety、敏感权限、账号删除、目标 API、计费、发布、内容、UGC、儿童安全与执行要求。
+本目录整理 Google Play Developer Distribution Agreement、Developer Program Policies、Play Console 操作、User Data、Data Safety、敏感权限、账号删除、目标 API、计费、发布、内容、广告、完整性、UGC、儿童安全与执行要求。
 
 ## Priority reading path / 推荐阅读顺序
 
@@ -16,6 +16,9 @@
 10. 儿童与年龄 / Children and age，四页保持独立：[年龄限制与儿童安全 / Age restrictions and child safety](age-restricted-child-safety/age-restricted-child-safety.zh-CN.md)（Play 政策；快照记录的 2026-08-26 更新已经生效）、[Families 自认证广告 SDK 计划 / Families Self-Certified Ads SDK program](families-self-certified-ads-program/families-self-certified-ads-program.zh-CN.md)（计划要求；新申请在快照中仍暂停）、[儿童安全 DSA 透明度 / Child-safety DSA transparency](child-safety-dsa-transparency/child-safety-dsa-transparency.zh-CN.md)（监管与行业材料，不是 Play 规则）、[儿童安全地区举报目录 / Child-safety regional reporting](child-safety-regional-reporting/child-safety-regional-reporting.zh-CN.md)（举报路径目录，不是 Play 规则）。
 11. [执行、申诉与 EEA 调解 / Enforcement, appeals, and EEA mediation](enforcement-and-appeals/enforcement-and-appeals.zh-CN.md)。这是操作流程。分发协议和开发者计划政策仍是执行权限的规范来源，并留在各自页面。
 12. [目标 API / Target API level requirements](target-api/target-api-level.zh-CN.md)。国家/地区分发要求和公告档案仍是后续导入。
+13. 广告与标识符 / Ads and identifiers：[广告与推广 / Ads and advertising](ads-and-advertising/ads-and-advertising.zh-CN.md)、[广告 ID / Advertising ID](advertising-id/advertising-id.zh-CN.md)。Play Ads 与 AAID 规则是政策义务。Coalition for Better Ads 的 2026-05-15 是外部行业日期。帮助页上的 2021/2022 时间线是历史日期。Android API 是实现说明。
+14. 完整性与设备滥用 / Integrity and device abuse：[恶意软件 / Malware](malware/malware.zh-CN.md)、[移动垃圾软件 / Mobile unwanted software](mobile-unwanted-software/mobile-unwanted-software.zh-CN.md)、[间谍软件与数据外传 / Spyware and data exfiltration](spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md)、[垃圾信息与功能性 / Spam and functionality](spam-and-functionality/spam-and-functionality.zh-CN.md)、[设备与网络滥用 / Device and network abuse](device-and-network-abuse/device-and-network-abuse.zh-CN.md)。Play 政策、Play Protect 提示、AdMob 账户处置和 Android API 分开。地理围栏前台服务的 2027-01-27 预告，以及 FCM AndroidConfigV2 的 Pre-GA 阈值，不并入现行设备与网络滥用规则。
+15. 受限内容与身份 / Restricted content and identity：[非法活动 / Illegal activities](illegal-activities/illegal-activities.zh-CN.md)、[冒充身份 / Impersonation](impersonation/impersonation.zh-CN.md)、[虚假陈述 / Misrepresentation](misrepresentation/misrepresentation.zh-CN.md)、[知识产权 / Intellectual property](intellectual-property/intellectual-property.zh-CN.md)、[AI 生成内容 / AI-generated content](ai-generated-content/ai-generated-content.zh-CN.md)。虚假陈述与已经生效的 2026-09-30 合并版政策对照。AI 安全博客没有新增截止日期。SAIF、OWASP 和供应商文档不是 Play 义务。
 
 ## Topics in this directory / 本目录专题
 
@@ -44,6 +47,18 @@
 | Child-safety DSA transparency | [zh-CN](child-safety-dsa-transparency/child-safety-dsa-transparency.zh-CN.md) | [en-US](child-safety-dsa-transparency/child-safety-dsa-transparency.en-US.md) | Regulatory and industry guidance; not a Play policy | 2026-10-22 |
 | Child-safety regional reporting | [zh-CN](child-safety-regional-reporting/child-safety-regional-reporting.zh-CN.md) | [en-US](child-safety-regional-reporting/child-safety-regional-reporting.en-US.md) | Operational reporting directory; not a Play policy obligation | 2026-10-24 |
 | Enforcement, appeals, and EEA mediation | [zh-CN](enforcement-and-appeals/enforcement-and-appeals.zh-CN.md) | [en-US](enforcement-and-appeals/enforcement-and-appeals.en-US.md) | Operational process; the agreement and program policy remain the normative enforcement sources | 2026-10-23 YAML; opening lines say 2026-10-22 |
+| Ads and advertising | [zh-CN](ads-and-advertising/ads-and-advertising.zh-CN.md) | [en-US](ads-and-advertising/ads-and-advertising.en-US.md) | Normative Play policy; CBA standards and AdMob account actions are labelled separately | 2026-10-23; CBA 2026-05-15 is not a Play date |
+| Advertising ID | [zh-CN](advertising-id/advertising-id.zh-CN.md) | [en-US](advertising-id/advertising-id.en-US.md) | Normative Play AAID rules; Android API material is an implementation note | 2026-10-23 YAML; opening line says 2026-10-22; 2021/2022 timeline is historical |
+| AI-generated content | [zh-CN](ai-generated-content/ai-generated-content.zh-CN.md) | [en-US](ai-generated-content/ai-generated-content.en-US.md) | Normative policy; SAIF, OWASP, and vendor docs are implementation references | 2026-10-24; no checked Chinese official page |
+| Malware | [zh-CN](malware/malware.zh-CN.md) | [en-US](malware/malware.en-US.md) | Normative; Play Protect warnings are product messaging | 2026-10-22; English body opened; SMS/Call Log preview kept separate |
+| Mobile unwanted software | [zh-CN](mobile-unwanted-software/mobile-unwanted-software.zh-CN.md) | [en-US](mobile-unwanted-software/mobile-unwanted-software.en-US.md) | Normative Play rules; AdMob guidance is operational | 2026-10-22; Chinese URLs cache-missed |
+| Spyware and data exfiltration | [zh-CN](spyware-and-data-exfiltration/spyware-and-data-exfiltration.zh-CN.md) | [en-US](spyware-and-data-exfiltration/spyware-and-data-exfiltration.en-US.md) | Normative explainer; not the full Malware taxonomy | 2026-10-22; Chinese source URL is `hl=zh-CN`; audit opened the English explainer |
+| Spam and functionality | [zh-CN](spam-and-functionality/spam-and-functionality.zh-CN.md) | [en-US](spam-and-functionality/spam-and-functionality.en-US.md) | Normative; the two Help articles stay separate | 2026-10-22; no checked Chinese official page |
+| Illegal activities | [zh-CN](illegal-activities/illegal-activities.zh-CN.md) | [en-US](illegal-activities/illegal-activities.en-US.md) | Normative | 2026-10-22; Chinese URL cache miss |
+| Impersonation | [zh-CN](impersonation/impersonation.zh-CN.md) | [en-US](impersonation/impersonation.en-US.md) | Normative; Android brand guidelines are not the Play policy | 2026-10-22 |
+| Misrepresentation | [zh-CN](misrepresentation/misrepresentation.zh-CN.md) | [en-US](misrepresentation/misrepresentation.en-US.md) | Normative | 2026-10-22; Chinese URL inaccessible; consolidated policy 2026-09-30 is current |
+| Intellectual property | [zh-CN](intellectual-property/intellectual-property.zh-CN.md) | [en-US](intellectual-property/intellectual-property.en-US.md) | Normative; not legal advice | 2026-10-22; Chinese policy URL not readable; health declaration guide opened in both languages |
+| Device and network abuse | [zh-CN](device-and-network-abuse/device-and-network-abuse.zh-CN.md) | [en-US](device-and-network-abuse/device-and-network-abuse.en-US.md) | Normative Play rules; Android API material is an implementation note | 2026-10-24; geofencing FGS preview 2027-01-27 and FCM Pre-GA kept separate |
 
 ## Source hierarchy / 来源层级
 
@@ -63,6 +78,10 @@ Google batch 3 从同一快照再导入用户生成内容、不当内容、内�
 
 Batch 3 的语言差异：UGC 的英文和 `zh-Hans` 正文已打开，页面提示中文可能由 AI 翻译，精确 `zh-CN` 路由不可读。年龄限制政策的英文和 `zh-Hans` 正文已打开，中文页提示可能为 AI 翻译。不当内容的中文 URL 被重定向到 `zh-Hans`，并提示可能为 AI 翻译；英文受限内容目录返回 HTTP 429。内容分级的简体中文页不可读，中文稿依据英文来源；YAML 核对日是 2026-10-23，英文开篇写 2026-10-22。欺骗性行为快照只记录已打开的英文帮助页，没有记录已核对的中文官方页面；所链接的权限预告于 2027-01-27 生效，不是本政策的现行文本。Families 计划的英文和 `zh-Hans` 页面已打开；水印与测试应用文章的中文直接抓取返回 Internal Error。执行专题记录的是已打开的英文帮助正文，没有记录已核对的中文官方执行页面；YAML 核对日是 2026-10-23，开篇写 2026-10-22。DSA 与地区举报目录的主要来源是英文官方页面，快照没有记录对应的已核对中文官方页面。抓取失败和日期差异不表示政策已经变更。年龄限制页的 2026-08-26、COPPA 的 2026-04-22 和 Texas SB 2420 的 2026-01-01 在源文件中都已生效或已过，不与 2027-01-27 的权限预告合并。Families 计划在快照中暂停新申请，但没有记录重新开放日期。
 
+Google batch 4 从同一快照再导入广告与推广、广告 ID、AI 生成内容、恶意软件、移动垃圾软件、间谍软件与数据外传、垃圾信息与功能性、非法活动、冒充身份、虚假陈述、知识产权，以及设备与网络滥用。这十二页各自独立。`kb_checked_at` 仍是快照源文件记录的核对日，不是本次导入时对线上页面的重新复核。英文官方页面是效力来源。中文专题正文是编辑改写，不是 Google 已发布中文页面的逐字文本，除非源文件记录某页中文官方正文确已打开。
+
+Batch 4 的语言差异和日期：广告专题的 YAML 记录了 Ads、App Promotion、Ad Fraud 的 `hl=zh-CN` 地址，以及 Advertising ID 和中文稿中 Better Ads Experiences 的 `hl=zh-Hans` 地址；正文复核打开的是英文 Ads 帮助页，没有记录主 Ads 文章的抓取失败。CBA 的 2026-05-15 是外部行业日期，不是 Play 截止日期。广告 ID 的 YAML 核对日是 2026-10-23，开篇写 2026-10-22；中文源地址是 `hl=zh-Hans`。合并版政策的 2026-09-30 已经生效。帮助页上的 2021/2022 时间线是历史日期。AI 生成内容、垃圾信息与功能性没有记录已核对的中文官方页面；2026-08-25 的 AI 安全博客没有新增截止日期，OWASP 手册的 2026-10-20 是来源日期，旧路由 `answer/13823020` 的 404 不表示政策变更。恶意软件记录的是已打开的英文正文。移动垃圾软件的中文 URL 缓存未命中，若干子页的中文抓取同样失败。间谍软件的中文源地址是 `hl=zh-CN`，审计表打开的是英文解释页。非法活动的中文 URL 缓存未命中，受限内容目录返回 HTTP 429。冒充身份的中文源地址是 `hl=zh-CN`，覆盖说明记录的是已打开的英文正文和 FAQ。虚假陈述的简体中文 URL 无法访问，英文帮助页与 2026-09-30 合并版政策表述一致。知识产权的简体中文政策 URL 和政府信息文章的中文 URL 不可读；健康应用声明指南的中英文正文已打开。设备与网络滥用的主文是英文帮助页；Android Application Sandbox 的英文和简体中文 AOSP 正文都已打开。地理围栏前台服务的 2027-01-27 预告、权限预览，以及 FCM AndroidConfigV2 的 Pre-GA 阈值，都不并入现行设备与网络滥用规则。抓取失败和日期差异不表示政策已经变更。
+
 合并版 Developer Program Policy 在该快照中的生效日是 2026-09-30。更早政策措辞不作为现行规则。
 
-开发者分发协议、开发者计划政策、Play Console 发布步骤和 Data Safety 申报保持为不同专题。敏感权限、权限声明、后台位置、SMS 与通话记录、照片与视频权限、账号删除和目标 API 也各自独立，不并入 User Data 或 Data Safety。用户生成内容、不当内容、内容分级、欺骗性行为、年龄限制与儿童安全、Families 自认证广告 SDK 计划、DSA 透明度、地区举报目录，以及执行与申诉同样各自独立。
+开发者分发协议、开发者计划政策、Play Console 发布步骤和 Data Safety 申报保持为不同专题。敏感权限、权限声明、后台位置、SMS 与通话记录、照片与视频权限、账号删除和目标 API 也各自独立，不并入 User Data 或 Data Safety。用户生成内容、不当内容、内容分级、欺骗性行为、年龄限制与儿童安全、Families 自认证广告 SDK 计划、DSA 透明度、地区举报目录，以及执行与申诉同样各自独立。广告与推广、广告 ID、AI 生成内容、恶意软件、移动垃圾软件、间谍软件与数据外传、垃圾信息与功能性、非法活动、冒充身份、虚假陈述、知识产权，以及设备与网络滥用也各自独立，不并入 User Data、不当内容或欺骗性行为。
