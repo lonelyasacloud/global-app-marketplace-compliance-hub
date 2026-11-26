@@ -46,4 +46,9 @@ topics: [privacy, sdk, consent, deletion]
 - [Google Play User Data policy](https://support.google.com/googleplay/android-developer/answer/10144311)
 - [Google Play Data safety](https://support.google.com/googleplay/android-developer/answer/10787469)
 
+## 相关专题
+
+- Google Play：[用户数据](../../google-play/user-data/user-data.zh-CN.md)、[Data safety 表单](../../google-play/data-safety/data-safety.zh-CN.md)、[Data Safety 基线](../../google-play/data-safety/data-safety-baseline.zh-CN.md)、[账号删除](../../google-play/account-deletion/account-deletion.zh-CN.md)。
+- Apple：[审核指南摘要](../../apple-app-store/app-review-guidelines/guidelines-summary.zh-CN.md)。Privacy Manifest、Required Reason API、App Privacy Details 和 ATT 还没有专题页。2026-11-10 快照包没有这些全文。在成篇之前，以上官方链接是入口。
+
 本页是执行摘要，不是隐私政策或法律意见。

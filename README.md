@@ -21,8 +21,8 @@ A bilingual, source-backed knowledge hub for Apple App Store and Google Play com
 ## Repository map
 
 - `docs/shared/`: rules and controls that commonly apply across both platforms.
-- `docs/apple-app-store/`: Apple App Review, App Store Connect, privacy manifest, payments, and review materials.
-- `docs/google-play/`: Google Play policies, Data Safety, permissions, Play Console, and billing.
+- `docs/apple-app-store/`: Apple App Review summaries, the license-agreement summary, age ratings, news indexes, and review materials. Privacy Manifest, Required Reason API, App Privacy Details, ATT, IAP, subscriptions, and external purchase are not topic pages yet.
+- `docs/google-play/`: Google Play policies, Data Safety, permissions, Play Console, billing, and the other topics imported from the 2026-10-24 snapshot. The [platform map](docs/google-play/README.md) is the index.
 - `docs/regions/`: jurisdiction-specific requirements and regional launch notes.
 - `docs/operations/`: pre-submission checks, rejection response, appeals, and deadlines.
 - `data/sources/`: source registry and evidence metadata.
@@ -50,7 +50,11 @@ The Chinese and English versions may differ when the platform publishes differen
 
 ## Current baseline
 
-The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Always re-check the live official source before making a release decision.
+The imported pages come from the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and the Google Play Knowledge Base snapshot dated 2026-10-24. Check dates on those pages are the review dates recorded in the snapshots. This import did not re-open the live official pages. Always re-check the live official source before making a release decision.
+
+Apple pages from that snapshot: the guidelines summary, pre-submission checklist, review workflow, age ratings, and the license-agreement summary, plus the rule-decomposition model, the embedded-link catalog, the news index, the news target-page index, and community evidence. The second group is an editorial model or an operational or historical index, not additional Apple rules. In that snapshot the English App Review Guidelines page is dated October 16, 2026, and the Simplified Chinese guidelines page shows June 8, 2026. The news RSS boundary was not verified. Privacy Manifest, Required Reason API, App Privacy Details, ATT, IAP, subscriptions, external purchase, and regional-terms topics are not in this snapshot package and are not topic pages.
+
+Google batches 1–9 cover the topic pages in that Google snapshot. The [Google Play map](docs/google-play/README.md) and the [snapshot inventory](data/sources/google-play-kb-snapshot-2026-10-24.md) list them. Play Policy Insights is an official Android/Play developer tool, not Play policy text. The announcement catalog does not reproduce the snapshot's per-target child-page tables. Current Play rules stay distinct from future-dated previews, including 2027-01-27 items. Offline wiki HTML, recursive link graphs, and URL-audit CSVs are not in this repository.
 
 ## Contributing
 

@@ -37,3 +37,10 @@ topics: [review, metadata, demo-account, privacy, payments]
 - [Overview of submitting for review](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/overview-of-submitting-for-review)
 
 本页不替代 Apple 当前指南和 App Store Connect 实际页面。
+
+## 相关页面
+
+本页是审核准备短表。更完整的 Apple 清单是[上架前检查清单](../pre-submission/submission-checklist.zh-CN.md)。跨平台短门禁仍是[提交前快速检查](../../operations/pre-submission/quick-check.zh-CN.md)。
+
+- [App 审核指南摘要](guidelines-summary.zh-CN.md)
+- [审核材料、提交对象与时间](../review-workflow/review-workflow.zh-CN.md)

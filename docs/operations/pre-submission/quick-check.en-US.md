@@ -7,6 +7,7 @@ status: current
 kb_checked_at: 2026-11-26
 review_due: 2027-02-26
 regions: [global]
+topics: [pre-submission, quick-check]
 ---
 
 # Pre-submission Quick Check
@@ -50,3 +51,9 @@ For each check, record the source URL, review date, owner, test environment, evi
 - [Apple App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
 - [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
 - [Google Play Console Help](https://support.google.com/googleplay/android-developer/)
+
+## Related pages
+
+This page remains the cross-platform quick gate. The detailed Apple list is the [pre-submission checklist](../../apple-app-store/pre-submission/submission-checklist.en-US.md). The short Apple brief is [review readiness](../../apple-app-store/app-review-guidelines/review-readiness.en-US.md). Use the two lists together.
+
+Google Play detail lives on [Data safety](../../google-play/data-safety/data-safety.en-US.md), [User Data](../../google-play/user-data/user-data.en-US.md), [sensitive permissions](../../google-play/sensitive-permissions/sensitive-permissions.en-US.md), [target API](../../google-play/target-api/target-api-level.en-US.md), [payments](../../google-play/payments/payments-and-subscriptions.en-US.md), and the [release workflow](../../google-play/publishing/play-release-workflow.en-US.md).
