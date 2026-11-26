@@ -50,3 +50,7 @@ regions: [global]
 - [Apple App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
 - [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
 - [Google Play Console Help](https://support.google.com/googleplay/android-developer/)
+
+## 相关页面
+
+本页仍是跨平台快速门禁。Apple 的详细清单另见[上架前检查清单](../../apple-app-store/pre-submission/submission-checklist.zh-CN.md)，审核准备短表见[审核准备](../../apple-app-store/app-review-guidelines/review-readiness.zh-CN.md)。两份清单一起使用。

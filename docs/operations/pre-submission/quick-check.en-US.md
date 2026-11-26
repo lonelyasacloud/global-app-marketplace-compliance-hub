@@ -50,3 +50,7 @@ For each check, record the source URL, review date, owner, test environment, evi
 - [Apple App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
 - [Google Play Policy Center](https://play.google.com/about/developer-content-policy/)
 - [Google Play Console Help](https://support.google.com/googleplay/android-developer/)
+
+## Related pages
+
+This page remains the cross-platform quick gate. The detailed Apple list is the [pre-submission checklist](../../apple-app-store/pre-submission/submission-checklist.en-US.md). The short Apple brief is [review readiness](../../apple-app-store/app-review-guidelines/review-readiness.en-US.md). Use the two lists together.

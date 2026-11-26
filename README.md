@@ -50,7 +50,7 @@ The Chinese and English versions may differ when the platform publishes differen
 
 ## Current baseline
 
-The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Always re-check the live official source before making a release decision.
+The first content import is based on the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and Google Play Knowledge Base snapshot dated 2026-10-24. Five Apple core topics from that snapshot now have paired pages: the guidelines summary, pre-submission checklist, review workflow, age ratings, and the license-agreement summary. In that snapshot the English App Review Guidelines page is dated October 16, 2026, and the Simplified Chinese guidelines page shows June 8, 2026. Always re-check the live official source before making a release decision.
 
 ## Contributing
 

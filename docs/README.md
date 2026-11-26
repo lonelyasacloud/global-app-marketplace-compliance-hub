@@ -10,12 +10,16 @@
 ## 2. Apple App Store
 
 - [Apple platform map](apple-app-store/README.md)
-- App Review Guidelines
-- App Store Connect submission and review
+- [App Review Guidelines summary / 审核指南摘要](apple-app-store/app-review-guidelines/guidelines-summary.zh-CN.md) · [English](apple-app-store/app-review-guidelines/guidelines-summary.en-US.md)
+- [Review readiness / 审核准备](apple-app-store/app-review-guidelines/review-readiness.zh-CN.md) · [English](apple-app-store/app-review-guidelines/review-readiness.en-US.md)
+- [Apple pre-submission checklist / 上架前检查清单](apple-app-store/pre-submission/submission-checklist.zh-CN.md) · [English](apple-app-store/pre-submission/submission-checklist.en-US.md)
+- [Review workflow, objects, and timing / 审核材料与时间](apple-app-store/review-workflow/review-workflow.zh-CN.md) · [English](apple-app-store/review-workflow/review-workflow.en-US.md)
+- [Age ratings / 年龄分级](apple-app-store/age-ratings/age-ratings.zh-CN.md) · [English](apple-app-store/age-ratings/age-ratings.en-US.md)
+- [Developer Program license summary / 许可协议摘要](apple-app-store/developer-program/license-agreement.zh-CN.md) · [English](apple-app-store/developer-program/license-agreement.en-US.md)
 - Privacy Manifest and Required Reason API
 - App Privacy Details and ATT
-- In-App Purchase and subscriptions
-- Review notes, demo accounts, screenshots and metadata
+- In-App Purchase and subscriptions (agreement layer is in the license summary; a dedicated payments topic is not imported yet)
+- Review notes, demo accounts, screenshots and metadata (see review readiness and the pre-submission checklist)
 
 ## 3. Google Play
 

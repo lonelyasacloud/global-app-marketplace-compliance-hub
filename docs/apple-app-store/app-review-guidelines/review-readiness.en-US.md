@@ -37,3 +37,10 @@ Retain the final build identifier, device matrix, account instructions, review n
 - [Overview of submitting for review](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/overview-of-submitting-for-review)
 
 This page does not replace the current Apple guidelines or the live App Store Connect workflow.
+
+## Related pages
+
+This page is the short readiness brief. The more detailed Apple list is the [pre-submission checklist](../pre-submission/submission-checklist.en-US.md). The cross-platform gate remains the [pre-submission quick check](../../operations/pre-submission/quick-check.en-US.md).
+
+- [App Review Guidelines summary](guidelines-summary.en-US.md)
+- [Review materials, submission objects, and timing](../review-workflow/review-workflow.en-US.md)
