@@ -16,9 +16,14 @@
 - [Review workflow, objects, and timing / 审核材料与时间](apple-app-store/review-workflow/review-workflow.zh-CN.md) · [English](apple-app-store/review-workflow/review-workflow.en-US.md)
 - [Age ratings / 年龄分级](apple-app-store/age-ratings/age-ratings.zh-CN.md) · [English](apple-app-store/age-ratings/age-ratings.en-US.md)
 - [Developer Program license summary / 许可协议摘要](apple-app-store/developer-program/license-agreement.zh-CN.md) · [English](apple-app-store/developer-program/license-agreement.en-US.md)
-- Privacy Manifest and Required Reason API
-- App Privacy Details and ATT
-- In-App Purchase and subscriptions (agreement layer is in the license summary; a dedicated payments topic is not imported yet)
+- [Rule decomposition model / 规则拆解模型](apple-app-store/app-review-guidelines/rule-decomposition.zh-CN.md) · [English](apple-app-store/app-review-guidelines/rule-decomposition.en-US.md)（编辑模型，不是 Apple 原文）
+- [Embedded guideline links / 指南正文链接目录](apple-app-store/app-review-guidelines/embedded-links.zh-CN.md) · [English](apple-app-store/app-review-guidelines/embedded-links.en-US.md)（操作索引，不是规则；抓取日 2026-10-21）
+- [Apple news index / 新闻索引](apple-app-store/news/news-rss-index.zh-CN.md) · [English](apple-app-store/news/news-rss-index.en-US.md)（RSS 边界未核实）
+- [News link targets / 公告目标页](apple-app-store/news/news-link-targets.zh-CN.md) · [English](apple-app-store/news/news-link-targets.en-US.md)
+- [Community evidence / 社区经验](apple-app-store/community-evidence/community-evidence.zh-CN.md) · [English](apple-app-store/community-evidence/community-evidence.en-US.md)（不能覆盖官方规则）
+- Privacy Manifest and Required Reason API（不在 2026-11-10 快照包的全文里，仍未成篇）
+- App Privacy Details and ATT（不在本次快照包的独立主题里）
+- In-App Purchase, subscriptions, external purchase, and regional terms（协议层见许可协议摘要；独立专题不在本次快照包中）
 - Review notes, demo accounts, screenshots and metadata (see review readiness and the pre-submission checklist)
 
 ## 3. Google Play

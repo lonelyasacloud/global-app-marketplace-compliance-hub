@@ -5,13 +5,16 @@
 ## Priority reading path / 推荐阅读顺序
 
 1. [App Review Guidelines summary / 审核指南摘要](app-review-guidelines/guidelines-summary.zh-CN.md)（[English](app-review-guidelines/guidelines-summary.en-US.md)）。英文指南在快照中的更新日期是 2026-10-16；简体中文官方页仍显示 2026-06-08。此后英文规则的中文表述是编辑译文。
-2. [Review readiness / 审核准备](app-review-guidelines/review-readiness.zh-CN.md)（[English](app-review-guidelines/review-readiness.en-US.md)），以及更完整的 [pre-submission checklist / 上架前检查清单](pre-submission/submission-checklist.zh-CN.md)（[English](pre-submission/submission-checklist.en-US.md)）。跨平台短清单仍是 [quick check / 快速检查](../operations/pre-submission/quick-check.zh-CN.md)。
-3. [Review workflow / 审核材料、提交对象与时间](review-workflow/review-workflow.zh-CN.md)（[English](review-workflow/review-workflow.en-US.md)）
-4. App Privacy Details, Privacy Manifest and Required Reason API（尚未单独成篇；检查项写在上架清单中）
-5. [Age ratings / 年龄分级](age-ratings/age-ratings.zh-CN.md)（[English](age-ratings/age-ratings.en-US.md)），以及截图、创意素材等元数据检查
-6. [Developer Program license summary / 许可协议摘要](developer-program/license-agreement.zh-CN.md)（[English](developer-program/license-agreement.en-US.md)）。付款、订阅、外部购买和地区条款的专题页尚未导入。
-7. UGC、儿童、受监管类别、安全与知识产权：先读指南摘要中的对应节
-8. 审核状态见审核流程主题；拒审与申诉见 [rejection and appeals / 拒审与申诉](../operations/rejection-and-appeals/README.md)
+2. [Rule decomposition / 规则拆解模型](app-review-guidelines/rule-decomposition.zh-CN.md)（[English](app-review-guidelines/rule-decomposition.en-US.md)）。这是编辑用的规则单元模型，不是 Apple 原文。
+3. [Review readiness / 审核准备](app-review-guidelines/review-readiness.zh-CN.md)（[English](app-review-guidelines/review-readiness.en-US.md)），以及更完整的 [pre-submission checklist / 上架前检查清单](pre-submission/submission-checklist.zh-CN.md)（[English](pre-submission/submission-checklist.en-US.md)）。跨平台短清单仍是 [quick check / 快速检查](../operations/pre-submission/quick-check.zh-CN.md)。
+4. [Review workflow / 审核材料、提交对象与时间](review-workflow/review-workflow.zh-CN.md)（[English](review-workflow/review-workflow.en-US.md)）
+5. App Privacy Details、Privacy Manifest 和 Required Reason API 仍未单独成篇。本次快照包没有这些主题的全文。上架清单里有相关检查项；社区经验页只把官方文档当作排错回指，不是规则正文。
+6. [Age ratings / 年龄分级](age-ratings/age-ratings.zh-CN.md)（[English](age-ratings/age-ratings.en-US.md)）。按议题查找指南正文里的官方链接时，用 [embedded-link catalog / 正文链接目录](app-review-guidelines/embedded-links.zh-CN.md)（[English](app-review-guidelines/embedded-links.en-US.md)）。该目录不是规则。
+7. [Developer Program license summary / 许可协议摘要](developer-program/license-agreement.zh-CN.md)（[English](developer-program/license-agreement.en-US.md)）。付款、订阅、外部购买和地区条款的专题页仍未导入，本次快照包里没有这些主题的全文。
+8. UGC、儿童、受监管类别、安全与知识产权：先读指南摘要中的对应节。单独的儿童专题不在本次快照包中。
+9. 审核状态见审核流程主题；拒审与申诉见 [rejection and appeals / 拒审与申诉](../operations/rejection-and-appeals/README.md)
+10. 变更监控先看 [Apple news index / 新闻索引](news/news-rss-index.zh-CN.md)（[English](news/news-rss-index.en-US.md)），再按需打开 [news link targets / 公告目标页](news/news-link-targets.zh-CN.md)（[English](news/news-link-targets.en-US.md)）。二者是操作性索引和历史索引，不是政策规则。RSS 边界在快照中未核实。
+11. [Community evidence / 社区经验](community-evidence/community-evidence.zh-CN.md)（[English](community-evidence/community-evidence.en-US.md)）只用于发现测试场景，不能写成 Apple 规则。
 
 ## Topics imported from the 2026-11-10 snapshot / 本次导入的主题
 
@@ -25,6 +28,11 @@
 | Age ratings / 年龄分级 | [zh-CN](age-ratings/age-ratings.zh-CN.md) | [en-US](age-ratings/age-ratings.en-US.md) |
 | License agreement / 许可协议 | [zh-CN](developer-program/license-agreement.zh-CN.md) | [en-US](developer-program/license-agreement.en-US.md) |
 | Review readiness / 审核准备（Phase 1，未被本次覆盖） | [zh-CN](app-review-guidelines/review-readiness.zh-CN.md) | [en-US](app-review-guidelines/review-readiness.en-US.md) |
+| Rule decomposition / 规则拆解模型（编辑模型，不是 Apple 原文） | [zh-CN](app-review-guidelines/rule-decomposition.zh-CN.md) | [en-US](app-review-guidelines/rule-decomposition.en-US.md) |
+| Embedded guideline links / 指南正文链接目录（操作索引，不是规则） | [zh-CN](app-review-guidelines/embedded-links.zh-CN.md) | [en-US](app-review-guidelines/embedded-links.en-US.md) |
+| Apple news index / 新闻索引（RSS 边界未核实） | [zh-CN](news/news-rss-index.zh-CN.md) | [en-US](news/news-rss-index.en-US.md) |
+| News link targets / 公告目标页（含未读和部分读取） | [zh-CN](news/news-link-targets.zh-CN.md) | [en-US](news/news-link-targets.en-US.md) |
+| Community evidence / 社区经验（不是 Apple 规则） | [zh-CN](community-evidence/community-evidence.zh-CN.md) | [en-US](community-evidence/community-evidence.en-US.md) |
 
 ## Source hierarchy / 来源层级
 

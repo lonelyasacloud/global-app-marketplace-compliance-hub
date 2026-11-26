@@ -35,16 +35,29 @@ English [App Review Guidelines](https://developer.apple.com/app-store/review/gui
 
 The license page has a separate language fact: the supplied [Chinese-path agreement URL](https://developer.apple.com/cn/support/terms/apple-developer-program-license-agreement/) rendered English, and the [October 13, 2026 amendment notice](https://developer.apple.com/news/?id=17mwd36z) said a translation would follow within one month.
 
-Not imported from this snapshot: `index.html`, the rule-decomposition model, embedded-link catalog, news indexes, community evidence, and the maintenance log as its own topic. Version-gap notes that the five topics rely on are written into the guidelines summary, the license summary, and this inventory.
+Not imported as topics from the orientation files: `index.html`, `README.md`, and `START-HERE.md`. `maintenance.md` was not imported as its own topic. Its source list, the October 16, 2026 change paraphrase, and the changelog dates already inform the guidelines summary and this inventory. The embedded-link catalog keeps its own crawl date of 2026-10-21. Version-gap notes that the core topics rely on stay in the guidelines summary, the license summary, and this inventory.
+
+## Imported reference indexes and the rule model
+
+Imported from the same 2026-11-10 package as paired `zh-CN` / `en-US` pages. `kb_checked_at` remains 2026-11-09. This import did not re-open the live official pages and did not re-parse the RSS XML. None of these pages is Apple source text.
+
+| Topic | Pages | What it is |
+| --- | --- | --- |
+| Rule-decomposition model | `docs/apple-app-store/app-review-guidelines/rule-decomposition` | Editorial and analytical model for rule units, domains, and an example breakdown of guideline 2.5.19. Authority is an implementation note. It does not add Apple policy. |
+| Embedded official-link catalog | `docs/apple-app-store/app-review-guidelines/embedded-links` | Operational index of direct links in the English and Simplified Chinese guideline bodies, crawled in the snapshot on 2026-10-21. Unresolved form URLs were not guessed. Some design links returned a crawler 404. Not a policy rule. |
+| Apple news / changelog index | `docs/apple-app-store/news/news-rss-index` | Operational and historical index of selected 2026 announcements. The RSS XML item count, feed boundary, and raw `pubDate` values remain unverified. P3 is background. The August 18, 2026 agreement notice is historical only. |
+| News source-link targets | `docs/apple-app-store/news/news-link-targets` | Operational map from those announcements to target pages, including read, partial, and unread status. Unread link labels are not confirmed policy. |
+| Community evidence | `docs/apple-app-store/community-evidence/community-evidence` | Community evidence only. Tier C reports may become test cases. Tier D material is excluded from any execution plan. Quora was blocked by robots.txt and is not included. |
 
 ## Planned next import
 
-- Full App Review Guidelines topic map
-- Age-rating and children topics
-- Privacy Manifest and Required Reason API detail
-- IAP, subscriptions, external purchase, and regional terms
-- News change log and source-link index
-- Rule-level evidence tables
+These items are still not imported. They were **not full source texts in the 2026-11-10 snapshot package** attached for this import. Do not treat a mention inside the news index, the embedded-link catalog, or community evidence as a substitute topic.
+
+- Full App Review Guidelines topic map. The guidelines summary and the rule-decomposition model are imported. A page per guideline is not.
+- Children-specific topic beyond the age-rating page. Age ratings were imported with the core topics. A separate children topic is not in this package.
+- Privacy Manifest and Required Reason API detail. Not in this snapshot package. Community evidence only points at the official documentation URLs as troubleshooting back-references.
+- App Privacy Details and ATT as their own topic. Not in this snapshot package. The EU ATT notice is only a news-index row.
+- IAP, subscriptions, external purchase, and regional terms. Not in this snapshot package as topic source. Related rows exist only inside the news index, the news target map, the license summary, and the embedded-link catalog.
 
 ## Handling notes
 
