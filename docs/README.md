@@ -2,6 +2,18 @@
 
 英文官方页面是效力来源。中文页面是便利阅读；官方中文落后于英文时，差距写在该专题里。摘要加官方链接，不替代当前原文。
 
+> Reader guide: use this page for curated entry points; use the platform maps for complete topic inventories; use the source registry and snapshot files for evidence history.
+
+> 阅读顺序：先用本页进入主题，再用平台地图查看完整清单，最后用来源台账和快照清单核对证据与日期。
+
+## Fast paths / 快速入口
+
+- [Pre-submission quick check / 提交前快速检查](operations/pre-submission/quick-check.zh-CN.md)
+- [Privacy baseline / 隐私基线](shared/privacy-data-protection/privacy-baseline.zh-CN.md)
+- [Google Play Data Safety baseline](google-play/data-safety/data-safety-baseline.zh-CN.md)
+- [Apple review readiness / Apple 审核准备](apple-app-store/app-review-guidelines/review-readiness.zh-CN.md)
+- [Bilingual Demo / 双语 Demo](demo/home.zh-CN.md)
+
 ## Canonical navigation and Demo / 规范导航与 Demo
 
 - [Bilingual knowledge-base map / 双语知识库导航](navigation/knowledge-base-map.zh-CN.md) · [English](navigation/knowledge-base-map.en-US.md)
