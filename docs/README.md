@@ -2,6 +2,13 @@
 
 英文官方页面是效力来源。中文页面是便利阅读；官方中文落后于英文时，差距写在该专题里。摘要加官方链接，不替代当前原文。
 
+## Canonical navigation and Demo / 规范导航与 Demo
+
+- [Bilingual knowledge-base map / 双语知识库导航](navigation/knowledge-base-map.zh-CN.md) · [English](navigation/knowledge-base-map.en-US.md)
+- [Bilingual Demo home / 双语 Demo 首页](demo/home.zh-CN.md) · [English](demo/home.en-US.md)
+- [Demo topic page / Demo 专题页](demo/topic-page.zh-CN.md) · [English](demo/topic-page.en-US.md)
+
+
 ## 1. Shared controls / 共性控制
 
 适用于两个平台的控制目标。平台义务仍以各自专题为准。
