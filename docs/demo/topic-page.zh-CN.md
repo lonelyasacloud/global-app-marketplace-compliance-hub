@@ -14,7 +14,7 @@ topics: [demo, data-safety, release-readiness]
 
 > 这是页面布局 Demo，不是新增政策摘要。正式内容请以已维护的 Data Safety 专题为准。
 
-[English / English version](topic-page.en-US.md) · [维护中的 Data Safety 基线](../data-safety/data-safety-baseline.zh-CN.md)
+[English / English version](topic-page.en-US.md) · [维护中的 Data Safety 基线](../google-play/data-safety/data-safety-baseline.zh-CN.md)
 
 ## 证据面板
 
@@ -54,9 +54,9 @@ topics: [demo, data-safety, release-readiness]
 
 ## 关联专题
 
-- [User Data](../user-data/user-data.zh-CN.md)
+- [User Data](../google-play/user-data/user-data.zh-CN.md)
 - [Data Safety 基线](../data-safety/data-safety-baseline.zh-CN.md)
-- [权限申报](../permissions-declaration/permissions-declaration.zh-CN.md)
+- [权限申报](../google-play/permissions-declaration/permissions-declaration.zh-CN.md)
 - [共性隐私基线](../shared/privacy-data-protection/privacy-baseline.zh-CN.md)
 - [提交前快速检查](../operations/pre-submission/quick-check.zh-CN.md)
 
