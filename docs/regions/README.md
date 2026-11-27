@@ -11,6 +11,10 @@
 - China
 - Brazil
 
+## Available focused topics / 已有专题
+
+- [Apple China mainland distribution: ICP filing and a community-recorded support path / Apple 中国大陆上架：ICP 备案与社区记录的支持路径](china/apple-app-store-release.zh-CN.md)（[English](china/apple-app-store-release.en-US.md)）。官方 ICP 要求与社区个案记录明确分开。
+
 后续地区可以按用户、收入、发行店面或高风险功能增加。地区文档必须说明“适用地区”和“触发条件”，不能把某一地区要求泛化为全球要求。
 
 ## Required fields / 必备字段
