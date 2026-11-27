@@ -1,0 +1,59 @@
+name: New knowledge-base topic
+description: Propose a new Apple, Google Play, shared, regional, or operations topic.
+title: "[Topic] "
+labels:
+  - content
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: apple, google-play, shared, regional, or operations
+      placeholder: google-play
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Topic slug
+      placeholder: data-safety
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Official source URL
+      placeholder: https://support.google.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: authority
+    attributes:
+      label: Authority
+      options:
+        - normative
+        - operational
+        - implementation
+        - editorial
+        - regulatory
+        - historical
+        - implementation-note
+        - community
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and coverage boundary
+      description: State what the page covers and what it intentionally does not cover.
+    validations:
+      required: true
+  - type: checkboxes
+    id: languages
+    attributes:
+      label: Languages
+      options:
+        - label: English page
+          required: true
+        - label: Simplified Chinese page
+          required: true
