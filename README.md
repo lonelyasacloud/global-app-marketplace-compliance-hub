@@ -65,7 +65,7 @@ The snapshots are evidence inventories, not live-policy guarantees. Before a rel
 Known coverage boundaries include:
 
 - Apple Privacy Manifest, Required Reason API, App Privacy Details, ATT, In-App Purchase, subscriptions, external purchase, and regional terms are not yet complete standalone topic pages.
-- Regional requirements are currently organized as a map and launch-note layer; jurisdiction-specific topic coverage is still expanding.
+- Regional requirements are currently organized as a map and launch-note layer; jurisdiction-specific topic coverage is still expanding. China mainland Apple distribution now has a focused ICP topic, with the official requirement separated from a community-recorded support path.
 - Some imported pages are editorial indexes, historical records, community evidence, or implementation notes rather than normative platform rules.
 - Future-dated Google Play changes are kept separate from current requirements.
 
