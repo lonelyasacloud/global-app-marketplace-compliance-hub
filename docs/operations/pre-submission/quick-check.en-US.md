@@ -32,6 +32,7 @@ This is a release gate, not an approval guarantee. Record a reason for every not
 - [ ] ATT, sign-in, account deletion, IAP, subscriptions, and external-purchase rules are checked for each applicable storefront.
 - [ ] Age rating, Kids, UGC, health, finance, VPN, gambling, and other regulated capabilities have evidence.
 - [ ] Screenshots, previews, assets, name, description, and prices match the current build.
+- [ ] If China mainland distribution is selected, ICP filing and permit applicability and the current App Store Connect compliance status are checked; the community-recorded IAP-only support path is case-specific and does not replace formal filing.
 
 ## Google Play focus
 
@@ -54,6 +55,6 @@ For each check, record the source URL, review date, owner, test environment, evi
 
 ## Related pages
 
-This page remains the cross-platform quick gate. The detailed Apple list is the [pre-submission checklist](../../apple-app-store/pre-submission/submission-checklist.en-US.md). The short Apple brief is [review readiness](../../apple-app-store/app-review-guidelines/review-readiness.en-US.md). Use the two lists together.
+This page remains the cross-platform quick gate. The detailed Apple list is the [pre-submission checklist](../../apple-app-store/pre-submission/submission-checklist.en-US.md). The short Apple brief is [review readiness](../../apple-app-store/app-review-guidelines/review-readiness.en-US.md). For the China mainland storefront, also use [ICP filing and the community-recorded support path](../../regions/china/apple-app-store-release.en-US.md). Use the lists together.
 
 Google Play detail lives on [Data safety](../../google-play/data-safety/data-safety.en-US.md), [User Data](../../google-play/user-data/user-data.en-US.md), [sensitive permissions](../../google-play/sensitive-permissions/sensitive-permissions.en-US.md), [target API](../../google-play/target-api/target-api-level.en-US.md), [payments](../../google-play/payments/payments-and-subscriptions.en-US.md), and the [release workflow](../../google-play/publishing/play-release-workflow.en-US.md).
