@@ -4,7 +4,7 @@
 
 Turn `global-app-marketplace-compliance-hub` into a maintainable bilingual knowledge base for product, engineering, legal, and operations teams shipping mobile apps globally.
 
-The repository remains the single source of truth. GitHub is the collaboration and review layer; a generated documentation site is the reading and search layer.
+The repository remains the single source of truth. GitHub is the collaboration and review layer; a generated documentation site is the reading and search layer. The first site slice builds the repository's existing language-suffixed Markdown directly; automatic locale routing is deferred until link normalization is complete.
 
 ## Goals
 
@@ -181,6 +181,7 @@ Exit criteria: a new reader can reach a platform topic or release checklist in t
 
 - Use the existing Markdown tree as the source.
 - Generate a static site with bilingual navigation, search, metadata display, and platform/topic filters.
+- Keep the current explicit `.zh-CN.md` / `.en-US.md` links in the first site slice; enable automatic locale routing only after links are normalized to language-neutral targets.
 - Publish from `main` through GitHub Actions.
 - Keep generated output separate from authored content.
 
@@ -206,4 +207,4 @@ Exit criteria: a contributor can update a policy, record evidence, request trans
 
 ## Recommended next implementation slice
 
-Implement Phase 1 first. It has the highest user value with the lowest operational risk and does not require choosing a docs-site framework prematurely. After the navigation and Demo pages feel right, select the static-site tool based on the actual content tree and search requirements.
+Implement Phase 1 first. It has the highest user value with the lowest operational risk and does not require choosing a docs-site framework prematurely. After the navigation and Demo pages feel right, keep the first MkDocs Material build green with explicit bilingual links. Then normalize language-suffixed internal links and evaluate automatic locale routing before adding a language plugin.
