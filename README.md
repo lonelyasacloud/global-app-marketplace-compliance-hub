@@ -1,61 +1,119 @@
 # Global App Marketplace Compliance Hub
 
-A bilingual, source-backed knowledge hub for Apple App Store and Google Play compliance.
+[![Validate knowledge base](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/actions/workflows/validate-docs.yml/badge.svg)](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/actions/workflows/validate-docs.yml)
+[![Build documentation site](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/actions/workflows/docs-site.yml/badge.svg)](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/actions/workflows/docs-site.yml)
 
-本项目面向产品、研发、测试、法务、隐私和发布团队，整理 Apple App Store 与 Google Play 的平台规则、地区要求、提交流程、隐私与数据安全、上架检查、拒审整改和政策变更。
+A bilingual, source-backed knowledge base for global mobile app marketplace compliance across Apple App Store and Google Play.
 
-> This repository provides operational summaries and source navigation. It does not replace the current Apple, Google, regulator, or legal source, and it does not guarantee approval.
+面向产品、研发、测试、法务、隐私和发布团队，集中整理 Apple App Store 与 Google Play 的平台政策、地区要求、隐私与数据安全、提交流程、发布检查、拒审整改和政策变更。
+
+> This repository provides original operational summaries and source navigation. It does not replace current Apple, Google, regulatory, or legal sources, and it does not guarantee approval.
+>
+> 本仓库提供原创运营摘要与来源导航，不替代 Apple、Google、监管机构或法律来源，也不保证上架通过。
+
+## What this project is
+
+- A bilingual knowledge base: Simplified Chinese and English pages are maintained as pairs.
+- A source-backed reference: important conclusions link back to official platform or regulatory sources.
+- An operational playbook: policies are connected to release evidence, checklists, deadlines, and appeal workflows.
+- A docs-as-code project: changes are reviewed through GitHub and checked by automated validation.
+
+## What this project is not
+
+- Not a copy of another repository, policy site, or third-party codebase.
+- Not legal advice or a substitute for jurisdiction-specific counsel.
+- Not a guarantee that an app will pass App Review or Google Play review.
+- Not a promise that a snapshot remains current after its stated review date.
 
 ## Start here
 
-| 你的场景 / Your situation | 从这里开始 / Start here |
+| Your situation / 你的场景 | Recommended entry / 推荐入口 |
 | --- | --- |
-| 第一次了解项目 / New to the hub | [知识库导航 / Knowledge-base map](docs/navigation/knowledge-base-map.zh-CN.md) |\n| 查看 Demo / Preview the experience | [双语 Demo / Bilingual Demo](docs/demo/home.zh-CN.md) |
-| 准备提交 App / Preparing a submission | [提交前快速检查 / Pre-submission quick check](docs/operations/pre-submission/quick-check.zh-CN.md) |
-| 需要 Apple 规则 / Apple requirements | [Apple App Store](docs/apple-app-store/README.md) |
-| 需要 Google Play 规则 / Google Play requirements | [Google Play](docs/google-play/README.md) |
-| 需要共性隐私与数据规则 / Shared privacy topics | [Shared controls](docs/shared/README.md) |
-| App 被拒审 / App was rejected | [拒审与申诉 / Rejection and appeals](docs/operations/rejection-and-appeals/README.md) |
-| 查看来源与维护约定 / Sources and maintenance | [来源与编辑政策 / Source and editorial policy](docs/governance/source-and-editorial-policy.md) |
+| New to the hub / 第一次了解项目 | [Bilingual knowledge-base map / 双语知识库导航](docs/navigation/knowledge-base-map.zh-CN.md) |
+| Preview the experience / 查看 Demo | [Bilingual Demo home / 双语 Demo 首页](docs/demo/home.zh-CN.md) |
+| Preparing a submission / 准备提交 App | [Pre-submission quick check / 提交前快速检查](docs/operations/pre-submission/quick-check.zh-CN.md) |
+| Apple requirements / Apple 规则 | [Apple App Store platform map](docs/apple-app-store/README.md) |
+| Google Play requirements / Google Play 规则 | [Google Play platform map](docs/google-play/README.md) |
+| Shared privacy controls / 共性隐私规则 | [Shared controls](docs/shared/README.md) |
+| App rejected or restricted / App 被拒审或限制 | [Rejection and appeals / 拒审与申诉](docs/operations/rejection-and-appeals/README.md) |
+| Sources and maintenance / 来源与维护 | [Source and editorial policy / 来源与编辑政策](docs/governance/source-and-editorial-policy.md) |
 
 ## Repository map
 
-- `docs/shared/`: rules and controls that commonly apply across both platforms.
-- `docs/apple-app-store/`: Apple App Review summaries, the license-agreement summary, age ratings, news indexes, and review materials. Privacy Manifest, Required Reason API, App Privacy Details, ATT, IAP, subscriptions, and external purchase are not topic pages yet.
-- `docs/google-play/`: Google Play policies, Data Safety, permissions, Play Console, billing, and the other topics imported from the 2026-10-24 snapshot. The [platform map](docs/google-play/README.md) is the index.
-- `docs/regions/`: jurisdiction-specific requirements and regional launch notes.
-- `docs/operations/`: pre-submission checks, rejection response, appeals, and deadlines.
-- `data/sources/`: source registry and evidence metadata.
-- `scripts/`: lightweight knowledge-base validation tools.
+- [docs/navigation/](docs/navigation/): canonical bilingual maps and reader entry points.
+- [docs/apple-app-store/](docs/apple-app-store/): App Review, age ratings, submission, review workflow, developer program, news indexes, and evidence notes.
+- [docs/google-play/](docs/google-play/): Developer Policies, Data Safety, permissions, billing, Play Console, publishing, enforcement, announcements, and platform topics.
+- [docs/shared/](docs/shared/): cross-platform privacy and data-protection controls.
+- [docs/regions/](docs/regions/): jurisdiction maps and regional launch notes.
+- [docs/operations/](docs/operations/): pre-submission checks, deadlines, rejection response, and appeals.
+- [docs/governance/](docs/governance/): source, editorial, and release-readiness rules.
+- [data/sources/](data/sources/): dated snapshot inventories and source registry.
+- [scripts/](scripts/): lightweight structural and bilingual metadata validation.
+- [mkdocs.yml](mkdocs.yml): documentation-site configuration.
 
-## Bilingual policy
+## Coverage at a glance
 
-A topic should have one stable ID and two language files:
+The current repository contains 101 paired English/Chinese topic pages.
+
+The imported baseline is based on:
+
+- Apple Store Compliance KB snapshot reviewed on 2026-11-10.
+- Google Play Knowledge Base snapshot reviewed on 2026-10-24.
+
+The snapshots are evidence inventories, not live-policy guarantees. Before a release decision, recheck the current official source and the page's review date.
+
+Known coverage boundaries include:
+
+- Apple Privacy Manifest, Required Reason API, App Privacy Details, ATT, In-App Purchase, subscriptions, external purchase, and regional terms are not yet complete standalone topic pages.
+- Regional requirements are currently organized as a map and launch-note layer; jurisdiction-specific topic coverage is still expanding.
+- Some imported pages are editorial indexes, historical records, community evidence, or implementation notes rather than normative platform rules.
+- Future-dated Google Play changes are kept separate from current requirements.
+
+## Page and metadata model
+
+A localized topic uses a stable ID and a language-paired filename:
 
 ```text
 topic.zh-CN.md
 topic.en-US.md
 ```
 
-The Chinese and English versions may differ when the platform publishes different language versions or update dates. Such differences must be disclosed in the document metadata and maintenance notes.
+Localized pages carry metadata for platform, language, authority, status, review date, next review date, regions, and topics. Each localized page must expose an official or clearly identified evidence link. Paired pages must agree on stable ID, platform, authority, and status.
 
-## Evidence levels
+Authority labels distinguish:
 
-- `Normative`: current official platform rule or agreement.
-- `Operational`: official help, submission, or console workflow.
-- `Regulatory`: official law, regulator, or government source.
-- `Implementation note`: practical advice derived from a source.
-- `Community evidence`: useful for test cases, not for overriding official rules.
-- `Historical`: superseded or archived material kept for change history.
+- `normative`: current official platform rule or agreement.
+- `operational`: official help, submission, console, or workflow guidance.
+- `regulatory`: law, regulator, or government source.
+- `implementation-note`: practical technical advice derived from sources.
+- `community`: practitioner or community evidence used for test discovery.
+- `historical`: archived or superseded material.
+- `editorial`: maps, indexes, catalogs, and navigation aids.
 
-## Current baseline
+## Quality gates
 
-The imported pages come from the supplied Apple Store Compliance KB snapshot dated 2026-11-10 and the Google Play Knowledge Base snapshot dated 2026-10-24. Check dates on those pages are the review dates recorded in the snapshots. This import did not re-open the live official pages. Always re-check the live official source before making a release decision.
+Every change should pass:
 
-Apple pages from that snapshot: the guidelines summary, pre-submission checklist, review workflow, age ratings, and the license-agreement summary, plus the rule-decomposition model, the embedded-link catalog, the news index, the news target-page index, and community evidence. The second group is an editorial model or an operational or historical index, not additional Apple rules. In that snapshot the English App Review Guidelines page is dated October 16, 2026, and the Simplified Chinese guidelines page shows June 8, 2026. The news RSS boundary was not verified. Privacy Manifest, Required Reason API, App Privacy Details, ATT, IAP, subscriptions, external purchase, and regional-terms topics are not in this snapshot package and are not topic pages.
+```bash
+python scripts/validate_kb.py
+mkdocs build --strict
+```
 
-Google batches 1–9 cover the topic pages in that Google snapshot. The [Google Play map](docs/google-play/README.md) and the [snapshot inventory](data/sources/google-play-kb-snapshot-2026-10-24.md) list them. Play Policy Insights is an official Android/Play developer tool, not Play policy text. The announcement catalog does not reproduce the snapshot's per-target child-page tables. Current Play rules stay distinct from future-dated previews, including 2027-01-27 items. Offline wiki HTML, recursive link graphs, and URL-audit CSVs are not in this repository.
+The repository also provides issue forms for [new topics](.github/ISSUE_TEMPLATE/new-topic.yml), [source refreshes](.github/ISSUE_TEMPLATE/source-refresh.yml), and [translation reviews](.github/ISSUE_TEMPLATE/translation-review.yml).
+
+## Documentation site
+
+The site is built with MkDocs Material and checked on pull requests and pushes to `main`. GitHub Pages deployment is currently a manual workflow after the repository's Pages source is enabled.
+
+The first site slice keeps the existing explicit `.zh-CN.md` and `.en-US.md` links. Automatic language routing will be considered after the internal link convention is normalized.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before adding or updating content.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding or updating content. For the complete release gate, see [Knowledge Base Release Readiness](docs/governance/release-readiness.md).
+
+## Official starting points
+
+- [Apple App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- [Apple Developer Program](https://developer.apple.com/programs/)
+- [Google Play Developer Policy Center](https://play.google.com/about/developer-content-policy/)
+- [Google Play User Data policy](https://support.google.com/googleplay/android-developer/answer/10144311)
