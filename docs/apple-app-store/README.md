@@ -7,6 +7,7 @@
 1. [App Review Guidelines summary / 审核指南摘要](app-review-guidelines/guidelines-summary.zh-CN.md)（[English](app-review-guidelines/guidelines-summary.en-US.md)）。英文指南在快照中的更新日期是 2026-10-16；简体中文官方页仍显示 2026-06-08。此后英文规则的中文表述是编辑译文。
 2. [Rule decomposition / 规则拆解模型](app-review-guidelines/rule-decomposition.zh-CN.md)（[English](app-review-guidelines/rule-decomposition.en-US.md)）。这是编辑用的规则单元模型，不是 Apple 原文。
 3. [Review readiness / 审核准备](app-review-guidelines/review-readiness.zh-CN.md)（[English](app-review-guidelines/review-readiness.en-US.md)），以及更完整的 [pre-submission checklist / 上架前检查清单](pre-submission/submission-checklist.zh-CN.md)（[English](pre-submission/submission-checklist.en-US.md)）。跨平台短清单仍是 [quick check / 快速检查](../operations/pre-submission/quick-check.zh-CN.md)。
+4. [China mainland distribution / 中国大陆上架](../regions/china/apple-app-store-release.zh-CN.md)（[English](../regions/china/apple-app-store-release.en-US.md)）：先看 Apple 官方 ICP 和许可要求，再单独阅读标明为社区记录的无备案联系支持路径。
 4. [Review workflow / 审核材料、提交对象与时间](review-workflow/review-workflow.zh-CN.md)（[English](review-workflow/review-workflow.en-US.md)）
 5. App Privacy Details、Privacy Manifest 和 Required Reason API 仍未单独成篇。本次快照包没有这些主题的全文。上架清单里有相关检查项；社区经验页只把官方文档当作排错回指，不是规则正文。
 6. [Age ratings / 年龄分级](age-ratings/age-ratings.zh-CN.md)（[English](age-ratings/age-ratings.en-US.md)）。按议题查找指南正文里的官方链接时，用 [embedded-link catalog / 正文链接目录](app-review-guidelines/embedded-links.zh-CN.md)（[English](app-review-guidelines/embedded-links.en-US.md)）。该目录不是规则。
