@@ -53,7 +53,7 @@ A bilingual, source-backed knowledge base for global mobile app marketplace comp
 
 ## Coverage at a glance
 
-The current repository contains 101 paired English/Chinese topic pages.
+The current repository contains more than 100 paired English/Chinese topic pages.
 
 The imported baseline is based on:
 
