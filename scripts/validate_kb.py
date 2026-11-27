@@ -11,7 +11,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 REQUIRED = ("id:", "platform:", "language:", "authority:", "status:")
-KNOWN_AUTHORITIES = {"normative", "operational", "implementation", "editorial"}
+KNOWN_AUTHORITIES = {"normative", "operational", "implementation", "editorial", "regulatory", "historical", "implementation-note", "community"}
 KNOWN_STATUSES = {"current", "future-dated", "historical", "partial", "superseded"}
 KNOWN_PLATFORMS = {"apple", "google-play", "shared", "regional", "operations"}
 LANGUAGE_SUFFIXES = {
