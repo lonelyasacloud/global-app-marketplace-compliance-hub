@@ -6,7 +6,7 @@
 
 **Architecture:** Keep `docs/` as authored Markdown and `data/sources/` as evidence inventory. Add stable bilingual navigation and a small content Demo first; then build a MkDocs Material site with static search, metadata visibility, language links, and GitHub Pages deployment. GitHub Actions remains the validation and publishing gate.
 
-**Tech Stack:** Markdown with YAML front matter, Python validation script, MkDocs Material, `mkdocs-static-i18n`, GitHub Actions, GitHub Pages.
+**Tech Stack:** Markdown with YAML front matter, Python validation script, MkDocs Material, GitHub Actions, GitHub Pages. Automatic locale routing is a follow-up after language-suffixed links are normalized.
 
 **Spec:** `docs/superpowers/specs/2026-11-27-bilingual-compliance-knowledge-base-design.md`
 
@@ -104,9 +104,9 @@
 - Consumes: `docs/` Markdown pages and front matter
 - Produces: a static site artifact with search, bilingual navigation, metadata display, and a GitHub Pages deployment
 
-- [ ] **Step 1: Pin the initial site toolchain.** Use MkDocs Material and `mkdocs-static-i18n`; pin compatible major versions in `requirements-docs.txt`.
+- [ ] **Step 1: Pin the initial site toolchain.** Use MkDocs Material to build the existing `.zh-CN.md` and `.en-US.md` pages directly; pin compatible major versions in `requirements-docs.txt`.
 - [ ] **Step 2: Configure source and theme.** Set `docs_dir: docs`, enable search, navigation tabs, code-copy, metadata display, and a visible GitHub repository link.
-- [ ] **Step 3: Configure language routing.** Use `en-US` and `zh-CN` page suffixes and expose paired language links without duplicating authored content.
+- [ ] **Step 3: Preserve the current language-suffixed source links.** Keep explicit `.zh-CN.md` and `.en-US.md` links in the first site slice. Add automatic language routing only in a follow-up after link normalization.
 - [ ] **Step 4: Add the build workflow.** On pull requests, run validation and `mkdocs build --strict`; on `main`, publish the built site through GitHub Pages.
 - [ ] **Step 5: Run locally in a disposable environment or CI.** Expected: strict build passes and generated output is not added to the repository.
 - [ ] **Step 6: Commit.** Use `build: scaffold bilingual documentation site`.
@@ -149,6 +149,6 @@
 
 ## Suggested execution order
 
-Run Tasks 1–3 first as the GitHub-native Demo milestone. Review the Demo content and navigation before selecting final visual styling. Then run Tasks 4–6 as the documentation-site milestone.
+Run Tasks 1–3 first as the GitHub-native Demo milestone. Review the Demo content and navigation before selecting final visual styling. Then run Task 4 as the first MkDocs Material site milestone. Treat automatic locale routing as a follow-up after the repository's language-suffixed links are normalized.
 
 The first milestone is useful on GitHub by itself and can be reviewed without enabling GitHub Pages. The second milestone adds the polished reading experience after the information architecture has been validated by actual users.
