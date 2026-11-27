@@ -14,7 +14,7 @@
 
 - GitHub is the only authored content source; generated site output must not be committed as a parallel source.
 - Every `.en-US.md` page must have a matching `.zh-CN.md` page with the same stem.
-- Normative pages must expose an official source URL.
+- Normative pages must expose an official Markdown source link; `source_url` front matter is optional when the body already identifies the source.
 - Future-dated requirements must remain explicitly future-dated and must not be written as current requirements.
 - English remains the source-language reference when the official source is English.
 - Summaries must be original, attributed, bounded by coverage notes, and never presented as legal advice.
@@ -42,7 +42,7 @@
 - Produces: non-zero exit status and actionable file-level messages for invalid metadata, missing pairs, missing official links, or malformed front matter
 
 - [ ] **Step 1: Add validator checks for enumerated metadata.** Require `authority` in `{normative, operational, implementation, editorial}` and `status` in `{current, future-dated, historical, partial, superseded}`.
-- [ ] **Step 2: Add date and source checks.** Require `kb_checked_at` and `source_url` for normative pages; allow editorial pages to document a source registry instead.
+- [ ] **Step 2: Add review-tracking and source checks.** Require `kb_checked_at`, `review_due`, `regions`, and `topics` on localized pages; require an official Markdown source link for every localized page.
 - [ ] **Step 3: Add a stale-review warning mode.** Keep current CI non-blocking for stale dates during the first release, but print the page and review date so future policy can promote it to an error.
 - [ ] **Step 4: Run `python scripts/validate_kb.py`.** Expected: PASS on current `main`.
 - [ ] **Step 5: Commit.** Use `ci: enforce bilingual knowledge-base metadata`.
@@ -107,7 +107,7 @@
 - [ ] **Step 1: Pin the initial site toolchain.** Use MkDocs Material to build the existing `.zh-CN.md` and `.en-US.md` pages directly; pin compatible major versions in `requirements-docs.txt`.
 - [ ] **Step 2: Configure source and theme.** Set `docs_dir: docs`, enable search, navigation tabs, code-copy, metadata display, and a visible GitHub repository link.
 - [ ] **Step 3: Preserve the current language-suffixed source links.** Keep explicit `.zh-CN.md` and `.en-US.md` links in the first site slice. Add automatic language routing only in a follow-up after link normalization.
-- [ ] **Step 4: Add the build workflow.** On pull requests, run validation and `mkdocs build --strict`; on `main`, publish the built site through GitHub Pages.
+- [ ] **Step 4: Add the build workflow.** On pull requests and `main` pushes, run validation and `mkdocs build --strict`; keep GitHub Pages deployment behind `workflow_dispatch` until Pages is enabled and the first public release is approved.
 - [ ] **Step 5: Run locally in a disposable environment or CI.** Expected: strict build passes and generated output is not added to the repository.
 - [ ] **Step 6: Commit.** Use `build: scaffold bilingual documentation site`.
 
@@ -151,4 +151,4 @@
 
 Run Tasks 1–3 first as the GitHub-native Demo milestone. Review the Demo content and navigation before selecting final visual styling. Then run Task 4 as the first MkDocs Material site milestone. Treat automatic locale routing as a follow-up after the repository's language-suffixed links are normalized.
 
-The first milestone is useful on GitHub by itself and can be reviewed without enabling GitHub Pages. The second milestone adds the polished reading experience after the information architecture has been validated by actual users.
+The first milestone is useful on GitHub by itself and can be reviewed without enabling GitHub Pages. The second milestone adds the polished reading experience after the information architecture has been validated by actual users. Ruling: keep Pages deployment manual for the first release because publishing is an external side effect and the repository has not yet enabled its Pages source.
