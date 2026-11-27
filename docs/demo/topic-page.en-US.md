@@ -14,7 +14,7 @@ topics: [demo, data-safety, release-readiness]
 
 > This is a layout Demo, not a new policy summary. Use the linked Data Safety topic for the maintained content.
 
-[简体中文 / Simplified Chinese](topic-page.zh-CN.md) · [Maintained Data Safety baseline](../data-safety/data-safety-baseline.en-US.md)
+[简体中文 / Simplified Chinese](topic-page.zh-CN.md) · [Maintained Data Safety baseline](../google-play/data-safety/data-safety-baseline.en-US.md)
 
 ## Evidence panel
 
@@ -54,9 +54,9 @@ topics: [demo, data-safety, release-readiness]
 
 ## Related topics
 
-- [User Data](../user-data/user-data.en-US.md)
+- [User Data](../google-play/user-data/user-data.en-US.md)
 - [Data Safety baseline](../data-safety/data-safety-baseline.en-US.md)
-- [Permissions declaration](../permissions-declaration/permissions-declaration.en-US.md)
+- [Permissions declaration](../google-play/permissions-declaration/permissions-declaration.en-US.md)
 - [Shared privacy baseline](../shared/privacy-data-protection/privacy-baseline.en-US.md)
 - [Pre-submission quick check](../operations/pre-submission/quick-check.en-US.md)
 
