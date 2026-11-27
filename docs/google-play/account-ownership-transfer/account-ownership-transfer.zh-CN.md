@@ -33,7 +33,7 @@ effective_date: "official feature required from 2026-05-27, which has passed; an
 | 目标 | 应使用的流程 | 主要边界 |
 | --- | --- | --- |
 | 转移整个开发者账号的所有权 | Play Console 的 **Users and permissions → Manage → Make account owner** 流程 | 仅现有账号所有者可发起；接收人是账号内现有用户，并须满足资格和身份验证要求。 |
-| 只迁移一个或多个应用 | [单个应用转移流程](https://support.google.com/googleplay/android-developer/answer/6230247?hl=zh-CN) | 这是独立的应用迁移请求，涉及原/目标账号有效状态、注册交易 ID、签名、付款和集成服务等；细节见[Play Console 要求专题](../play-console-requirements/play-console-requirements.zh-CN.md#单个应用转移前置条件和影响)。 |
+| 只迁移一个或多个应用 | [单个应用转移流程](https://support.google.com/googleplay/android-developer/answer/6230247?hl=zh-CN) | 这是独立的应用迁移请求，涉及原/目标账号有效状态、注册交易 ID、签名、付款和集成服务等；细节见[Play Console 要求专题](../play-console-requirements/play-console-requirements.zh-CN.md)。 |
 
 不要为迁移应用而交出整个开发者账号。反之，如果业务变更确实要转移整个账号的控制权，也不能用只迁移应用来假装完成账号所有权变更。
 
