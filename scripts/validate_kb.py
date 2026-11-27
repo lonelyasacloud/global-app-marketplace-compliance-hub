@@ -11,6 +11,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 REQUIRED = ("id:", "platform:", "language:", "authority:", "status:")
+TRACKING = ("kb_checked_at:", "review_due:", "regions:", "topics:")
 KNOWN_AUTHORITIES = {"normative", "operational", "implementation", "editorial", "regulatory", "historical", "implementation-note", "community"}
 KNOWN_STATUSES = {"current", "future-dated", "historical", "partial", "superseded"}
 KNOWN_PLATFORMS = {"apple", "google-play", "shared", "regional", "operations"}
@@ -39,6 +40,7 @@ def main() -> int:
     errors = []
     zh = {}
     en = {}
+    metadata = {}
     for path in DOCS.rglob("*.md"):
         text = path.read_text(encoding="utf-8")
         language = next(
@@ -81,8 +83,21 @@ def main() -> int:
                     f"{path}: unknown platform {platform!r}; "
                     f"expected one of {sorted(KNOWN_PLATFORMS)}"
                 )
+            missing_tracking = [field for field in TRACKING if field not in fm]
+            if missing_tracking:
+                errors.append(
+                    f"{path}: missing tracking metadata {', '.join(missing_tracking)}"
+                )
             if not re.search(r"\[[^\]]+\]\(https?://", text):
                 errors.append(f"{path}: no Markdown source link found")
+
+            stem = path.name[:-9]
+            metadata.setdefault(stem, {})[language] = {
+                "id": scalar(fm, "id"),
+                "platform": scalar(fm, "platform"),
+                "authority": scalar(fm, "authority"),
+                "status": scalar(fm, "status"),
+            }
 
     for stem in sorted(set(zh) ^ set(en)):
         errors.append(f"bilingual pair missing: {stem}")
