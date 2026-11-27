@@ -1,6 +1,6 @@
 # Google Play / Google Play 应用商店
 
-本目录收录 2026-10-24 Google Play 知识库快照里已经导入的双语专题，加上 Phase 1 的 Data Safety baseline。完整清单、证据等级和语言差异在下面的专题表。语言差异的逐页记录在[快照清单](../../data/sources/google-play-kb-snapshot-2026-10-24.md)。
+本目录收录 2026-10-24 Google Play 知识库快照里已经导入的双语专题，加上 Phase 1 的 Data Safety baseline。完整清单、证据等级和语言差异在下面的专题表。语言差异的逐页记录在[快照清单](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/blob/main/data/sources/google-play-kb-snapshot-2026-10-24.md)。
 
 英文官方页面是效力来源。中文专题是编辑改写，除非该页写明中文官方正文确已打开。`kb_checked_at` 是快照源文件记录的核对日，不是本次导入时重新打开线上页面的日期。现行 Play 规则与未来生效的预告分开，包括 2027-01-27 的联系人、精确位置、SMS/通话记录电话验证和地理围栏前台服务。离线 Wiki、递归链接图、URL 审计 CSV 和来源台账没有导入本仓库。
 
@@ -118,4 +118,4 @@
 
 Google batch 1–9 已导入该快照的专题页。Data Safety baseline 仍是 Phase 1 页面，并链到快照中的表单详解。各页导入说明保留该批当时的核对范围。后来导入的专题，正文里原来写成“快照文件、未导入”的引用，现已改为本仓库页面链接。链接图、URL 审计 CSV、来源台账和离线 Wiki 仍然不在本仓库。
 
-逐页语言差异、未读目标和日期分离见[快照清单](../../data/sources/google-play-kb-snapshot-2026-10-24.md)。合并版 Developer Program Policy 在该快照中的生效日是 2026-09-30。更早政策措辞不作为现行规则。
+逐页语言差异、未读目标和日期分离见[快照清单](https://github.com/lonelyasacloud/global-app-marketplace-compliance-hub/blob/main/data/sources/google-play-kb-snapshot-2026-10-24.md)。合并版 Developer Program Policy 在该快照中的生效日是 2026-09-30。更早政策措辞不作为现行规则。
