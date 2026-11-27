@@ -30,7 +30,8 @@ def front_matter(text: str) -> str:
 def scalar(fm: str, field: str) -> str:
     for line in fm.splitlines():
         if line.startswith(f"{field}:"):
-            return line.split(":", 1)[1].strip().strip(""'")
+            value = line.split(":", 1)[1].strip()
+            return value.strip(chr(34) + chr(39))
     return ""
 
 
