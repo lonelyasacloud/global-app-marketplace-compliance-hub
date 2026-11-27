@@ -55,7 +55,7 @@ topics: [demo, data-safety, release-readiness]
 ## 关联专题
 
 - [User Data](../google-play/user-data/user-data.zh-CN.md)
-- [Data Safety 基线](../data-safety/data-safety-baseline.zh-CN.md)
+- [Data Safety 基线](../google-play/data-safety/data-safety-baseline.zh-CN.md)
 - [权限申报](../google-play/permissions-declaration/permissions-declaration.zh-CN.md)
 - [共性隐私基线](../shared/privacy-data-protection/privacy-baseline.zh-CN.md)
 - [提交前快速检查](../operations/pre-submission/quick-check.zh-CN.md)
