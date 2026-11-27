@@ -20,9 +20,17 @@ Every high-risk conclusion should record:
 - source language
 - page or document update date
 - knowledge-base review date
-- status: current, changed, historical, blocked, or partial
+- status: current, future-dated, historical, partial, or superseded
 - affected platform and region
 - reviewer notes and unresolved questions
+
+## Metadata and review cadence
+
+Localized pages use the same stable ID and should agree on platform, authority, and status. The validator also requires review-tracking metadata: `kb_checked_at`, `review_due`, `regions`, and `topics`. Existing pages may use the repository's legacy authority labels such as `regulatory`, `historical`, `implementation-note`, and `community`; new pages should prefer the shorter canonical labels where they fit.
+
+A source URL may be stored in front matter when useful, but the enforceable repository rule is that every localized page exposes at least one Markdown link to an official or clearly identified evidence source. Pages with partial coverage, unavailable sources, or language gaps must say so explicitly.
+
+High-risk topics should be rechecked monthly and immediately after a platform announcement, enforcement change, or known effective-date transition. The owner of a pull request is responsible for recording the review date and unresolved questions.
 
 ## Conflicts
 
