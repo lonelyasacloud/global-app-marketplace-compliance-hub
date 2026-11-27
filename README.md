@@ -10,7 +10,7 @@ A bilingual, source-backed knowledge hub for Apple App Store and Google Play com
 
 | 你的场景 / Your situation | 从这里开始 / Start here |
 | --- | --- |
-| 第一次了解项目 / New to the hub | [知识库导航 / Knowledge-base map](docs/README.md) |
+| 第一次了解项目 / New to the hub | [知识库导航 / Knowledge-base map](docs/navigation/knowledge-base-map.zh-CN.md) |\n| 查看 Demo / Preview the experience | [双语 Demo / Bilingual Demo](docs/demo/home.zh-CN.md) |
 | 准备提交 App / Preparing a submission | [提交前快速检查 / Pre-submission quick check](docs/operations/pre-submission/quick-check.zh-CN.md) |
 | 需要 Apple 规则 / Apple requirements | [Apple App Store](docs/apple-app-store/README.md) |
 | 需要 Google Play 规则 / Google Play requirements | [Google Play](docs/google-play/README.md) |
