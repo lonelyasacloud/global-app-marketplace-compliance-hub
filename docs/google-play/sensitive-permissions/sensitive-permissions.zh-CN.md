@@ -110,7 +110,7 @@ Android 的授权模型回答“系统是否允许设置闹钟”；Google Play 
 | [Request runtime permissions](https://developer.android.com/training/permissions/requesting) | 与特殊权限指南中“等用户触发功能”和“拒绝后降级”的链接共用此页面。它描述运行时弹窗流程；特殊应用访问则跳转 Settings，返回后复查。权限模型和示例树此前已部分审阅。 |
 | [Manifest.permission](https://developer.android.com/reference/android/Manifest.permission) | `SCHEDULE_EXACT_ALARM` 自 API 31 提供，可被用户或系统撤销；面向 API 33+ 且核心功能依赖精确闹钟时可评估 `USE_EXACT_ALARM`。该 API 页要求同一设备只请求其中一种，并说明 `USE_EXACT_ALARM` 是强权限、应用商店可能审查。该 6,738 行权限目录仅抽查相关常量。 |
 | [`AlarmManager.canScheduleExactAlarms()`](https://developer.android.com/reference/android/app/AlarmManager#canScheduleExactAlarms) | API 31 起可用于检查精确闹钟可用性；对 target API 31+，系统文档列出 `SCHEDULE_EXACT_ALARM` 或设备电量豁免作为可调度条件。API 同页列出 `setExact`、`setExactAndAllowWhileIdle`、`setAlarmClock` 及权限状态广播。用户撤销 SCHEDULE 后，这些已排闹钟会被删除；授予广播到达后仍需重查，再安排真正必要的闹钟。全部 `AlarmManager` 成员未穷尽。 |
-| [`Environment.isExternalStorageManager()`](https://developer.android.com/reference/android/os/Environment#isExternalStorageManager) | 特殊权限指南以 `MANAGE_EXTERNAL_STORAGE` 展示“每种特殊权限使用自己的检查方法”；这是 All files 分支示例，与精确闹钟无关。详情见[All files 子链审计](#所有文件访问正文子链接与关键后代)。 |
+| [`Environment.isExternalStorageManager()`](https://developer.android.com/reference/android/os/Environment#isExternalStorageManager) | 特殊权限指南以 `MANAGE_EXTERNAL_STORAGE` 展示“每种特殊权限使用自己的检查方法”；这是 All files 分支示例，与精确闹钟无关。详情见[All files 子链审计]()。 |
 
 **从 `AlarmManager` 再延伸的 API 后代：** 精确闹钟检查方法的 “See also” 链接还指向以下两个 API 页面；它们是 `AlarmManager` 的孙链接，不属于 Request special permissions 页的 6 个直接外部目标。
 
