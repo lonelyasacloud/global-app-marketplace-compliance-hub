@@ -32,6 +32,7 @@ topics: [pre-submission, quick-check]
 - [ ] ATT、登录、账户删除、IAP、订阅和外部购买规则按适用店面核对。
 - [ ] 年龄分级、儿童、UGC、健康、金融、VPN、赌博和其他受监管能力有证明材料。
 - [ ] 截图、预览、素材、名称、描述和价格与当前版本一致。
+- [ ] 如果选择中国大陆店面，已核对 ICP 备案/许可适用性与 App Store Connect 当前合规状态；无自有联网功能且仅调用 IAP 的社区例外记录只能作为个案支持路径，不能替代正式备案。
 
 ## Google Play 重点
 
@@ -54,6 +55,6 @@ topics: [pre-submission, quick-check]
 
 ## 相关页面
 
-本页仍是跨平台快速门禁。Apple 的详细清单另见[上架前检查清单](../../apple-app-store/pre-submission/submission-checklist.zh-CN.md)，审核准备短表见[审核准备](../../apple-app-store/app-review-guidelines/review-readiness.zh-CN.md)。两份清单一起使用。
+本页仍是跨平台快速门禁。Apple 的详细清单另见[上架前检查清单](../../apple-app-store/pre-submission/submission-checklist.zh-CN.md)，审核准备短表见[审核准备](../../apple-app-store/app-review-guidelines/review-readiness.zh-CN.md)。中国大陆店面另见[ICP 备案与无备案社区记录](../../regions/china/apple-app-store-release.zh-CN.md)。这些清单一起使用。
 
 Google Play 的对应详解见 [Data safety](../../google-play/data-safety/data-safety.zh-CN.md)、[用户数据](../../google-play/user-data/user-data.zh-CN.md)、[敏感权限](../../google-play/sensitive-permissions/sensitive-permissions.zh-CN.md)、[目标 API](../../google-play/target-api/target-api-level.zh-CN.md)、[付款与订阅](../../google-play/payments/payments-and-subscriptions.zh-CN.md) 和[发布流程](../../google-play/publishing/play-release-workflow.zh-CN.md)。
