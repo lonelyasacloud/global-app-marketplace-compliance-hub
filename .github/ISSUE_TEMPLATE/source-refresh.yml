@@ -1,0 +1,46 @@
+name: Source refresh
+description: Recheck an official source, snapshot, deadline, or policy announcement.
+title: "[Source refresh] "
+labels:
+  - source-review
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Repository page or source registry entry
+      placeholder: docs/google-play/data-safety/data-safety.en-US.md
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Official source URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked_at
+    attributes:
+      label: Date checked
+      placeholder: 2026-11-27
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Result
+      options:
+        - current
+        - future-dated
+        - historical
+        - partial
+        - superseded
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: What changed?
+      description: Include effective dates, language differences, broken links, and coverage limits.
+    validations:
+      required: true
