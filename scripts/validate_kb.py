@@ -28,8 +28,10 @@ def front_matter(text: str) -> str:
 
 
 def scalar(fm: str, field: str) -> str:
-    match = re.search(rf"^{re.escape(field)}:\s*["']?([^"'\n]+)", fm, re.MULTILINE)
-    return match.group(1).strip() if match else ""
+    for line in fm.splitlines():
+        if line.startswith(f"{field}:"):
+            return line.split(":", 1)[1].strip().strip(""'")
+    return ""
 
 
 def main() -> int:
