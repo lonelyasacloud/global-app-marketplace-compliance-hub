@@ -81,7 +81,7 @@ Every localized topic page uses front matter with at least:
 - `review_due`
 - `regions`
 - `topics`
-- `source_url`
+- `source_url` (optional metadata field when useful; every localized page still needs an official Markdown source link)
 
 The English page is the source-language reference when the official source is English. The Chinese page is a faithful translation or localized summary and must preserve uncertainty, dates, scope, and coverage boundaries.
 
@@ -182,7 +182,7 @@ Exit criteria: a new reader can reach a platform topic or release checklist in t
 - Use the existing Markdown tree as the source.
 - Generate a static site with bilingual navigation, search, metadata display, and platform/topic filters.
 - Keep the current explicit `.zh-CN.md` / `.en-US.md` links in the first site slice; enable automatic locale routing only after links are normalized to language-neutral targets.
-- Publish from `main` through GitHub Actions.
+- Build on pull requests and `main` pushes; deploy to GitHub Pages manually through `workflow_dispatch` after Pages is enabled.
 - Keep generated output separate from authored content.
 
 Exit criteria: site build succeeds in CI, every page has a stable URL, search finds both language variants, and links resolve.
