@@ -55,7 +55,7 @@ topics: [demo, data-safety, release-readiness]
 ## Related topics
 
 - [User Data](../google-play/user-data/user-data.en-US.md)
-- [Data Safety baseline](../data-safety/data-safety-baseline.en-US.md)
+- [Data Safety baseline](../google-play/data-safety/data-safety-baseline.en-US.md)
 - [Permissions declaration](../google-play/permissions-declaration/permissions-declaration.en-US.md)
 - [Shared privacy baseline](../shared/privacy-data-protection/privacy-baseline.en-US.md)
 - [Pre-submission quick check](../operations/pre-submission/quick-check.en-US.md)
