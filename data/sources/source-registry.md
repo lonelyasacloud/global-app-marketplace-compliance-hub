@@ -8,6 +8,10 @@ Topic pages store authority as a lowercase token: `normative`, `operational`, `r
 | --- | --- | --- | --- | --- |
 | Apple App Review Guidelines | Apple | Normative | 2026-11-10 supplied snapshot | https://developer.apple.com/app-store/review/guidelines/ |
 | Apple App Store Connect Help | Apple | Operational | 2026-11-10 supplied snapshot | https://developer.apple.com/help/app-store-connect/ |
+| Apple China mainland compliance information | Apple | Normative and operational | Rechecked 2026-11-27 | https://developer.apple.com/help/app-store-connect/reference/app-information/app-and-compliance-information/ |
+| Apple China mainland availability statuses | Apple | Operational | Rechecked 2026-11-27 | https://developer.apple.com/help/app-store-connect/reference/app-information/app-and-submission-statuses/ |
+| Apple App Store Connect compliance-page migration | Apple | Historical change notice | Rechecked 2026-11-27; November 16, 2026 update | https://developer.apple.com/help/app-store-connect/release-notes/ |
+| Community record: China mainland App Store listing without ICP | Apple / community | Community evidence; not official policy | 2026-11-26 user-supplied article; case record only | https://mp.weixin.qq.com/s/TYQ5fMpQNHeFp1YeaqoNxw |
 | Apple age-rating definitions | Apple | Operational | 2026-11-10 supplied snapshot | https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions |
 | Apple Developer Program License Agreement | Apple | Operational summary of the agreement | 2026-11-10 supplied snapshot; the supplied `/cn/` URL rendered English on 2026-11-09 | https://developer.apple.com/cn/support/terms/apple-developer-program-license-agreement/ |
 | Apple Developer News | Apple | Historical / change notices | 2026-11-10 supplied snapshot; RSS boundary not verified | https://developer.apple.com/news/ |
